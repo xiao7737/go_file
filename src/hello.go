@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	hello.Println("The first is mine")
+	hello.Println("The first is mine！")
 
 }
 
