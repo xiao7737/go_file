@@ -9,6 +9,10 @@ func main() {
 }
 
 
+<<<<<<< HEAD
+=======
+	hello.Println("The first is mine！！")
+>>>>>>> 291d1bc9220018429e827b599104e364370bfbd3
 
 
 //byte = uint8  0-255     int8 :-128-127
