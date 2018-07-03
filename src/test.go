@@ -1,15 +1,9 @@
 package main
 
-import (
-	"fmt"
-	"strconv"
-)
+import "fmt"
 
-const c  = 2
-
-func main()  {
-	a:=65
-	b:=strconv.Itoa(a)
-	fmt.Println(b)
-	fmt.Println(c)
+func main() {
+	a := [2]int{
+		1, 2}
+	fmt.Println(a)
 }
