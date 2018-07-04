@@ -87,6 +87,6 @@ func main() {
 	b := student{Name: "tony", human: human{Sex: 0}}
 	//修改属性值
 	a.Name = "tom2"
-	a.Sex = 99 //也可a.human.sex
+	a.Sex = 99 //也可a.human.sex。
 	fmt.Println(a, b)
 }
