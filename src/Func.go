@@ -31,7 +31,7 @@ func A() {
 	fmt.Println("func A")         //函数也是一种类型，可以传递
 }*/
 
-func main() {
+/*func main() {
 	A()
 	B()
 }
@@ -47,4 +47,27 @@ func B() {
 	panic("Panic B")
 	//panic可在任何位置引发，recover只能在defer中使用匿名函数调用,
 	//recover在panic之前用,恢复运行
+}*/
+
+/*func main() {     //利用指针交换变量值
+	a := 1
+	b := 2
+	fmt.Println(a, b)
+	swap(&a, &b)
+	fmt.Println(a, b)
+}
+func swap(x, y *int) {
+	*x, *y = *y, *x
+}*/
+
+func main() { //直接交换变量
+	a := 1
+	b := 22
+	fmt.Println(a, b)
+	a, b = swap(a, b)
+	fmt.Println(a, b)
+}
+func swap(x, y int) (int, int) {
+	y, x = x, y
+	return x, y
 }
