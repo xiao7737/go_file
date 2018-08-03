@@ -7,7 +7,7 @@ type HomeController struct {
 }
 
 func (this *HomeController) Get() {
-	this.Ctx.WriteString("hello world")
+	this.Ctx.WriteString("Hello World!")
 }
 func main() {
 	beego.Router("/go_file/src", &HomeController{})

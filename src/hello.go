@@ -9,4 +9,5 @@ func main() {
 	p = &a
 	/*var p = &a*/
 	fmt.Println(*p)
+	fmt.Println(p)
 }
