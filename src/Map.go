@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //多层的map。每一层的map需要再单独make申明一下。
 func main() {
@@ -12,5 +14,17 @@ func main() {
 
 	m1:= make(map[string]int)
 	m1["hello"]=1
-	fmt.Print(m1["hello"])
+	m1["hello1"]=2
+	fmt.Println(m1["hello"])
+
+	if m1["hello"]==1 {
+		fmt.Println("yes")
+	}else {
+		fmt.Println("no")
+	}
+
+	for k,v :=range m1{
+		fmt.Println(k)
+		fmt.Println(v)
+	}
 }
