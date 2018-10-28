@@ -12,18 +12,18 @@ func main() {
 	delete(m, 1) //删除map的值
 	fmt.Println(m)*/
 
-	m1:= make(map[string]int)
-	m1["hello"]=1
-	m1["hello1"]=2
+	m1 := make(map[string]int)
+	m1["hello"] = 1
+	m1["hello1"] = 2
 	fmt.Println(m1["hello"])
 
-	if m1["hello"]==1 {
+	if m1["hello"] == 1 {
 		fmt.Println("yes")
-	}else {
+	} else {
 		fmt.Println("no")
 	}
 
-	for k,v :=range m1{
+	for k, v := range m1 {
 		fmt.Println(k)
 		fmt.Println(v)
 	}
