@@ -88,7 +88,8 @@ func main() {
 	}
 	time.Sleep(3 * time.Second)
 	//输出three three three
-	//因为没有slice的键，就直接读到最后一个元素
+	//go func中的s和for中的s一样，地址不变化，
+	//遍历完成，最终s读到最后一个元素
 	//应该改写for循环
 	//for i=0;i<len(strings) ;i++  {}
 
