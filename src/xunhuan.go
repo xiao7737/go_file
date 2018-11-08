@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 /*func main() {
 /*a := 1                            //for 1
@@ -58,10 +60,36 @@ default:
 	fmt.Println(a)
 }*/
 
-var slice1 = []int{1, 2, 3, 4}
+/*var slice1 = []int{1, 2, 3, 4}
 
 func main() {
 	for i, v := range slice1 {
 		fmt.Printf("2**%d = %d\n", i, v)
 	}
+}*/
+
+func main() {
+	x := []string{"a", "b", "c"}
+	/*for _, v := range x {
+		fmt.Println(v)   //abc
+	}*/
+	for v := range x {
+		fmt.Println(v) //012   会默认循环键，而不是值
+	}
 }
+
+/*func main() {
+	strings := []string{"one", "two", "three"}
+	for _, s := range strings {
+		go func() {
+			time.Sleep(1 * time.Second)
+			fmt.Printf("%s", s)
+		}()
+	}
+	time.Sleep(3 * time.Second)
+	//输出three three three
+	//因为没有slice的键，就直接读到最后一个元素
+	//应该改写for循环
+	//for i=0;i<len(strings) ;i++  {}
+
+}*/
