@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 //匿名函数和闭包，即函数像普通变量一样被传递或使用，匿名函数不能作为最外层函数
 /*func main() {
 	v := func(a int) int {
@@ -60,7 +56,7 @@ func swap(x, y *int) {
 	*x, *y = *y, *x
 }*/
 
-func main() { //直接交换变量
+/*func main() { //直接交换变量
 	a := 1
 	b := 22
 	fmt.Println(a, b)
@@ -70,4 +66,27 @@ func main() { //直接交换变量
 func swap(x, y int) (int, int) {
 	y, x = x, y
 	return x, y
+}*/
+
+import "fmt"
+
+// 返回a、b中最大值.
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func main() {
+	x := 3
+	y := 4
+	z := 5
+
+	max_xy := max(x, y) //调用函数max(x, y)
+	max_xz := max(x, z) //调用函数max(x, z)
+
+	fmt.Printf("max(%d, %d) = %d\n", x, y, max_xy)
+	fmt.Printf("max(%d, %d) = %d\n", x, z, max_xz)
+	fmt.Printf("max(%d, %d) = %d\n", y, z, max(y, z)) // 也可在这直接调用它
 }
