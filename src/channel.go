@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*func sum(s []int, c chan int) {
 	sum := 0
 	for _, v := range s {
@@ -19,7 +17,7 @@ func main() {
 }*/
 
 //用channel select实现斐波纳契数据
-func fibonacci(c, quit chan int) {
+/*func fibonacci(c, quit chan int) {
 	x, y := 0, 1
 	for {
 		select {
@@ -40,4 +38,7 @@ func main() {
 		quit <- 0
 	}()
 	fibonacci(c, quit)
-}
+}*/
+
+//channel源码解析
+//channel底层数据是hchan struct
