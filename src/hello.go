@@ -12,4 +12,5 @@ func main() {
 	fmt.Println(*p)
 	fmt.Println(p)
 	fmt.Println(str)
+
 }
