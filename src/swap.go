@@ -6,5 +6,5 @@ func swap(x, y string) (string, string) {
 	return y, x
 }
 func main() {
-	fmt.Println(swap("hello", "world"))
+	fmt.Println(swap("hello", "go"))
 }
