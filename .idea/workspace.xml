@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/src/suanfa/maopao.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swap.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/swap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/Defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/Map.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/Slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/Struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/xunhuan.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/xunhuan.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +37,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,66 +61,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/src">
-    <configuration name="go build Learn.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn (4)">
+    <configuration name="go build go_file/src/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/Learn.go" />
+      <filePath value="$PROJECT_DIR$/src/common_learn/hello.go" />
+      <package value="go_file/src/common_learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_file/src (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_file/src/common_learn (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/TestInput.go" />
-      <package value="go_file/src" />
+      <filePath value="$PROJECT_DIR$/src/common_learn/Struct.go" />
+      <package value="go_file/src/common_learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_file/src" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_file/src/common_learn (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/swap.go" />
-      <package value="go_file/src" />
+      <filePath value="$PROJECT_DIR$/src/common_learn/Slice.go" />
+      <package value="go_file/src/common_learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_file/src/common_learn (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/hello.go" />
-      <package value="github.com/xiao7737/go_file" />
+      <filePath value="$PROJECT_DIR$/src/common_learn/Map.go" />
+      <package value="go_file/src/common_learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build xunhuan.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_file/src/common_learn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/xunhuan.go" />
-      <package value="go_file" />
+      <filePath value="$PROJECT_DIR$/src/common_learn/Defer.go" />
+      <package value="go_file/src/common_learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build hello.go" />
-      <item itemvalue="Go Build.go build Learn.go" />
-      <item itemvalue="Go Build.go build xunhuan.go" />
-      <item itemvalue="Go Build.go build go_file/src" />
-      <item itemvalue="Go Build.go build go_file/src (1)" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn (2)" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn (3)" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go_file/src" />
-        <item itemvalue="Go Build.go build xunhuan.go" />
-        <item itemvalue="Go Build.go build go_file/src (1)" />
-        <item itemvalue="Go Build.go build hello.go" />
-        <item itemvalue="Go Build.go build Learn.go" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn (4)" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn (3)" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn (2)" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn" />
       </list>
     </recent_temporary>
   </component>
@@ -134,10 +141,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value=" commit" />
     <MESSAGE value="commit test" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="add file folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file folder" />
   </component>
 </project>

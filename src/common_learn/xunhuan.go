@@ -36,7 +36,7 @@ func main() {
 	/*switch a := 1; {                           //switch 3 初始化表达式，右侧需要分号
 	  case a == 1:
 	  	fmt.Println("a value is 1")
-	  	fallthrough
+	  	fallthrough    							 //执行后面的case，否则将就在这里跳出循环，默认自带break
 	  case a > 0:
 	  	fmt.Println("a value is bigger than 0")
 	  	fallthrough
