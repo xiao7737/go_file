@@ -1,6 +1,8 @@
 package main
 
-/*func sum(s []int, c chan int) {
+import "fmt"
+
+func sum(s []int, c chan int) {
 	sum := 0
 	for _, v := range s {
 		sum += v
@@ -10,11 +12,11 @@ package main
 func main() {
 	a := []int{1, 2, 3, 4}
 	c := make(chan int)
-	go sum(a[:len(a)/2], c) //送入c的值为3
-	go sum(a[len(a)/2:], c) //送入c的值为7
+	go sum(a[:len(a)/2], c) //送入c的值为3=1+2
+	go sum(a[len(a)/2:], c) //送入c的值为7=3+4
 	x, y := <-c, <-c        //从管道中获取
 	fmt.Println(x, y)       //7，3
-}*/
+}
 
 //用channel select实现斐波纳契数据
 /*func fibonacci(c, quit chan int) {
