@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 //匿名函数和闭包，即函数像普通变量一样被传递或使用，匿名函数不能作为最外层函数
 /*func main() {
 	v := func(a int) int {
@@ -27,23 +31,20 @@ func A() {
 	fmt.Println("func A")         //函数也是一种类型，可以传递
 }*/
 
-/*func main() {
-	A()
+func main() {
 	B()
 }
-func A() {
-	fmt.Println("func A")
-}
+
+//panic可在任何位置引发，recover只能在defer中使用匿名函数调用
+//recover在panic之前用,恢复运行
 func B() {
 	defer func() {
 		if err := recover(); err != nil {
-			fmt.Println("recover in B")
+			fmt.Println("recover from", err)
 		}
 	}()
 	panic("Panic B")
-	//panic可在任何位置引发，recover只能在defer中使用匿名函数调用,
-	//recover在panic之前用,恢复运行
-}*/
+}
 
 /*func main() {     //利用指针交换变量值
 	a := 1
@@ -68,9 +69,8 @@ func swap(x, y int) (int, int) {
 	return x, y
 }*/
 
-import "fmt"
+/*import "fmt"
 
-// 返回a、b中最大值.
 func max(a, b int) int {
 	if a > b {
 		return a
@@ -83,10 +83,6 @@ func main() {
 	y := 4
 	z := 5
 
-	max_xy := max(x, y) //调用函数max(x, y)
-	max_xz := max(x, z) //调用函数max(x, z)
-
-	fmt.Printf("max(%d, %d) = %d\n", x, y, max_xy)
-	fmt.Printf("max(%d, %d) = %d\n", x, z, max_xz)
-	fmt.Printf("max(%d, %d) = %d\n", y, z, max(y, z)) // 也可在这直接调用它
-}
+	fmt.Printf("max(%d, %d) = %d\n", x, y, max(x, y))
+	fmt.Printf("max(%d, %d) = %d\n", y, z, max(y, z))
+}*/

@@ -7,21 +7,6 @@ type student struct {
 	Age  int
 }
 
-/*func main() {
-	a := student{
-		Name: "tom",
-		Age:  16,
-	}
-	fmt.Println(a)
-	ha(a)
-	fmt.Println(a)
-}
-func ha(stu student) {
-	stu.Age = 15
-	fmt.Println("A", stu)
-}*/
-/*{tom 16}A {tom 15}{tom 16}*/
-
 //值传递，不会影响原来的值。要改变原有的值， 需要用指针：
 func main() { //方式1 推荐方式。将a变成指向结构的指针
 	a := &student{ //此处取地址
@@ -32,7 +17,7 @@ func main() { //方式1 推荐方式。将a变成指向结构的指针
 	ha(a)          //&{tom 15}
 	fmt.Println(a) //&{tom 15}
 }
-func ha(a *student) { //指针
+func ha(a *student) { //传入指针，不会产生内存复制
 	a.Age = 15
 	fmt.Println(a)
 }

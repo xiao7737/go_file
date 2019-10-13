@@ -37,7 +37,7 @@ func main() {
 	  case a == 1:
 	  	fmt.Println("a value is 1")
 	  	fallthrough    							 //执行后面的case，否则将就在这里跳出循环，默认自带break
-	  case a > 0:
+	  case a > 0:								 //case的条件可以是多个值
 	  	fmt.Println("a value is bigger than 0")
 	  	fallthrough
 	  default:

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="learn go">
-      <change afterPath="$PROJECT_DIR$/src/common_learn/error.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="error struct">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_learn/channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/channel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/Func.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/Interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/Struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/xunhuan.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/xunhuan.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-common-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -56,12 +58,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn (5)">
+  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn (1)">
     <configuration name="go build go_file/src/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/common_learn/hello.go" />
+      <filePath value="$PROJECT_DIR$/src/common_learn/Func.go" />
       <package value="go_file/src/common_learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -84,15 +86,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_file/src/common_learn (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/common_learn/Map.go" />
-      <package value="go_file/src/common_learn" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build go_file/src/common_learn (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -102,20 +95,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go_file/src/common_learn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/common_learn/Interface.go" />
+      <package value="go_file/src/common_learn" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
       <item itemvalue="Go Build.go build go_file/src/common_learn (2)" />
       <item itemvalue="Go Build.go build go_file/src/common_learn (3)" />
-      <item itemvalue="Go Build.go build go_file/src/common_learn (4)" />
       <item itemvalue="Go Build.go build go_file/src/common_learn (5)" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go_file/src/common_learn (5)" />
-        <item itemvalue="Go Build.go build go_file/src/common_learn (4)" />
-        <item itemvalue="Go Build.go build go_file/src/common_learn (3)" />
-        <item itemvalue="Go Build.go build go_file/src/common_learn (2)" />
         <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn (2)" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn (3)" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +145,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="add file folder" />
     <MESSAGE value="learn go" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn go" />
+    <MESSAGE value="error struct" />
+    <option name="LAST_COMMIT_MESSAGE" value="error struct" />
   </component>
 </project>
