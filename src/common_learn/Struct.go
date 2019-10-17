@@ -54,7 +54,7 @@ func main() {
 }*/
 
 //如果结构体1想要使用结构体2的属性，将结构体2的名字放入结构体1。
-//使用结构体2的属性时，可以直接调用，不用加结构1的名字
+//使用结构体2的属性时，可以直接调用，不用加结构1的名字，但是初始化的时候不能直接初始化，需要按照嵌套规则去初始化
 /*type human struct {
 	Sex int
 }
@@ -74,4 +74,17 @@ func main() {
 	a.Name = "tom2"
 	a.Sex = 99 //也可a.human.sex。
 	fmt.Println(a, b)
+}*/
+
+/*
+//结构体在成员变量都可以比较的情况下可以比较
+type Struct1 struct {
+	X int
+	Y int
+}
+
+func main() {
+	s1 := Struct1{1, 2}
+	s2 := Struct1{1, 2}
+	fmt.Println(s1 == s2)   true
 }*/
