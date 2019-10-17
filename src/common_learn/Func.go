@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 //匿名函数和闭包，即函数像普通变量一样被传递或使用，匿名函数不能作为最外层函数
 /*func main() {
@@ -31,7 +29,7 @@ func A() {
 	fmt.Println("func A")         //函数也是一种类型，可以传递
 }*/
 
-func main() {
+/*func main() {
 	B()
 }
 
@@ -44,7 +42,7 @@ func B() {
 		}
 	}()
 	panic("Panic B")
-}
+}*/
 
 /*func main() {     //利用指针交换变量值
 	a := 1
@@ -86,3 +84,16 @@ func main() {
 	fmt.Printf("max(%d, %d) = %d\n", x, y, max(x, y))
 	fmt.Printf("max(%d, %d) = %d\n", y, z, max(y, z))
 }*/
+
+//返回斐波那契数列的第n个数
+func fib(n int) int {
+	x, y := 0, 1
+	for i := 0; i < n; i++ {
+		x, y = y, x+y //1,1,2,3,5,8,13,21,34,55
+	}
+	return x
+}
+
+func main() {
+	fmt.Println(fib(4))
+}

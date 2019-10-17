@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="go learn">
-      <change afterPath="$PROJECT_DIR$/src/common_learn/Lock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common_learn/SingleInstance.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="go的并发锁机制，单例模式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/Func.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Func.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn (4)">
+  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn (1)">
     <configuration name="go build go_file/src/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -111,8 +110,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go_file/src/common_learn (4)" />
         <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn (4)" />
         <item itemvalue="Go Build.go build go_file/src/common_learn" />
         <item itemvalue="Go Build.go build go_file/src/common_learn (2)" />
         <item itemvalue="Go Build.go build go_file/src/common_learn (3)" />
@@ -145,6 +144,7 @@
     <MESSAGE value="learn go" />
     <MESSAGE value="error struct" />
     <MESSAGE value="go learn" />
-    <option name="LAST_COMMIT_MESSAGE" value="go learn" />
+    <MESSAGE value="go的并发锁机制，单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="go的并发锁机制，单例模式" />
   </component>
 </project>
