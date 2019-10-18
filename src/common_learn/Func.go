@@ -95,5 +95,5 @@ func fib(n int) int {
 }
 
 func main() {
-	fmt.Println(fib(4))
+	fmt.Println(fib(4)) //3
 }
