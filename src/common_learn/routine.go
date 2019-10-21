@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"runtime"
+)
+
 //不要对go函数的执行时间做任何假设
 
 /*①
@@ -49,3 +54,8 @@ func main() {
 	}
 	time.Sleep(time.Millisecond)
 }*/
+
+func main() {
+	//show number of goroutine
+	fmt.Println(runtime.NumGoroutine())
+}
