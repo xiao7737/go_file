@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="commit">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="map is not to be compare">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_learn/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/test.go" afterDir="false" />
     </list>
@@ -151,6 +151,7 @@
     <MESSAGE value="返回斐波那契数列的n个数" />
     <MESSAGE value="结构体可以比较吗？" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="map is not to be compare" />
+    <option name="LAST_COMMIT_MESSAGE" value="map is not to be compare" />
   </component>
 </project>
