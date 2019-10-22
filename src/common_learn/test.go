@@ -1,10 +1,10 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	a := 10
-	fmt.Printf("%T", a)
+	list := make([]int, 0)
+	list = append(list, 1)
+	fmt.Println(list)
+
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="go单例模式">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="defer和panic顺序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_learn/Defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Defer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_learn/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/test.go" afterDir="false" />
@@ -64,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn">
+  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn (5)">
     <configuration name="go build go_file/src/common_learn (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -116,15 +116,15 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build go_file/src/common_learn (5)" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn" />
       <item itemvalue="Go Test.go test go_file/src/common_learn/huiwen" />
       <item itemvalue="Go Test.gobench go_file/src/common_learn/huiwen" />
       <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/common_learn/huiwen" />
-      <item itemvalue="Go Build.go build go_file/src/common_learn" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go_file/src/common_learn" />
         <item itemvalue="Go Build.go build go_file/src/common_learn (5)" />
+        <item itemvalue="Go Build.go build go_file/src/common_learn" />
         <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/common_learn/huiwen" />
         <item itemvalue="Go Test.go test go_file/src/common_learn/huiwen" />
         <item itemvalue="Go Test.gobench go_file/src/common_learn/huiwen" />
@@ -165,6 +165,7 @@
     <MESSAGE value="goroutine 的数量" />
     <MESSAGE value="函数测试和性能测试" />
     <MESSAGE value="go单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="go单例模式" />
+    <MESSAGE value="defer和panic顺序" />
+    <option name="LAST_COMMIT_MESSAGE" value="defer和panic顺序" />
   </component>
 </project>
