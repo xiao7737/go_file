@@ -34,3 +34,15 @@ func main() {
 	s7 := append(s5, 3)
 	fmt.Println(s7) //0,1,2,3
 }
+
+//切片相加
+func addSlice() {
+	s1 := []int{1, 2, 3}
+	s2 := []int{4, 5}
+	/*for _, v := range s2 {
+		s1 = append(s1, v)
+	}*/
+	s1 = append(s1, s2...) //语法糖，循环
+
+	fmt.Println(s1)
+}

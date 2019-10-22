@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //匿名函数和闭包，即函数像普通变量一样被传递或使用，匿名函数不能作为最外层函数
 /*func main() {
 	v := func(a int) int {
@@ -86,7 +84,7 @@ func main() {
 }*/
 
 //返回斐波那契数列的第n个数
-func fib(n int) int {
+/*func fib(n int) int {
 	x, y := 0, 1
 	for i := 0; i < n; i++ {
 		x, y = y, x+y //1,1,2,3,5,8,13,21,34,55
@@ -96,4 +94,20 @@ func fib(n int) int {
 
 func main() {
 	fmt.Println(fib(4)) //3
+}
+*/
+
+func test(x int) (func(), func()) {
+	return func() {
+			println(x)
+			x += 10
+		}, func() {
+			println(x)
+		}
+}
+
+func main() {
+	a, b := test(100)
+	a() //100
+	b() //110
 }
