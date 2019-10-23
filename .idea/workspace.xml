@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="defer和函数返回值的作用域">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="slice的...语法糖；闭包的记忆功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_learn/Func.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Func.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_learn/Slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Slice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_learn/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,6 +165,7 @@
     <MESSAGE value="go单例模式" />
     <MESSAGE value="defer和panic顺序" />
     <MESSAGE value="defer和函数返回值的作用域" />
-    <option name="LAST_COMMIT_MESSAGE" value="defer和函数返回值的作用域" />
+    <MESSAGE value="slice的...语法糖；闭包的记忆功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="slice的...语法糖；闭包的记忆功能" />
   </component>
 </project>

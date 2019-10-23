@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //func main() {
 /*s1 := []int{1, 2, 3, 4, 5, 6}
@@ -46,3 +48,16 @@ func addSlice() {
 
 	fmt.Println(s1)
 }
+
+/*
+slice也为值传递，虽然是引用类型，go语言只有值传递
+slice的源码结构：
+type slice struct {
+	array unsafe.Pointer
+	len   int
+	cap   int
+}
+
+函数传递的是这个结构体，只是结构体里面有指针，实际还是传值
+是否是引用传递：形参和实参的地址是否一致
+*/
