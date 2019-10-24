@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
 //func main() {
@@ -34,7 +35,9 @@ func main() {
 	fmt.Printf("The capacity of s6: %d\n", cap(s6)) //6    会截掉前面的长度
 
 	s7 := append(s5, 3)
-	fmt.Println(s7) //0,1,2,3
+	fmt.Println(reflect.TypeOf(s7)) //[]int
+	fmt.Printf("%T\n", s7)          //[]int
+	fmt.Println(s7)                 //0,1,2,3
 }
 
 //切片相加
