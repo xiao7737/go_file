@@ -5,6 +5,7 @@ import (
 )
 
 // 功能测试：go test go_file/src/common_learn/huiwen    从GOPATH路径开始写
+// 覆盖率：go test -cover
 func TestIsPalindrome(t *testing.T) {
 	var tests = []struct {
 		input string
