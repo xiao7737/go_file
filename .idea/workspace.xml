@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="reflect.TypeOf  反射返回变量类型">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="覆盖率test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_learn/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/test.go" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkIsPalindrome in go_file/src/common_learn/huiwen">
+  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn (5)">
     <configuration name="go build go_file/src/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -120,9 +120,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file/src/common_learn (5)" />
         <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/common_learn/huiwen" />
         <item itemvalue="Go Build.go build go_file/src/common_learn (2)" />
-        <item itemvalue="Go Build.go build go_file/src/common_learn (5)" />
         <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
         <item itemvalue="Go Build.go build go_file/src/common_learn" />
       </list>
@@ -167,6 +167,7 @@
     <MESSAGE value="slice的...语法糖；闭包的记忆功能" />
     <MESSAGE value="slice值传递，go只有值传递" />
     <MESSAGE value="reflect.TypeOf  反射返回变量类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="reflect.TypeOf  反射返回变量类型" />
+    <MESSAGE value="覆盖率test" />
+    <option name="LAST_COMMIT_MESSAGE" value="覆盖率test" />
   </component>
 </project>
