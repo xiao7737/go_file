@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="覆盖率test">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="go的http包">
+      <change afterPath="$PROJECT_DIR$/src/common_learn/TwoNumberAdd/twoNumberAdd.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_learn/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/test.go" afterDir="false" />
     </list>
@@ -168,6 +169,7 @@
     <MESSAGE value="slice值传递，go只有值传递" />
     <MESSAGE value="reflect.TypeOf  反射返回变量类型" />
     <MESSAGE value="覆盖率test" />
-    <option name="LAST_COMMIT_MESSAGE" value="覆盖率test" />
+    <MESSAGE value="go的http包" />
+    <option name="LAST_COMMIT_MESSAGE" value="go的http包" />
   </component>
 </project>
