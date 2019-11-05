@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="算法两数之和">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="更换文件">
+      <change afterPath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_learn/TwoNumberAdd/twoNumberAdd.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/twoNumberAdd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_learn/huiwen/huiwen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_learn/huiwen/huiwen_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suanfa/twoNumberAdd.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
       <recent name="$PROJECT_DIR$/src/suanfa" />
       <recent name="$PROJECT_DIR$/src/design_pattern" />
     </key>
@@ -66,36 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/src/suanfa">
-    <configuration name="go build go_file/src/common_learn (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/common_learn/test.go" />
-      <package value="go_file/src/common_learn" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_file/src/suanfa" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/suanfa/twoNumberAdd.go" />
-      <package value="go_file/src/suanfa" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkIsPalindrome in go_file/src/common_learn/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/common_learn/huiwen" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/src/common_learn/huiwen" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkIsPalindrome$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd">
     <configuration name="BenchmarkIsPalindrome in go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
@@ -107,31 +79,64 @@
       <pattern value="^BenchmarkIsPalindrome$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestIsPalindrome in go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkTwoSum1 in go_file/src/suanfa" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$/src/suanfa" />
+      <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="go_file/src/suanfa/huiwen" />
+      <package value="go_file/src/suanfa" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestIsPalindrome$" />
+      <pattern value="^BenchmarkTwoSum1$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkTwoSum1 in go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/suanfa/twoNumberAdd" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkTwoSum1$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/suanfa/twoNumberAdd" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkTwoSum2$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/suanfa/twoNumberAdd" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkTwoSum3$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build go_file/src/common_learn (5)" />
-      <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/common_learn/huiwen" />
-      <item itemvalue="Go Test.TestIsPalindrome in go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Build.go build go_file/src/suanfa" />
+      <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa" />
+      <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" />
+      <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa/twoNumberAdd" />
+      <item itemvalue="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go_file/src/suanfa" />
+        <item itemvalue="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" />
+        <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" />
+        <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/suanfa/huiwen" />
-        <item itemvalue="Go Test.TestIsPalindrome in go_file/src/suanfa/huiwen" />
-        <item itemvalue="Go Build.go build go_file/src/common_learn (5)" />
-        <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/common_learn/huiwen" />
+        <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +182,7 @@
     <MESSAGE value="覆盖率test" />
     <MESSAGE value="go的http包" />
     <MESSAGE value="算法两数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法两数之和" />
+    <MESSAGE value="更换文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更换文件" />
   </component>
 </project>
