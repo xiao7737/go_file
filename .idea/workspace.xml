@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="更换文件">
-      <change afterPath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd_test.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="二分查找，指针对撞方式：两数之和">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/twoNumberAdd.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd">
+  <component name="RunManager" selected="Go Test.go test go_file/src/suanfa/twoNumberAdd">
     <configuration name="BenchmarkIsPalindrome in go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
@@ -77,17 +74,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^BenchmarkIsPalindrome$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkTwoSum1 in go_file/src/suanfa" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/suanfa" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/src/suanfa" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkTwoSum1$" />
       <method v="2" />
     </configuration>
     <configuration name="BenchmarkTwoSum1 in go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -123,20 +109,30 @@
       <pattern value="^BenchmarkTwoSum3$" />
       <method v="2" />
     </configuration>
+    <configuration name="go test go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/suanfa/twoNumberAdd" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa" />
       <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" />
+      <item itemvalue="Go Test.go test go_file/src/suanfa/twoNumberAdd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/suanfa/huiwen" />
-        <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +154,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="first commit" />
     <MESSAGE value=" commit" />
     <MESSAGE value="commit test" />
     <MESSAGE value="second commit" />
@@ -183,6 +178,7 @@
     <MESSAGE value="go的http包" />
     <MESSAGE value="算法两数之和" />
     <MESSAGE value="更换文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更换文件" />
+    <MESSAGE value="二分查找，指针对撞方式：两数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找，指针对撞方式：两数之和" />
   </component>
 </project>
