@@ -33,3 +33,20 @@ func BenchmarkIsPalindrome(b *testing.B) {
 		IsPalindrome("aab,bAA")
 	}
 }
+
+func TestIsIsPalindrome1(t *testing.T) {
+	var tests = []struct {
+		input int
+		want  bool
+	}{
+		{-1, false},
+		{1, true},
+		{121, true},
+		{133, false},
+	}
+	for _, test := range tests {
+		if got := IsIsPalindrome1(test.input); got != test.want {
+			t.Errorf("IsIsPalindrome1(%q)=%v", test.input, got)
+		}
+	}
+}

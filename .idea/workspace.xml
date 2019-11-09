@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="二分查找，指针对撞方式：两数之和">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="debug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="316" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +44,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="false" />
+    <property name="ToolWindowCoverage.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -64,29 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.go test go_file/src/suanfa/twoNumberAdd">
-    <configuration name="BenchmarkIsPalindrome in go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/src/suanfa/huiwen" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkIsPalindrome$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkTwoSum1 in go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/src/suanfa/twoNumberAdd" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkTwoSum1$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestIsIsPalindrome1 in go_file/src/suanfa/huiwen">
     <configuration name="BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
@@ -109,6 +96,17 @@
       <pattern value="^BenchmarkTwoSum3$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestIsIsPalindrome1 in go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/suanfa/huiwen" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestIsIsPalindrome1$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go test go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
@@ -119,20 +117,41 @@
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/suanfa/huiwen" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gobench go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/suanfa/twoNumberAdd" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/suanfa/huiwen" />
+      <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
+      <item itemvalue="Go Test.gobench go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" />
-      <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.go test go_file/src/suanfa/twoNumberAdd" />
+      <item itemvalue="Go Test.TestIsIsPalindrome1 in go_file/src/suanfa/huiwen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestIsIsPalindrome1 in go_file/src/suanfa/huiwen" />
+        <item itemvalue="Go Test.gobench go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.go test go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" />
-        <item itemvalue="Go Test.BenchmarkTwoSum1 in go_file/src/suanfa/twoNumberAdd" />
-        <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/src/suanfa/huiwen" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +173,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=" commit" />
     <MESSAGE value="commit test" />
     <MESSAGE value="second commit" />
     <MESSAGE value="add file folder" />
@@ -179,6 +197,11 @@
     <MESSAGE value="算法两数之和" />
     <MESSAGE value="更换文件" />
     <MESSAGE value="二分查找，指针对撞方式：两数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找，指针对撞方式：两数之和" />
+    <MESSAGE value="debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_twoNumberAdd.out" NAME="gobench go_file/src/suanfa/twoNumberAdd Coverage Results" MODIFIED="1573288795479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_huiwen.out" NAME="gobench go_file/src/suanfa/huiwen Coverage Results" MODIFIED="1573289613540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

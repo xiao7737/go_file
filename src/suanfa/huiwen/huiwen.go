@@ -1,6 +1,9 @@
 package huiwen
 
-import "unicode"
+import (
+	"strconv"
+	"unicode"
+)
 
 //判断字符串是否为回文，忽略大小写
 func IsPalindrome(str string) bool {
@@ -14,6 +17,20 @@ func IsPalindrome(str string) bool {
 	}
 	for i := range strings {
 		if strings[i] != strings[len(strings)-i-1] {
+			return false
+		}
+	}
+	return true
+}
+
+//判断整数是否是回文
+func IsIsPalindrome1(x int) bool {
+	if x < 0 {
+		return false
+	}
+	y := strconv.Itoa(x)
+	for i := range y {
+		if y[i] != y[len(y)-i-1] {
 			return false
 		}
 	}
