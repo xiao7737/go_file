@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="debug">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="整数的回文数判断">
+      <change afterPath="$PROJECT_DIR$/src/suanfa/mergeTwoLists/mergeTwoLists.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +171,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="commit test" />
     <MESSAGE value="second commit" />
     <MESSAGE value="add file folder" />
     <MESSAGE value="learn go" />
@@ -198,7 +195,8 @@
     <MESSAGE value="更换文件" />
     <MESSAGE value="二分查找，指针对撞方式：两数之和" />
     <MESSAGE value="debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug" />
+    <MESSAGE value="整数的回文数判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="整数的回文数判断" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_twoNumberAdd.out" NAME="gobench go_file/src/suanfa/twoNumberAdd Coverage Results" MODIFIED="1573288795479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
