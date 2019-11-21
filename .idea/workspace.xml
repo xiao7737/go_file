@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="整数的回文数判断">
-      <change afterPath="$PROJECT_DIR$/src/suanfa/mergeTwoLists/mergeTwoLists.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="合并两个有序链表">
+      <change afterPath="$PROJECT_DIR$/src/suanfa/fib/fib.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/suanfa/numJewelsInStones/numJewelsInStones.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,18 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestIsIsPalindrome1 in go_file/src/suanfa/huiwen">
-    <configuration name="BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/src/suanfa/twoNumberAdd" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkTwoSum2$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestIsPalindrome in go_file/src/suanfa/huiwen">
     <configuration name="BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
@@ -103,6 +93,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestIsIsPalindrome1$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestIsPalindrome in go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/suanfa/huiwen" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestIsPalindrome$" />
       <method v="2" />
     </configuration>
     <configuration name="go test go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -138,18 +139,18 @@
     <list>
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/twoNumberAdd" />
-      <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.go test go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.TestIsIsPalindrome1 in go_file/src/suanfa/huiwen" />
+      <item itemvalue="Go Test.TestIsPalindrome in go_file/src/suanfa/huiwen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestIsPalindrome in go_file/src/suanfa/huiwen" />
         <item itemvalue="Go Test.TestIsIsPalindrome1 in go_file/src/suanfa/huiwen" />
         <item itemvalue="Go Test.gobench go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.go test go_file/src/suanfa/twoNumberAdd" />
         <item itemvalue="Go Test.BenchmarkTwoSum3 in go_file/src/suanfa/twoNumberAdd" />
-        <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/src/suanfa/twoNumberAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +172,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="second commit" />
     <MESSAGE value="add file folder" />
     <MESSAGE value="learn go" />
     <MESSAGE value="error struct" />
@@ -196,7 +196,8 @@
     <MESSAGE value="二分查找，指针对撞方式：两数之和" />
     <MESSAGE value="debug" />
     <MESSAGE value="整数的回文数判断" />
-    <option name="LAST_COMMIT_MESSAGE" value="整数的回文数判断" />
+    <MESSAGE value="合并两个有序链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并两个有序链表" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_twoNumberAdd.out" NAME="gobench go_file/src/suanfa/twoNumberAdd Coverage Results" MODIFIED="1573288795479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
