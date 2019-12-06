@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="合并两个有序链表">
-      <change afterPath="$PROJECT_DIR$/src/suanfa/fib/fib.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/suanfa/numJewelsInStones/numJewelsInStones.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="找寻斐波那契数列的第n和数；宝石和石头问题">
+      <change afterPath="$PROJECT_DIR$/src/suanfa/isValid/isValid.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,7 +171,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add file folder" />
     <MESSAGE value="learn go" />
     <MESSAGE value="error struct" />
     <MESSAGE value="go learn" />
@@ -197,7 +195,8 @@
     <MESSAGE value="debug" />
     <MESSAGE value="整数的回文数判断" />
     <MESSAGE value="合并两个有序链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并两个有序链表" />
+    <MESSAGE value="找寻斐波那契数列的第n和数；宝石和石头问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="找寻斐波那契数列的第n和数；宝石和石头问题" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_twoNumberAdd.out" NAME="gobench go_file/src/suanfa/twoNumberAdd Coverage Results" MODIFIED="1573288795479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
