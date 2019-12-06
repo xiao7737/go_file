@@ -18,6 +18,7 @@ func isValid(s string) bool {
 		"]": "[",
 		"}": "{",
 	}
+	//栈
 	var stack []string
 	l := len(s)
 	for i := 0; i < l; i++ {
