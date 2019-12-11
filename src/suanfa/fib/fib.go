@@ -1,6 +1,6 @@
 package fib
 
-//返回斐波那契数列中指定的第n和数
+//返回斐波那契数列中指定的第n个数
 func fib(n int) int {
 	x, y := 0, 1
 	for i := 0; i < n; i++ {

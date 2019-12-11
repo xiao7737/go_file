@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="stack">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="mergeTwoList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/mergeTwoLists/mergeTwoLists.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/mergeTwoLists/mergeTwoLists.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suanfa/fib/fib.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/fib/fib.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suanfa/numJewelsInStones/numJewelsInStones.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/numJewelsInStones/numJewelsInStones.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +172,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="go learn" />
     <MESSAGE value="go的并发锁机制，单例模式" />
     <MESSAGE value="返回斐波那契数列的n个数" />
     <MESSAGE value="结构体可以比较吗？" />
@@ -196,7 +196,8 @@
     <MESSAGE value="找寻斐波那契数列的第n和数；宝石和石头问题" />
     <MESSAGE value="判断扩号是否合法，LeetCode20" />
     <MESSAGE value="stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack" />
+    <MESSAGE value="mergeTwoList" />
+    <option name="LAST_COMMIT_MESSAGE" value="mergeTwoList" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_twoNumberAdd.out" NAME="gobench go_file/src/suanfa/twoNumberAdd Coverage Results" MODIFIED="1573288795479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

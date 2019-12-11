@@ -1,9 +1,9 @@
 package numJewelsInStones
 
 //返回S中存在J的个数，宝石与石头问题
-//J a   S  abca   返回2
+//J：a   S ：aab   返回2
 
-//暴力解法
+//暴力解法  O(N*N)
 func numJewelsInStones(J string, S string) int {
 	var i = 0
 	for j := 0; j < len(J); j++ {
