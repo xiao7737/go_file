@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="找寻斐波那契数列的第n和数；宝石和石头问题">
-      <change afterPath="$PROJECT_DIR$/src/suanfa/isValid/isValid.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suanfa/mergeTwoLists/mergeTwoLists.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/suanfa/mergeTwoLists/mergeTwoLists.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,8 +171,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="learn go" />
-    <MESSAGE value="error struct" />
     <MESSAGE value="go learn" />
     <MESSAGE value="go的并发锁机制，单例模式" />
     <MESSAGE value="返回斐波那契数列的n个数" />
@@ -196,7 +194,9 @@
     <MESSAGE value="整数的回文数判断" />
     <MESSAGE value="合并两个有序链表" />
     <MESSAGE value="找寻斐波那契数列的第n和数；宝石和石头问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="找寻斐波那契数列的第n和数；宝石和石头问题" />
+    <MESSAGE value="判断扩号是否合法，LeetCode20" />
+    <MESSAGE value="stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_twoNumberAdd.out" NAME="gobench go_file/src/suanfa/twoNumberAdd Coverage Results" MODIFIED="1573288795479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
