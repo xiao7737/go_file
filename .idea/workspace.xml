@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="宝石和石头">
-      <change beforePath="$PROJECT_DIR$/src/suanfa/fib/fib.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/fib/fib.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/huiwen/huiwen.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/huiwen/huiwen_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/huiwen/huiwen_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/isValid/isValid.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/isValid/isValid.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/maopao.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/maopao.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/mergeTwoLists/mergeTwoLists.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/mergeTwoLists/mergeTwoLists.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/numJewelsInStones/numJewelsInStones.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/numJewelsInStones/numJewelsInStones.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/twoNumberAdd/twoNumberAdd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suanfa/twoNumberAdd/twoNumberAdd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/twoNumberAdd/twoNumberAdd_test.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="冒泡两种方向">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/twoNumberAdd/twoNumberAdd.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/twoNumberAdd/twoNumberAdd.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,12 +134,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build go_file/src/leetcode" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.go test go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.TestIsIsPalindrome1 in go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Test.TestIsPalindrome in go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Build.go build go_file/src/leetcode" />
     </list>
     <recent_temporary>
       <list>
@@ -176,7 +169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="返回斐波那契数列的n个数" />
     <MESSAGE value="结构体可以比较吗？" />
     <MESSAGE value="commit" />
     <MESSAGE value="map is not to be compare" />
@@ -201,7 +193,8 @@
     <MESSAGE value="stack" />
     <MESSAGE value="mergeTwoList" />
     <MESSAGE value="宝石和石头" />
-    <option name="LAST_COMMIT_MESSAGE" value="宝石和石头" />
+    <MESSAGE value="冒泡两种方向" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡两种方向" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_twoNumberAdd.out" NAME="gobench go_file/src/suanfa/twoNumberAdd Coverage Results" MODIFIED="1573288795479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

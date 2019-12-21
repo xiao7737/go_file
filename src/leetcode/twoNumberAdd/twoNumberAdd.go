@@ -4,6 +4,7 @@ package twoNumberAdd
 //两数之和，返回符合要求的两个数的index，且两个index不重复，只返回符合要求的一组数
 
 //暴力解法，O(N*N)
+//分别对两个数枚举
 func TwoSum1(nums []int, target int) []int {
 	length := len(nums)
 	for i := 0; i < length; i++ {
@@ -17,7 +18,7 @@ func TwoSum1(nums []int, target int) []int {
 }
 
 //指针对撞，O(N)
-//只适合nums有序的情况下
+//只适合nums有序的情况下，只需要枚举一个数
 //寻找nums[i]+nums[j]=target，从两头分别向中间找
 func TwoSum2(nums []int, target int) []int {
 	i, j := 0, len(nums)-1
@@ -53,3 +54,10 @@ func TwoNum3(nums []int, target int) []int {
 	}
 	return []int{}
 }
+
+//利用map，也可以实现O(N)，枚举一个数即可
+//nums可以无序
+/*
+思路：
+将x装入map
+判断 target-x的结果在不在map中*/
