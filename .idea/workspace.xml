@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="twoNumAdd">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Godeps/Godeps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Godeps/Readme" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="godep依赖管理">
+      <change afterPath="$PROJECT_DIR$/src/common_learn/return_defer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/test.go" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +38,11 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -48,6 +52,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -60,19 +65,16 @@
       <recent name="$PROJECT_DIR$/src/design_pattern" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Go Build.go build go_file/src/leetcode">
+  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn">
+    <configuration name="go build go_file/src/common_learn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/common_learn/test.go" />
+      <package value="go_file/src/common_learn" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go_file/src/leetcode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -104,16 +106,6 @@
       <pattern value="^TestIsPalindrome$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test go_file/src/suanfa/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_file/src/suanfa/twoNumberAdd" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
@@ -136,21 +128,33 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build go_file/src/leetcode" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/twoNumberAdd" />
-      <item itemvalue="Go Test.go test go_file/src/suanfa/twoNumberAdd" />
       <item itemvalue="Go Test.TestIsIsPalindrome1 in go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Test.TestIsPalindrome in go_file/src/suanfa/huiwen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file/src/common_learn" />
         <item itemvalue="Go Build.go build go_file/src/leetcode" />
         <item itemvalue="Go Test.TestIsPalindrome in go_file/src/suanfa/huiwen" />
         <item itemvalue="Go Test.TestIsIsPalindrome1 in go_file/src/suanfa/huiwen" />
         <item itemvalue="Go Test.gobench go_file/src/suanfa/twoNumberAdd" />
-        <item itemvalue="Go Test.go test go_file/src/suanfa/twoNumberAdd" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -170,7 +174,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="commit" />
     <MESSAGE value="map is not to be compare" />
     <MESSAGE value="goroutine 的数量" />
     <MESSAGE value="函数测试和性能测试" />
@@ -195,10 +198,29 @@
     <MESSAGE value="宝石和石头" />
     <MESSAGE value="冒泡两种方向" />
     <MESSAGE value="twoNumAdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="twoNumAdd" />
+    <MESSAGE value="godep依赖管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="godep依赖管理" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1578034275540">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1578034275540" />
+    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1578034275538">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1578034275538" />
+    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1578034275537">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1578034275537" />
+    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1578034275539">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1578034275539" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_twoNumberAdd.out" NAME="gobench go_file/src/suanfa/twoNumberAdd Coverage Results" MODIFIED="1573288795479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_huiwen.out" NAME="gobench go_file/src/suanfa/huiwen Coverage Results" MODIFIED="1573289613540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_twoNumberAdd.out" NAME="gobench go_file/src/suanfa/twoNumberAdd Coverage Results" MODIFIED="1573288795479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
