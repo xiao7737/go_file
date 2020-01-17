@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="godep依赖管理">
-      <change afterPath="$PROJECT_DIR$/src/common_learn/return_defer.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="return_defer.go">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/removeDuplicates_26/removeDuplicates.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_learn/test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +173,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="map is not to be compare" />
     <MESSAGE value="goroutine 的数量" />
     <MESSAGE value="函数测试和性能测试" />
     <MESSAGE value="go单例模式" />
@@ -199,9 +197,14 @@
     <MESSAGE value="冒泡两种方向" />
     <MESSAGE value="twoNumAdd" />
     <MESSAGE value="godep依赖管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="godep依赖管理" />
+    <MESSAGE value="return_defer.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="return_defer.go" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1578037799195">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1578037799195" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1578034275540">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
