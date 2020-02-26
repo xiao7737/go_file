@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="双指针--去除数组重复的元素">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +173,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="函数测试和性能测试" />
     <MESSAGE value="go单例模式" />
     <MESSAGE value="defer和panic顺序" />
     <MESSAGE value="defer和函数返回值的作用域" />
@@ -198,13 +197,15 @@
     <MESSAGE value="godep依赖管理" />
     <MESSAGE value="return_defer.go" />
     <MESSAGE value="双指针--去除数组重复的元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="双指针--去除数组重复的元素" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1579249999924">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1581581686113">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1579249999924" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1578034275540">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -221,9 +222,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1578034275539" />
-    <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581581643045">
+    <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582679171756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582679171756" />
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1581581643045" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

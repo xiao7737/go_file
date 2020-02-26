@@ -47,7 +47,7 @@ func addSlice() {
 	/*for _, v := range s2 {
 		s1 = append(s1, v)
 	}*/
-	s1 = append(s1, s2...) //语法糖，循环
+	s1 = append(s1, s2...) //语法糖，循环，效果同上面的循环
 
 	fmt.Println(s1)
 }
