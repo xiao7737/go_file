@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="使用递归，返回斐波那契数列的第n个数">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/fib/fib.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/fib/fib.go" afterDir="false" />
-    </list>
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="使用内存方式，性能测试，提升10倍，用空间换时间" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,8 +169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="slice的...语法糖；闭包的记忆功能" />
-    <MESSAGE value="slice值传递，go只有值传递" />
     <MESSAGE value="reflect.TypeOf  反射返回变量类型" />
     <MESSAGE value="覆盖率test" />
     <MESSAGE value="go的http包" />
@@ -197,37 +192,39 @@
     <MESSAGE value="merge slice的语法糖" />
     <MESSAGE value="打印99乘法表" />
     <MESSAGE value="使用递归，返回斐波那契数列的第n个数" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用递归，返回斐波那契数列的第n个数" />
+    <MESSAGE value="使用内存方式，性能测试" />
+    <MESSAGE value="使用内存方式，性能测试，提升10倍，用空间换时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用内存方式，性能测试，提升10倍，用空间换时间" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)" timestamp="1582709133603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1583047670177">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1583047740619">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047670177" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047740619" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1583047537814">
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1583047913251">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047537814" />
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047913251" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1582764185357" />
-    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1583047537812">
+    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1583047913249">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047537812" />
+    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047913249" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1582764185355" />
-    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1583047537811">
+    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1583047913247">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047537811" />
+    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047913247" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1582764185353" />
-    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1583047537813">
+    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1583047913250">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047537813" />
+    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583047913250" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1582764185356" />
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582679171756">
       <screen x="0" y="0" width="1440" height="900" />

@@ -16,8 +16,8 @@ func main() {
 		result = fib(i)
 		fmt.Printf("数列第 %d 位: %d\n", i, result)
 	}
-	end := time.Now()
-	delta := end.Sub(start)
+
+	delta := time.Since(start)
 	fmt.Printf("程序的执行时间为: %s\n", delta)
 }
 
