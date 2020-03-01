@@ -8,3 +8,13 @@ func fib(n int) int {
 	}
 	return x
 }
+
+//使用递归:返回斐波那契数列中指定的第n个数
+func fib1(n int) (res int) {
+	if n < 2 {
+		res = 1
+	} else {
+		res = fib1(n-1) + fib1(n-2)
+	}
+	return
+}
