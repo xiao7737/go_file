@@ -83,20 +83,6 @@ func main() {
 	fmt.Printf("max(%d, %d) = %d\n", y, z, max(y, z))
 }*/
 
-//返回斐波那契数列的第n个数
-/*func fib(n int) int {
-	x, y := 0, 1
-	for i := 0; i < n; i++ {
-		x, y = y, x+y //1,1,2,3,5,8,13,21,34,55
-	}
-	return x
-}
-
-func main() {
-	fmt.Println(fib(4)) //3
-}
-*/
-
 func test(x int) (func(), func()) {
 	return func() {
 			println(x)
