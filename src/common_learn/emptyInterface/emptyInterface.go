@@ -58,10 +58,10 @@ func main() {
 		if value.(int) > 40 {
 			// 输出很贵
 			fmt.Println(key, "is expensive")
-			return true
+			return true //继续遍历
 		}
 		// 默认都是输出很便宜
 		fmt.Println(key, "is cheap")
-		return true
+		return true //继续遍历
 	})
 }
