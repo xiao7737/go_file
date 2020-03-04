@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="计算函数运行时间 time.Since()">
-      <change afterPath="$PROJECT_DIR$/src/common_learn/emptyInterface/emptyInterface.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="设置遍历终止条件">
+      <change afterPath="$PROJECT_DIR$/src/common_learn/qrcode/qrcode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_learn/time/time.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_learn/Func.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/SingleInstance.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/SingleInstance.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,9 @@
     <property name="GO_FMT" value="false" />
     <property name="ToolWindowCoverage.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -57,7 +61,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -67,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/design_pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn/emptyInterface">
+  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn/time">
     <configuration name="go build go_file/src/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -104,12 +108,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_file/src/leetcode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_file/src/common_learn/time" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/leetcode/maopao.go" />
-      <package value="go_file/src/leetcode" />
+      <filePath value="$PROJECT_DIR$/src/common_learn/time/time.go" />
+      <package value="go_file/src/common_learn/time" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -124,20 +128,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build go_file/src/leetcode" />
       <item itemvalue="Go Build.go build go_file/src/common_learn" />
       <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
       <item itemvalue="Go Build.go build go_file/src/common_learn/fib" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Build.go build go_file/src/common_learn/emptyInterface" />
+      <item itemvalue="Go Build.go build go_file/src/common_learn/time" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file/src/common_learn/time" />
         <item itemvalue="Go Build.go build go_file/src/common_learn/emptyInterface" />
         <item itemvalue="Go Build.go build go_file/src/common_learn/fib" />
         <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
         <item itemvalue="Go Build.go build go_file/src/common_learn" />
-        <item itemvalue="Go Build.go build go_file/src/leetcode" />
       </list>
     </recent_temporary>
   </component>
@@ -171,8 +175,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="覆盖率test" />
-    <MESSAGE value="go的http包" />
     <MESSAGE value="算法两数之和" />
     <MESSAGE value="更换文件" />
     <MESSAGE value="二分查找，指针对撞方式：两数之和" />
@@ -196,43 +198,69 @@
     <MESSAGE value="使用内存方式，性能测试" />
     <MESSAGE value="使用内存方式，性能测试，提升10倍，用空间换时间" />
     <MESSAGE value="计算函数运行时间 time.Since()" />
-    <option name="LAST_COMMIT_MESSAGE" value="计算函数运行时间 time.Since()" />
+    <MESSAGE value="使用map和空接口设计一个可以保存任意值的字典" />
+    <MESSAGE value="设置遍历终止条件" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置遍历终止条件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)" timestamp="1582709133603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1583225782487">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1583225893158">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583225782487" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583225893158" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1583225704732">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1583302891207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583225704732" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891207" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1583225704730">
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1583302891206">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583225704730" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891206" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1583225704729">
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1583302891206">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583225704729" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891206" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1583225704731">
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1583302891207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583225704731" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891207" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583302891209">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891209" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583302891208">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891208" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583302891208">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891208" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583302891209">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891209" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1583227514324">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583227514324" />
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582679171756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582679171756" />
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1581581643045" />
+    <state x="390" y="85" width="660" height="729" key="find.popup" timestamp="1583288270567">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="390" y="85" width="660" height="729" key="find.popup/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583288270567" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583047506737">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
