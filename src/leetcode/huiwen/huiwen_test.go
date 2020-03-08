@@ -1,6 +1,7 @@
 package huiwen
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -29,6 +30,8 @@ func TestIsPalindrome(t *testing.T) {
 // 也可以 go test -bench=.   匹配文件中所有的bench测试函数
 // go test -bench=. -benchmem    查看运行过程中，内存分配的次数，目前适合三次
 func BenchmarkIsPalindrome(b *testing.B) {
+	b.Logf("something to show")
+	b.ResetTimer() //重置测试时间，可以去除数据准备期间的时间消耗
 	for i := 0; i < b.N; i++ {
 		IsPalindrome("aab,bAA")
 	}
@@ -49,4 +52,18 @@ func TestIsIsPalindrome1(t *testing.T) {
 			t.Errorf("IsIsPalindrome1(%q)=%v", test.input, got)
 		}
 	}
+}
+
+// 在godoc里面生成示例，也能达到测试函数的效果，但是可以有实例，显示比较清晰
+func ExampleIsPalindrome() {
+	fmt.Println(IsIsPalindrome1(-1))
+	fmt.Println(IsIsPalindrome1(1))
+	fmt.Println(IsIsPalindrome1(121))
+	fmt.Println(IsIsPalindrome1(133))
+
+	// Output:
+	// false
+	// true
+	// true
+	// false
 }
