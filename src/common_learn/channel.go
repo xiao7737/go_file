@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go1.13/src/time"
+	"time"
 )
 
 /*func sum(s []int, c chan int) {
