@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="设置遍历终止条件">
-      <change afterPath="$PROJECT_DIR$/src/common_learn/qrcode/qrcode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common_learn/time/time.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_pattern/SingleInstance.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/SingleInstance.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,9 +128,9 @@
       <item itemvalue="Go Build.go build go_file/src/common_learn" />
       <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
       <item itemvalue="Go Build.go build go_file/src/common_learn/fib" />
-      <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Build.go build go_file/src/common_learn/emptyInterface" />
       <item itemvalue="Go Build.go build go_file/src/common_learn/time" />
+      <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
     </list>
     <recent_temporary>
       <list>

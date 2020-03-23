@@ -2,44 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51e5384c-7f4a-4277-92b8-922815f77535" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Godeps/Godeps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Godeps/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/go.sum" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" path="D:\software\Go" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1RuVlOkEnw1Dcj6GvrIP2Jja810" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Go Build.go build Map.go">
+  <component name="RunManager" selected="Go Test.TestBinarySearch in go_file/src/leetcode/search_algo/binary_search">
     <configuration name="go build Func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -60,12 +71,49 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go_file/src/leetcode/search_algo/binary_search" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/leetcode/search_algo/binary_search/main.go" />
+      <package value="go_file/src/leetcode/search_algo/binary_search" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkBinarySearch in go_file/src/leetcode/search_algo/binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/leetcode/search_algo/binary_search" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/leetcode/search_algo/binary_search" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkBinarySearch$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBinarySearch in go_file/src/leetcode/search_algo/binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/leetcode/search_algo/binary_search" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/leetcode/search_algo/binary_search" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBinarySearch$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build Map.go" />
       <item itemvalue="Go Build.go build Func.go" />
+      <item itemvalue="Go Build.go build go_file/src/leetcode/search_algo/binary_search" />
+      <item itemvalue="Go Test.TestBinarySearch in go_file/src/leetcode/search_algo/binary_search" />
+      <item itemvalue="Go Test.BenchmarkBinarySearch in go_file/src/leetcode/search_algo/binary_search" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBinarySearch in go_file/src/leetcode/search_algo/binary_search" />
+        <item itemvalue="Go Test.BenchmarkBinarySearch in go_file/src/leetcode/search_algo/binary_search" />
+        <item itemvalue="Go Build.go build go_file/src/leetcode/search_algo/binary_search" />
         <item itemvalue="Go Build.go build Map.go" />
         <item itemvalue="Go Build.go build Func.go" />
       </list>
@@ -79,10 +127,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1840" y="126" key="#GOROOT" timestamp="1584941083998">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state x="1840" y="126" key="#GOROOT/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584941083998" />
+    <state width="1558" height="173" key="GridCell.Tab.0.bottom" timestamp="1584945693010">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584945693010" />
+    <state width="1558" height="173" key="GridCell.Tab.0.center" timestamp="1584945693009">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="173" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584945693009" />
+    <state width="1558" height="173" key="GridCell.Tab.0.left" timestamp="1584945693009">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="173" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584945693009" />
+    <state width="1558" height="173" key="GridCell.Tab.0.right" timestamp="1584945693010">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state width="1558" height="173" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584945693010" />
   </component>
 </project>
