@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51e5384c-7f4a-4277-92b8-922815f77535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="51e5384c-7f4a-4277-92b8-922815f77535" name="Default Changelist" comment="二分查询避免出现死循环">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Godeps/Godeps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Godeps/Readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -135,11 +130,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="binary_search 二分查找的优化和测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary_search 二分查找的优化和测试" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1840" y="126" key="#GOROOT" timestamp="1584941083998">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state x="1840" y="126" key="#GOROOT/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584941083998" />
+    <state x="1830" y="50" key="CommitChangelistDialog2" timestamp="1584949131720">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state x="1830" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584949131720" />
     <state width="1558" height="173" key="GridCell.Tab.0.bottom" timestamp="1584945693010">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>

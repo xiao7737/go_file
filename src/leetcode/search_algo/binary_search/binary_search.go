@@ -4,7 +4,7 @@ package main
 /*func main() {
 	var searchKey = 6
 	var sortedArr = []int{1, 3, 4, 6, 10, 13}
-	result := BinarySearch(sortedArr, searchKey)
+	result := inarySearch(sortedArr, searchKey)
 	if result >= 0 {
 		fmt.Println("Find the index: ", result)
 	} else {
@@ -20,7 +20,7 @@ func BinarySearch(sortedArr []int, searchKey int) int {
 		if sortedArr[mid] == searchKey {
 			return mid
 		} else if sortedArr[mid] > searchKey {
-			high = mid - 1
+			high = mid - 1 //此处不写 high = mid，避免出现死循环：low=high，而sortedArr[mid]!=searchKey，导致一直循环
 		} else {
 			low = mid + 1
 		}
