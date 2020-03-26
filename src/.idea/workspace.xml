@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51e5384c-7f4a-4277-92b8-922815f77535" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/search_algo/binary_search/binary_search_test.go" afterDir="false" />
@@ -48,16 +47,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Go Test.TestBinarySearch1 in go_file/src/leetcode/search_algo/binary_search">
-    <configuration name="go build Map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="src" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Map.go" />
-      <package value="go_file/src" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build go_file/src/leetcode/search_algo/binary_search" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="src" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -100,20 +89,31 @@
       <pattern value="^TestBinarySearch1$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestBinarySearch2 in go_file/src/leetcode/search_algo/binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/leetcode/search_algo/binary_search" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/leetcode/search_algo/binary_search" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBinarySearch2$" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build Map.go" />
       <item itemvalue="Go Build.go build go_file/src/leetcode/search_algo/binary_search" />
       <item itemvalue="Go Test.TestBinarySearch in go_file/src/leetcode/search_algo/binary_search" />
       <item itemvalue="Go Test.BenchmarkBinarySearch in go_file/src/leetcode/search_algo/binary_search" />
       <item itemvalue="Go Test.TestBinarySearch1 in go_file/src/leetcode/search_algo/binary_search" />
+      <item itemvalue="Go Test.TestBinarySearch2 in go_file/src/leetcode/search_algo/binary_search" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestBinarySearch1 in go_file/src/leetcode/search_algo/binary_search" />
+        <item itemvalue="Go Test.TestBinarySearch2 in go_file/src/leetcode/search_algo/binary_search" />
         <item itemvalue="Go Test.TestBinarySearch in go_file/src/leetcode/search_algo/binary_search" />
         <item itemvalue="Go Test.BenchmarkBinarySearch in go_file/src/leetcode/search_algo/binary_search" />
         <item itemvalue="Go Build.go build go_file/src/leetcode/search_algo/binary_search" />
-        <item itemvalue="Go Build.go build Map.go" />
       </list>
     </recent_temporary>
   </component>
@@ -136,35 +136,41 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="binary_search 二分查找的优化和测试" />
     <MESSAGE value="二分查询避免出现死循环" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查询避免出现死循环" />
+    <MESSAGE value="二分：查找第一个出现给定值的元素，查找第一个大于给定值的元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分：查找第一个出现给定值的元素，查找第一个大于给定值的元素" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1840" y="126" key="#GOROOT" timestamp="1584941083998">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state x="1840" y="126" key="#GOROOT/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584941083998" />
-    <state x="1830" y="50" key="CommitChangelistDialog2" timestamp="1584949244295">
-      <screen x="1440" y="0" width="1600" height="900" />
+    <state x="351" y="50" key="CommitChangelistDialog2" timestamp="1585064659759">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="1830" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584949244295" />
-    <state width="1398" height="173" key="GridCell.Tab.0.bottom" timestamp="1585063810068">
+    <state x="351" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585064659759" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom" timestamp="1585100843048">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585100843048" />
     <state width="1558" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584945693010" />
     <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585063810068" />
-    <state width="1398" height="173" key="GridCell.Tab.0.center" timestamp="1585063810067">
+    <state width="1398" height="173" key="GridCell.Tab.0.center" timestamp="1585100843046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="173" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585100843046" />
     <state width="1558" height="173" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584945693009" />
     <state width="1398" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585063810067" />
-    <state width="1398" height="173" key="GridCell.Tab.0.left" timestamp="1585063810066">
+    <state width="1398" height="173" key="GridCell.Tab.0.left" timestamp="1585100843045">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="173" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585100843045" />
     <state width="1558" height="173" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584945693009" />
     <state width="1398" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585063810066" />
-    <state width="1398" height="173" key="GridCell.Tab.0.right" timestamp="1585063810067">
+    <state width="1398" height="173" key="GridCell.Tab.0.right" timestamp="1585100843047">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="173" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585100843047" />
     <state width="1558" height="173" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1584945693010" />
     <state width="1398" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585063810067" />
   </component>

@@ -64,3 +64,6 @@ func BinarySearch2(sortedArr []int, searchKey int) int {
 	}
 	return -1
 }
+
+// todo 变种2的bug
+// todo 第一个大于等于searchKey的元素
