@@ -44,12 +44,11 @@ func TestBinarySearch2(t *testing.T) {
 		searchKey int
 		want      int
 	}{
-		{[]int{1, 2, 3, 4, 5, 6, 7}, 4, 4},
-		{[]int{1, 2, 3, 4, 5, 6, 7}, 3, 3},
+		{[]int{1, 2, 3, 4, 5}, 3, 3},
 	}
 	for _, test := range tests {
 		if got := BinarySearch2(test.sortedArr, test.searchKey); got != test.want {
-			t.Errorf("TestBinarySearch2(%v,%d) = %d", test.sortedArr, test.searchKey, got)
+			t.Errorf("BinarySearch2(%v, %d) = %d", test.sortedArr, test.searchKey, got)
 		}
 	}
 }

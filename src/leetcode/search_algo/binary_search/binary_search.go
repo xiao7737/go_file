@@ -51,9 +51,9 @@ func BinarySearch2(sortedArr []int, searchKey int) int {
 	var high = len(sortedArr) - 1
 	for low <= high {
 		var mid = low + ((high - low) >> 1)
-		if sortedArr[mid] >= searchKey {
+		if sortedArr[mid] > searchKey {
 			// mid的前一个小于searchKey，而当前mid大于searchKey
-			if (mid == 0) || (sortedArr[mid-1] < searchKey) {
+			if (mid == 0) || (sortedArr[mid-1] <= searchKey) {
 				return mid
 			} else {
 				high = mid - 1
@@ -65,5 +65,4 @@ func BinarySearch2(sortedArr []int, searchKey int) int {
 	return -1
 }
 
-// todo 变种2的bug
-// todo 第一个大于等于searchKey的元素
+// 大于等于searchKey和变种2类似：sortedArr[mid] >= searchKey，sortedArr[mid-1] < searchKey

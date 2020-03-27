@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="设置遍历终止条件">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="二分查找--变种问题的测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/search_algo/binary_search/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/search_algo/binary_search/binary_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/search_algo/binary_search/binary_search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/search_algo/binary_search/binary_search_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,21 +70,12 @@
       <recent name="$PROJECT_DIR$/src/design_pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/src/common_learn/time">
+  <component name="RunManager" selected="Go Test.TestBinarySearch2 in go_file/src/leetcode/search_algo/binary_search">
     <configuration name="go build go_file/src/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/common_learn/jiujiu.go" />
-      <package value="go_file/src/common_learn" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_file/src/common_learn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/common_learn/test.go" />
       <package value="go_file/src/common_learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -115,6 +107,17 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="TestBinarySearch2 in go_file/src/leetcode/search_algo/binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/leetcode/search_algo/binary_search" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/leetcode/search_algo/binary_search" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBinarySearch2$" />
+      <method v="2" />
+    </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
@@ -126,20 +129,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build go_file/src/common_learn" />
       <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
       <item itemvalue="Go Build.go build go_file/src/common_learn/fib" />
       <item itemvalue="Go Build.go build go_file/src/common_learn/emptyInterface" />
       <item itemvalue="Go Build.go build go_file/src/common_learn/time" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
+      <item itemvalue="Go Test.TestBinarySearch2 in go_file/src/leetcode/search_algo/binary_search" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBinarySearch2 in go_file/src/leetcode/search_algo/binary_search" />
         <item itemvalue="Go Build.go build go_file/src/common_learn/time" />
         <item itemvalue="Go Build.go build go_file/src/common_learn/emptyInterface" />
         <item itemvalue="Go Build.go build go_file/src/common_learn/fib" />
         <item itemvalue="Go Build.go build go_file/src/common_learn (1)" />
-        <item itemvalue="Go Build.go build go_file/src/common_learn" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +176,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="算法两数之和" />
     <MESSAGE value="更换文件" />
     <MESSAGE value="二分查找，指针对撞方式：两数之和" />
     <MESSAGE value="debug" />
@@ -198,37 +200,38 @@
     <MESSAGE value="计算函数运行时间 time.Since()" />
     <MESSAGE value="使用map和空接口设计一个可以保存任意值的字典" />
     <MESSAGE value="设置遍历终止条件" />
-    <option name="LAST_COMMIT_MESSAGE" value="设置遍历终止条件" />
+    <MESSAGE value="二分查找--变种问题的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找--变种问题的测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)" timestamp="1582709133603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1583225893158">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1585187781826">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583225893158" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585187781826" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1583302891207">
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1585279306965">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891207" />
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585279306965" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1583302891206">
+    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1585279306963">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891206" />
+    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585279306963" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1583302891206">
+    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1585279306961">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891206" />
+    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585279306961" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1583302891207">
+    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1585279306964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891207" />
+    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585279306964" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583302891209">
       <screen x="0" y="0" width="1440" height="900" />
