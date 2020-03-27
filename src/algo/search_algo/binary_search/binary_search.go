@@ -65,4 +65,5 @@ func BinarySearch2(sortedArr []int, searchKey int) int {
 	return -1
 }
 
-// 大于等于searchKey和变种2类似：sortedArr[mid] >= searchKey，sortedArr[mid-1] < searchKey
+// 变种3：大于等于searchKey和变种2类似：sortedArr[mid] >= searchKey，sortedArr[mid-1] < searchKey
+// 变种4：查找最后一个等于searchKey：(mid == len(sortedArr) - 1) || (sortedArr[mid+1] != searchKey)
