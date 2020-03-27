@@ -12,7 +12,7 @@ func TestBubbleSort(t *testing.T) {
 		want []int
 	}{
 		{[]int{2, 1, 4, 3}, []int{1, 2, 3, 4}},
-		{[]int{1, 1, 9, 3}, []int{1, 1, 3, 2}},
+		{[]int{1, 1, 9, 3}, []int{1, 1, 3, 9}},
 	}
 	for _, test := range tests {
 		if got := BubbleSort(test.arr); reflect.DeepEqual(test.want, got) == false {

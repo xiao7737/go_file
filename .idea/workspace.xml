@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="二分查找--变种2的bug fix">
-      <change afterPath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/sort/insert_sort/insert_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/sort/insert_sort/insert_sort_test.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="插入排序和test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/huiwen/huiwen.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/huiwen/huiwen.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/huiwen/huiwen_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/huiwen/huiwen_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/isValid/isValid.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/isValid/isValid.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/maopao.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/mergeTwoLists/mergeTwoLists.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/mergeTwoLists/mergeTwoLists.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/numJewelsInStones/numJewelsInStones.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/numJewelsInStones/numJewelsInStones.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/removeDuplicates_26/removeDuplicates.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/removeDuplicates_26/removeDuplicates.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/search_algo/binary_search/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/search_algo/binary_search/binary_search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/search_algo/binary_search/binary_search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/search_algo/binary_search/binary_search_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/twoNumberAdd/twoNumberAdd.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/twoNumberAdd/twoNumberAdd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/twoNumberAdd/twoNumberAdd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/twoNumberAdd/twoNumberAdd_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algo/sort/insert_sort/insert_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/insert_sort/insert_sort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,8 +145,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestBubbleSort in go_file/src/algo/sort/bubble_sort" />
-        <item itemvalue="Go Test.ExampleBubbleSort in go_file/src/algo/sort/bubble_sort" />
         <item itemvalue="Go Test.TestInsertSort in go_file/src/algo/sort/insert_sort" />
+        <item itemvalue="Go Test.ExampleBubbleSort in go_file/src/algo/sort/bubble_sort" />
         <item itemvalue="Go Build.go build go_file/src/algo/sort/maopao_sort" />
         <item itemvalue="Go Build.go build go_file/src/algo" />
       </list>
@@ -194,7 +182,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="二分查找，指针对撞方式：两数之和" />
     <MESSAGE value="debug" />
     <MESSAGE value="整数的回文数判断" />
     <MESSAGE value="合并两个有序链表" />
@@ -219,37 +206,38 @@
     <MESSAGE value="设置遍历终止条件" />
     <MESSAGE value="二分查找--变种问题的测试" />
     <MESSAGE value="二分查找--变种2的bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找--变种2的bug fix" />
+    <MESSAGE value="插入排序和test" />
+    <option name="LAST_COMMIT_MESSAGE" value="插入排序和test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)" timestamp="1582709133603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1585279402052">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1585299210772">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585279402052" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299210772" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1585298980994">
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1585299951852">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585298980994" />
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299951852" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1585298980992">
+    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1585299951850">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585298980992" />
+    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299951850" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1585298980991">
+    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1585299951849">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585298980991" />
+    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299951849" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1585298980993">
+    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1585299951851">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585298980993" />
+    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299951851" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583302891209">
       <screen x="0" y="0" width="1440" height="900" />
