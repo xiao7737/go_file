@@ -1,2 +1,5 @@
 # go_file
-Golang
+Golang common_learn \
+Golang design_pattern \
+Algorithms implemented with Golang
+

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="change dir" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="change dir">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/huiwen/huiwen.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/huiwen/huiwen.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/huiwen/huiwen_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/huiwen/huiwen_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/isValid/isValid.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/isValid/isValid.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/mergeTwoLists/mergeTwoLists.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/mergeTwoLists/mergeTwoLists.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/numJewelsInStones/numJewelsInStones.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/numJewelsInStones/numJewelsInStones.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/removeDuplicates_26/removeDuplicates.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/removeDuplicates_26/removeDuplicates.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/twoNumberAdd/twoNumberAdd.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/twoNumberAdd/twoNumberAdd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd_test.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,11 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algo/leetcode" />
       <recent name="$PROJECT_DIR$/src/algo/sort/maopao_sort" />
       <recent name="$PROJECT_DIR$/src/common_learn" />
       <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
       <recent name="$PROJECT_DIR$/src/suanfa" />
-      <recent name="$PROJECT_DIR$/src/design_pattern" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build go_file/common_learn/http_">
@@ -211,10 +221,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1585367835006">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1585367906722">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585367835006" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585367906722" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1585367803678">
       <screen x="0" y="0" width="1440" height="900" />
