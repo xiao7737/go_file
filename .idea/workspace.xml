@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="插入排序和test">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="调整bubble_sort的交换逻辑">
+      <change afterPath="$PROJECT_DIR$/src/algo/sort/select_sort/select_sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algo/sort/select_sort/select_sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/bubble_sort/bubble_sort_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/sort/insert_sort/insert_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sort/insert_sort/insert_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_learn/Map.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_learn/Map.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,34 +72,36 @@
       <recent name="$PROJECT_DIR$/src/design_pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestBubbleSort in go_file/src/algo/sort/bubble_sort">
-    <configuration name="go build go_file/src/algo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build go_file/common_learn/http_">
+    <configuration name="go build go_file/common_learn/http_" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/algo/maopao.go" />
-      <package value="go_file/src/algo" />
+      <filePath value="$PROJECT_DIR$/common_learn/http_/client.go" />
+      <package value="go_file/common_learn/http_" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_file/src/algo/sort/maopao_sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBubbleSort in go_file/algo/sort_algo/bubble_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/algo/sort/maopao_sort/maopao.go" />
-      <package value="go_file/src/algo/sort/maopao_sort" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ExampleBubbleSort in go_file/src/algo/sort/bubble_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/algo/sort/bubble_sort" />
+      <working_directory value="$PROJECT_DIR$/algo/sort_algo/bubble_sort" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_file/src/algo/sort/bubble_sort" />
+      <package value="go_file/algo/sort_algo/bubble_sort" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^ExampleBubbleSort$" />
+      <pattern value="^TestBubbleSort$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBubbleSort in go_file/src/algo/sort_algo/bubble_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/src/algo/sort_algo/bubble_sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/src/algo/sort_algo/bubble_sort" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBubbleSort$" />
       <method v="2" />
     </configuration>
     <configuration name="TestBubbleSort in go_file/src/algo/sort/bubble_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -113,15 +115,15 @@
       <pattern value="^TestBubbleSort$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInsertSort in go_file/src/algo/sort/insert_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSelectSort in go_file/src/algo/sort/select_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/algo/sort/insert_sort" />
+      <working_directory value="$PROJECT_DIR$/src/algo/sort/select_sort" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_file/src/algo/sort/insert_sort" />
+      <package value="go_file/src/algo/sort/select_sort" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInsertSort$" />
+      <pattern value="^TestSelectSort$" />
       <method v="2" />
     </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
@@ -136,19 +138,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Build.go build go_file/src/algo" />
-      <item itemvalue="Go Build.go build go_file/src/algo/sort/maopao_sort" />
-      <item itemvalue="Go Test.TestInsertSort in go_file/src/algo/sort/insert_sort" />
       <item itemvalue="Go Test.TestBubbleSort in go_file/src/algo/sort/bubble_sort" />
-      <item itemvalue="Go Test.ExampleBubbleSort in go_file/src/algo/sort/bubble_sort" />
+      <item itemvalue="Go Test.TestSelectSort in go_file/src/algo/sort/select_sort" />
+      <item itemvalue="Go Test.TestBubbleSort in go_file/src/algo/sort_algo/bubble_sort" />
+      <item itemvalue="Go Test.TestBubbleSort in go_file/algo/sort_algo/bubble_sort" />
+      <item itemvalue="Go Build.go build go_file/common_learn/http_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file/common_learn/http_" />
+        <item itemvalue="Go Test.TestBubbleSort in go_file/algo/sort_algo/bubble_sort" />
+        <item itemvalue="Go Test.TestBubbleSort in go_file/src/algo/sort_algo/bubble_sort" />
+        <item itemvalue="Go Test.TestSelectSort in go_file/src/algo/sort/select_sort" />
         <item itemvalue="Go Test.TestBubbleSort in go_file/src/algo/sort/bubble_sort" />
-        <item itemvalue="Go Test.TestInsertSort in go_file/src/algo/sort/insert_sort" />
-        <item itemvalue="Go Test.ExampleBubbleSort in go_file/src/algo/sort/bubble_sort" />
-        <item itemvalue="Go Build.go build go_file/src/algo/sort/maopao_sort" />
-        <item itemvalue="Go Build.go build go_file/src/algo" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +184,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="debug" />
     <MESSAGE value="整数的回文数判断" />
     <MESSAGE value="合并两个有序链表" />
     <MESSAGE value="找寻斐波那契数列的第n和数；宝石和石头问题" />
@@ -207,37 +208,38 @@
     <MESSAGE value="二分查找--变种问题的测试" />
     <MESSAGE value="二分查找--变种2的bug fix" />
     <MESSAGE value="插入排序和test" />
-    <option name="LAST_COMMIT_MESSAGE" value="插入排序和test" />
+    <MESSAGE value="调整bubble_sort的交换逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整bubble_sort的交换逻辑" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)" timestamp="1582709133603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1585299210772">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1585300159801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299210772" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585300159801" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1585299951852">
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1585367803678">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299951852" />
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585367803678" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1585299951850">
+    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1585367803676">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299951850" />
+    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585367803676" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1585299951849">
+    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1585367803674">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299951849" />
+    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585367803674" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1585299951851">
+    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1585367803677">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585299951851" />
+    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585367803677" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583302891209">
       <screen x="0" y="0" width="1440" height="900" />
