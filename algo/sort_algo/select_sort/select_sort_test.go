@@ -10,7 +10,7 @@ func TestSelectSort(t *testing.T) {
 		arr  []int
 		want []int
 	}{
-		{[]int{2, 3, 1, 4}, []int{1, 2, 3, 4}},
+		{[]int{7, 5, 4, 8, 6}, []int{4, 5, 6, 7, 8}},
 	}
 	for _, test := range tests {
 		if got := SelectSort(test.arr); reflect.DeepEqual(test.want, got) == false {
