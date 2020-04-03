@@ -67,3 +67,12 @@ func ExampleIsPalindrome() {
 	// true
 	// false
 }
+
+//	 go test -bench . -benchmem -cpuprofile prof.cpu   获取CPU性能数据
+//        go tool pprof prof.cpu
+//go test -bench . -benchmem -memprofile prof.mem    获取内存性能数据
+// 		  go tool pprof prof.men
+
+//  pprof 命令下
+// 输入:list IsPalindrome 查看具体耗时
+// 输入：web  查看展示图

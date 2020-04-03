@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="选择排序">
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/huiwen/cpu.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/huiwen/huiwen.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/huiwen/prof.cpu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/huiwen/prof.mem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/sort_algo/insert_sort/insert_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sort_algo/insert_sort/insert_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/sort_algo/select_sort/select_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sort_algo/select_sort/select_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/leetcode/huiwen/huiwen_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/huiwen/huiwen_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,7 +74,7 @@
       <recent name="$PROJECT_DIR$/src/suanfa" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSelectSort in go_file/algo/sort_algo/select_sort">
+  <component name="RunManager" selected="Go Test.BenchmarkIsPalindrome in go_file/algo/leetcode/huiwen">
     <configuration name="go build go_file/algo/sort_algo/select_sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -90,26 +93,26 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBubbleSort in go_file/algo/sort_algo/bubble_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkIsPalindrome in go_file/algo/leetcode/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sort_algo/bubble_sort" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$/algo/leetcode/huiwen" />
+      <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="go_file/algo/sort_algo/bubble_sort" />
+      <package value="go_file/algo/leetcode/huiwen" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestBubbleSort$" />
+      <pattern value="^BenchmarkIsPalindrome$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBubbleSort in go_file/src/algo/sort_algo/bubble_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIsPalindrome in go_file/algo/leetcode/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/src/algo/sort_algo/bubble_sort" />
+      <working_directory value="$PROJECT_DIR$/algo/leetcode/huiwen" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go_file/src/algo/sort_algo/bubble_sort" />
+      <package value="go_file/algo/leetcode/huiwen" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestBubbleSort$" />
+      <pattern value="^TestIsPalindrome$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSelectSort in go_file/algo/sort_algo/select_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -134,20 +137,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.TestBubbleSort in go_file/src/algo/sort_algo/bubble_sort" />
-      <item itemvalue="Go Test.TestBubbleSort in go_file/algo/sort_algo/bubble_sort" />
       <item itemvalue="Go Build.go build go_file/common_learn/http_" />
-      <item itemvalue="Go Test.TestSelectSort in go_file/algo/sort_algo/select_sort" />
       <item itemvalue="Go Build.go build go_file/algo/sort_algo/select_sort" />
+      <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
+      <item itemvalue="Go Test.TestSelectSort in go_file/algo/sort_algo/select_sort" />
+      <item itemvalue="Go Test.TestIsPalindrome in go_file/algo/leetcode/huiwen" />
+      <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/algo/leetcode/huiwen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/algo/leetcode/huiwen" />
+        <item itemvalue="Go Test.TestIsPalindrome in go_file/algo/leetcode/huiwen" />
         <item itemvalue="Go Test.TestSelectSort in go_file/algo/sort_algo/select_sort" />
         <item itemvalue="Go Build.go build go_file/algo/sort_algo/select_sort" />
         <item itemvalue="Go Build.go build go_file/common_learn/http_" />
-        <item itemvalue="Go Test.TestBubbleSort in go_file/algo/sort_algo/bubble_sort" />
-        <item itemvalue="Go Test.TestBubbleSort in go_file/src/algo/sort_algo/bubble_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -209,34 +212,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="选择排序" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="434" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585897535405">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="434" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585897535405" />
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)" timestamp="1582709133603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="215" y="50" key="CommitChangelistDialog2" timestamp="1585394694019">
+    <state x="215" y="50" key="CommitChangelistDialog2" timestamp="1585394760783">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="215" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585394694019" />
+    <state x="215" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585394760783" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1585387662153">
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1585897470242">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585387662153" />
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585897470242" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1585387662151">
+    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1585897470239">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585387662151" />
+    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585897470239" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1585387662149">
+    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1585897470237">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585387662149" />
+    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585897470237" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1585387662152">
+    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1585897470241">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585387662152" />
+    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585897470241" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583302891209">
       <screen x="0" y="0" width="1440" height="900" />
@@ -254,10 +261,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583302891209" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1583227514324">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1585531681499">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1583227514324" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585531681499" />
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582679171756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
