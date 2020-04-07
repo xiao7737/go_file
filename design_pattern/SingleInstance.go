@@ -53,6 +53,7 @@ func getSingleton() *Singleton {
 		lock.Lock()
 		if singleInstance == nil {
 			singleInstance = new(Singleton)
+			//singleInstance = &Singleton{}   //效果同上
 		}
 		lock.Unlock()
 	}

@@ -36,6 +36,8 @@ func main() {
 	dataProducer(ch, &wg)
 	wg.Add(1)
 	dataReceiver(ch, &wg)
+	wg.Add(1)
+	dataReceiver(ch, &wg)
 	wg.Wait()
 }
 
