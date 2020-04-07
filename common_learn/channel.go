@@ -2,8 +2,42 @@ package main
 
 import (
 	"fmt"
-	"time"
+	"sync"
 )
+
+//生产者
+func dataProducer(ch chan int, wg *sync.WaitGroup) {
+	go func() {
+		for i := 0; i < 10; i++ {
+			ch <- i
+		}
+		close(ch) //生产数据完毕后，主动关闭ch
+		wg.Done()
+	}()
+}
+
+//消费者
+func dataReceiver(ch chan int, wg *sync.WaitGroup) {
+	go func() {
+		for {
+			if v, ok := <-ch; ok {
+				fmt.Println(v)
+			} else {
+				break
+			}
+		}
+		wg.Done()
+	}()
+}
+func main() {
+	var wg sync.WaitGroup
+	ch := make(chan int)
+	wg.Add(1)
+	dataProducer(ch, &wg)
+	wg.Add(1)
+	dataReceiver(ch, &wg)
+	wg.Wait()
+}
 
 /*func sum(s []int, c chan int) {
 	sum := 0
@@ -22,7 +56,7 @@ func main() {
 }*/
 
 //用channel select实现斐波纳契数据
-func fibonacci(c, quit chan int) {
+/*func fibonacci(c, quit chan int) {
 	x, y := 0, 1
 	for {
 		select {
@@ -46,7 +80,7 @@ func main() {
 		quit <- 0
 	}()
 	fibonacci(c, quit)
-}
+}*/
 
 //channel源码解析
 //channel底层数据是hchan struct
