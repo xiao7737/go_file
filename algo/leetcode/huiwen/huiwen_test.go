@@ -77,3 +77,7 @@ func ExampleIsPalindrome() {
 // 输入:list IsPalindrome 查看具体耗时
 // 输入：web  查看展示图
 // 输入：svg  生成svg图像
+
+// 查看gc和协程信息
+// go test -bench . -trace trace.out
+// go tool trace trace.out
