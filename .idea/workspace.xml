@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="查看gc">
-      <change afterPath="$PROJECT_DIR$/common_learn/strings/string_test.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="stringBuilder,高效的string操作">
+      <change afterPath="$PROJECT_DIR$/common_learn/defer_2.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_learn/Defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/defer_1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -70,12 +70,21 @@
       <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/common_learn (1)">
+  <component name="RunManager" selected="Go Build.go build go_file/common_learn (2)">
     <configuration name="go build go_file/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/common_learn/channel.go" />
+      <package value="go_file/common_learn" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_file/common_learn (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/common_learn/defer_2.go" />
       <package value="go_file/common_learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -111,17 +120,6 @@
       <pattern value="^TestIsPalindrome$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSelectSort in go_file/algo/sort_algo/select_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sort_algo/select_sort" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/sort_algo/select_sort" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSelectSort$" />
-      <method v="2" />
-    </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
@@ -134,53 +132,39 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build go_file/common_learn" />
+      <item itemvalue="Go Build.go build go_file/common_learn (1)" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.TestSelectSort in go_file/algo/sort_algo/select_sort" />
       <item itemvalue="Go Test.TestIsPalindrome in go_file/algo/leetcode/huiwen" />
       <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/algo/leetcode/huiwen" />
-      <item itemvalue="Go Build.go build go_file/common_learn (1)" />
+      <item itemvalue="Go Build.go build go_file/common_learn (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go_file/common_learn (1)" />
+        <item itemvalue="Go Build.go build go_file/common_learn (2)" />
         <item itemvalue="Go Build.go build go_file/common_learn" />
+        <item itemvalue="Go Build.go build go_file/common_learn (1)" />
         <item itemvalue="Go Test.BenchmarkIsPalindrome in go_file/algo/leetcode/huiwen" />
         <item itemvalue="Go Test.TestIsPalindrome in go_file/algo/leetcode/huiwen" />
-        <item itemvalue="Go Test.TestSelectSort in go_file/algo/sort_algo/select_sort" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="godep依赖管理" />
     <MESSAGE value="return_defer.go" />
     <MESSAGE value="双指针--去除数组重复的元素" />
     <MESSAGE value="commit" />
@@ -205,7 +189,8 @@
     <MESSAGE value="利用channel实现生产消费" />
     <MESSAGE value="多协程读" />
     <MESSAGE value="查看gc" />
-    <option name="LAST_COMMIT_MESSAGE" value="查看gc" />
+    <MESSAGE value="stringBuilder,高效的string操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="stringBuilder,高效的string操作" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586157878949">
@@ -220,34 +205,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586227247800" />
+    <state x="405" y="90" key="#go_build_go_file/common_learn_(2)" timestamp="1586671827444">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="405" y="90" key="#go_build_go_file/common_learn_(2)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586671827444" />
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)" timestamp="1582709133603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="215" y="50" key="CommitChangelistDialog2" timestamp="1586231922467">
+    <state x="215" y="50" key="CommitChangelistDialog2" timestamp="1586232799596">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="215" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586231922467" />
+    <state x="215" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586232799596" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1586229662444">
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1586671979198">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586229662444" />
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586671979198" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1586229662442">
+    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1586671979197">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586229662442" />
+    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586671979197" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1586229662440">
+    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1586671979196">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586229662440" />
+    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586671979196" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1586229662443">
+    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1586671979197">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586229662443" />
+    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586671979197" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583302891209">
       <screen x="0" y="0" width="1440" height="900" />
