@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="stringBuilder,高效的string操作">
-      <change afterPath="$PROJECT_DIR$/common_learn/defer_2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_learn/Defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/defer_1.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="defer理解，defer_2.go  getFun()()">
+      <change beforePath="$PROJECT_DIR$/common_learn/strings/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/strings/string_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="return_defer.go" />
     <MESSAGE value="双指针--去除数组重复的元素" />
     <MESSAGE value="commit" />
     <MESSAGE value="merge slice的语法糖" />
@@ -190,7 +187,8 @@
     <MESSAGE value="多协程读" />
     <MESSAGE value="查看gc" />
     <MESSAGE value="stringBuilder,高效的string操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="stringBuilder,高效的string操作" />
+    <MESSAGE value="defer理解，defer_2.go  getFun()()" />
+    <option name="LAST_COMMIT_MESSAGE" value="defer理解，defer_2.go  getFun()()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586157878949">
@@ -213,10 +211,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="215" y="50" key="CommitChangelistDialog2" timestamp="1586232799596">
+    <state x="215" y="50" key="CommitChangelistDialog2" timestamp="1586673008682">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="215" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586232799596" />
+    <state x="215" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586673008682" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1586671979198">
       <screen x="0" y="0" width="1440" height="900" />

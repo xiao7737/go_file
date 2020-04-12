@@ -8,9 +8,10 @@ import (
 	"testing"
 )
 
-// 4中字符串连接方式
+// 5中字符串连接方式，其实是4种
 const numbers = 100
 
+// strings.Join()    //底层也是string.Builder          第五种
 // go1.10后增加的StringBuilder  高效的字符串操作
 func BenchmarkStringBuilder(b *testing.B) {
 	b.ResetTimer()
@@ -18,7 +19,6 @@ func BenchmarkStringBuilder(b *testing.B) {
 		var builder strings.Builder
 		for i := 0; i < numbers; i++ {
 			builder.WriteString(strconv.Itoa(i))
-
 		}
 		_ = builder.String()
 	}
@@ -44,7 +44,6 @@ func BenchmarkStringAdd(b *testing.B) {
 		for i := 0; i < numbers; i++ {
 			s += strconv.Itoa(i)
 		}
-
 	}
 	b.StopTimer()
 }
