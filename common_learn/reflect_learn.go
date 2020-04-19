@@ -19,8 +19,7 @@ func main() {
 
 // 通过反射获取type和value
 func CheckType(v interface{}) {
-	t := reflect.TypeOf(v)
-	switch t.Kind() {
+	switch reflect.TypeOf(v).Kind() {
 	case reflect.Int:
 		fmt.Println("integer param")
 	case reflect.String:
