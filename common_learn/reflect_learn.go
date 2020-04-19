@@ -34,4 +34,9 @@ func main() {
 	fmt.Println(reflect.TypeOf(a))
 	fmt.Println(reflect.ValueOf(a))
 	fmt.Println(reflect.ValueOf(a).Type())
+
+	/*i := 1
+	v := reflect.ValueOf(&i) // 获取变量指针
+	v.Elem().SetInt(10)      // Elem()获取指针指向的变量
+	fmt.Println(i)*/
 }
