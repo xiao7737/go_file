@@ -45,14 +45,14 @@ defer fmt.Println(i)
 */
 
 func main() {
-	println(deferFun1(1)) //4
+	println(deferFun1(1)) //3
 	println(deferFun2(1)) //1
 }
 
 func deferFun1(i int) (t int) { //	defer在函数结束前执行，函数返回值t的作用域为整个函数，t会被defer修改
 	t = i
 	defer func() {
-		t += 3
+		t = 3
 	}()
 	return t
 }
@@ -60,7 +60,7 @@ func deferFun1(i int) (t int) { //	defer在函数结束前执行，函数返回�
 func deferFun2(i int) int { //  t的作用域仅为闭包，返回的t为最开始赋值的t
 	t := i
 	defer func() {
-		t += 3
+		t = 3
 	}()
 	return t
 }
