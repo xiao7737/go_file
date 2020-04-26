@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="线程不安全的slice">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="defer返回时的作用域影响">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_learn/defer_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/defer_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_learn/json_reflect_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/json_reflect_map.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/common_learn (4)">
+  <component name="RunManager" selected="Go Build.go build go_file/common_learn (2)">
     <configuration name="go build go_file/algo/leetcode/fib" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -84,6 +84,15 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/common_learn/channel.go" />
+      <package value="go_file/common_learn" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_file/common_learn (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/common_learn/json_reflect_map.go" />
       <package value="go_file/common_learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -106,15 +115,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_file/common_learn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/common_learn/reflect_learn.go" />
-      <package value="go_file/common_learn" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
@@ -126,20 +126,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build go_file/common_learn" />
       <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
       <item itemvalue="Go Build.go build go_file/common_learn (1)" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Build.go build go_file/common_learn (3)" />
       <item itemvalue="Go Build.go build go_file/common_learn (4)" />
+      <item itemvalue="Go Build.go build go_file/common_learn (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file/common_learn (2)" />
         <item itemvalue="Go Build.go build go_file/common_learn (4)" />
         <item itemvalue="Go Build.go build go_file/common_learn (3)" />
         <item itemvalue="Go Build.go build go_file/common_learn (1)" />
         <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
-        <item itemvalue="Go Build.go build go_file/common_learn" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +160,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="计算函数运行时间 time.Since()" />
     <MESSAGE value="使用map和空接口设计一个可以保存任意值的字典" />
     <MESSAGE value="设置遍历终止条件" />
     <MESSAGE value="二分查找--变种问题的测试" />
@@ -185,7 +184,8 @@
     <MESSAGE value="利用计算机缓存，来减少斐波那契数列的计算次数" />
     <MESSAGE value="defer瞬间返回，不会等return再计算返回" />
     <MESSAGE value="线程不安全的slice" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程不安全的slice" />
+    <MESSAGE value="defer返回时的作用域影响" />
+    <option name="LAST_COMMIT_MESSAGE" value="defer返回时的作用域影响" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -204,10 +204,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587457043270" />
-    <state x="405" y="90" key="#go_build_go_file/common_learn_(2)" timestamp="1586671827444">
+    <state x="405" y="90" key="#go_build_go_file/common_learn_(2)" timestamp="1587891897825">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="405" y="90" key="#go_build_go_file/common_learn_(2)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1586671827444" />
+    <state x="405" y="90" key="#go_build_go_file/common_learn_(2)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587891897825" />
     <state x="405" y="90" key="#go_build_go_file/common_learn_(3)" timestamp="1587731581052">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -224,30 +224,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="215" y="50" key="CommitChangelistDialog2" timestamp="1587788552962">
+    <state x="215" y="50" key="CommitChangelistDialog2" timestamp="1587867499383">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="215" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587788552962" />
+    <state x="215" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587867499383" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1587788558097">
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1587895533307">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587788558097" />
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587895533307" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1587788558095">
+    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1587895533305">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587788558095" />
+    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587895533305" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1587788558093">
+    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1587895533305">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587788558093" />
+    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587895533305" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1587788558096">
+    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1587895533306">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587788558096" />
+    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587895533306" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583302891209">
       <screen x="0" y="0" width="1440" height="900" />
@@ -278,10 +278,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="390" y="85" width="660" height="729" key="find.popup/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587456990391" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585383329450">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587893727589">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1585383329450" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587893727589" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_huiwen.out" NAME="gobench go_file/src/suanfa/huiwen Coverage Results" MODIFIED="1573289613540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
