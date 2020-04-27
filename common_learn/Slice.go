@@ -21,7 +21,7 @@ fmt.Println(s1) //783456，如将s1拷贝到s2.输出12*/
 }*/
 
 //左闭右开  s[a:b]表示包含从a到b-1的数，slice从0开始计数，b-a就是slice的长度
-func main() {
+func test1() {
 	s3 := []int{0, 1, 2, 3, 4, 5, 6, 7, 8}
 	s4 := s3[3:6]
 	s5 := s3[:3]
@@ -41,7 +41,7 @@ func main() {
 }
 
 //切片相加
-func addSlice() {
+func main() {
 	s1 := []int{1, 2, 3}
 	s2 := []int{4, 5}
 	/*for _, v := range s2 {
@@ -50,6 +50,13 @@ func addSlice() {
 	s1 = append(s1, s2...) //语法糖，循环，效果同上面的循环
 
 	fmt.Println(s1)
+
+	s := make([]int, 5)
+	s = append(s, 1, 2, 3)
+	fmt.Println(s) //00000123   初始化的slice的默认值占位
+	w := make([]int, 0)
+	w = append(w, 1, 2, 3)
+	fmt.Println(w) //123
 }
 
 /*
