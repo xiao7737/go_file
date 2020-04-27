@@ -85,10 +85,10 @@ func main() {
 
 func test(x int) (func(), func()) {
 	return func() {
-			println(x)
-			x += 10
+			println(x) //x=100  赋值给a
+			x += 10    //x=110
 		}, func() {
-			println(x)
+			println(x) //x=110 两个闭包引用相同变量
 		}
 }
 

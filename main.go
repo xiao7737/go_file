@@ -1,22 +1,16 @@
 package main
 
-import "fmt"
+func test(x int) (func(), func()) {
+	return func() {
+			println(x)
+			x += 10
+		}, func() {
+			println(x)
+		}
+}
 
-type People interface {
-	Show()
-}
-type Student struct{}
-
-func (stu *Student) Show() {
-}
-func live() People {
-	var stu *Student
-	return stu
-}
 func main() {
-	if live() == nil {
-		fmt.Println("AAAAAAA")
-	} else {
-		fmt.Println("BBBBBBB")
-	}
+	a, b := test(100)
+	a()
+	b()
 }
