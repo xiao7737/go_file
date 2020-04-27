@@ -47,6 +47,7 @@ defer fmt.Println(i)
 func main() {
 	println(deferFun1(1)) //3
 	println(deferFun2(1)) //1
+	println(deferFun3(1)) //1
 }
 
 func deferFun1(i int) (t int) { //	defer在函数结束前执行，函数返回值t的作用域为整个函数，t会被defer修改
@@ -61,6 +62,13 @@ func deferFun2(i int) int { //  t的作用域仅为闭包，返回的t为最开�
 	t := i
 	defer func() {
 		t = 3
+	}()
+	return t
+}
+
+func deferFun3(i int) (t int) { //函数返回值t的作用域为整个函数，t在进入函数就被初始化  初始值：i=1，t=0
+	defer func() {
+		t += i
 	}()
 	return t
 }
