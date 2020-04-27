@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/fatih/structs"
 )
 
 func main() {
@@ -21,20 +22,20 @@ func main() {
 	}
 
 	//方案2
-	/*type Person struct {
+	type Person struct {
 		Name string `json:"name" structs:"name"`
 		Age  int    `json:"age" structs:"age"`
 	}
 
-	u1 := &Person{
+	u2 := &Person{
 		Name: "tom",
 		Age:  18,
 	}
 
-	m3 := structs.Map(&u1)
+	m3 := structs.Map(&u2)
 	for k, v := range m3 {
 		fmt.Printf("key:%v value:%v value type:%T\n", k, v, v)
-	}*/
+	}
 }
 
 //json中没有整形和浮点之分，全部转换为float64
