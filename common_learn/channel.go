@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"sync"
+	"time"
 )
 
 //生产者
-func dataProducer(ch chan int, wg *sync.WaitGroup) {
+/*func dataProducer(ch chan int, wg *sync.WaitGroup) {
 	go func() {
 		for i := 0; i < 10; i++ {
 			ch <- i
@@ -39,7 +39,7 @@ func main() {
 	wg.Add(1)
 	dataReceiver(ch, &wg)
 	wg.Wait()
-}
+}*/
 
 /*func sum(s []int, c chan int) {
 	sum := 0
@@ -58,7 +58,7 @@ func main() {
 }*/
 
 //用channel select实现斐波纳契数据
-/*func fibonacci(c, quit chan int) {
+func fibonacci(c, quit chan int) {
 	x, y := 0, 1
 	for {
 		select {
@@ -66,9 +66,8 @@ func main() {
 			x, y = y, x+y
 		case <-quit:
 			fmt.Println("quit")
-		case <-time.After(time.Millisecond):
+		case <-time.After(10 * time.Millisecond):
 			fmt.Println("time out")
-
 		}
 	}
 }
@@ -82,7 +81,7 @@ func main() {
 		quit <- 0
 	}()
 	fibonacci(c, quit)
-}*/
+}
 
 //channel源码解析
 //channel底层数据是hchan struct

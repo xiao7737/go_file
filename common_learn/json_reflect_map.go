@@ -1,9 +1,11 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/fatih/structs"
+	//"github.com/fatih/structs"
+	"log"
 )
 
 func main() {
@@ -21,8 +23,20 @@ func main() {
 		fmt.Printf("key:%v value:%v type of value:%T\n", k, v, v) //此处的age是float64
 	}
 
+	//方案1
+	var m2 map[string]interface{}
+	var decoder = json.NewDecoder(bytes.NewReader(b))
+	decoder.UseNumber()
+
+	if err := decoder.Decode(&m2); err != nil {
+		log.Fatalln(err)
+	}
+	for k, v := range m2 {
+		fmt.Printf("key:%v value:%v type of value:%T\n", k, v, v) //此处的age是float64
+	}
+
 	//方案2
-	type Person struct {
+	/*type Person struct {
 		Name string `json:"name" structs:"name"`
 		Age  int    `json:"age" structs:"age"`
 	}
@@ -35,7 +49,7 @@ func main() {
 	m3 := structs.Map(&u2)
 	for k, v := range m3 {
 		fmt.Printf("key:%v value:%v value type:%T\n", k, v, v)
-	}
+	}*/
 }
 
 //json中没有整形和浮点之分，全部转换为float64
