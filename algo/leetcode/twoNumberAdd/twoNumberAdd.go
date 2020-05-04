@@ -42,7 +42,7 @@ func TwoNum3(nums []int, target int) []int {
 	for i := 0; i < length; i++ {
 		v := target - nums[i]
 		for j := i + 1; j < l2; {
-			mid := j + (l2-j)/2
+			mid := j + (l2-j)/2 //避免内存溢出
 			if v == nums[mid] {
 				return []int{i + 1, mid + 1}
 			} else if v < nums[mid] { // v在左边

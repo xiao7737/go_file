@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="采用第三方库structs，实现struct到map，解决int-&gt;float64的问题">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_learn/channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/channel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_learn/json_reflect_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/json_reflect_map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="采用json.Decoder实现int到float64" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,12 +123,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Build.go build go_file/common_learn (2)" />
       <item itemvalue="Go Build.go build go_file/common_learn" />
       <item itemvalue="Go Build.go build go_file" />
       <item itemvalue="Go Build.go build go_file/common_learn (1)" />
       <item itemvalue="Go Build.go build go_file/common_learn (4)" />
+      <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
     </list>
     <recent_temporary>
       <list>
@@ -162,7 +157,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="调整bubble_sort的交换逻辑" />
     <MESSAGE value="change dir" />
     <MESSAGE value="rewrite README.md" />
     <MESSAGE value="选择排序" />
@@ -187,7 +181,8 @@
     <MESSAGE value="进入函数就会初始化参数和返回值" />
     <MESSAGE value="两个闭包使用相同的变量" />
     <MESSAGE value="slice的初始化占位，append问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="slice的初始化占位，append问题" />
+    <MESSAGE value="采用json.Decoder实现int到float64" />
+    <option name="LAST_COMMIT_MESSAGE" value="采用json.Decoder实现int到float64" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -226,47 +221,47 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1587970970751">
+    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1587983215939">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587970970751" />
+    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587983215939" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581581686113" />
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1587979671197">
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1588038306479">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587979671197" />
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588038306479" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1587979671195">
+    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1588038306478">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587979671195" />
+    <state width="1398" height="248" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588038306478" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1587979671195">
+    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1588038306477">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587979671195" />
+    <state width="1398" height="248" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588038306477" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1587979671196">
+    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1588038306479">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587979671196" />
+    <state width="1398" height="248" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588038306479" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1587970336251">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588038306470">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587970336251" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1587970336249">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588038306470" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1588038306468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587970336249" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1587970336248">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588038306468" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1588038306467">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587970336248" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1587970336250">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588038306467" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1588038306469">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587970336250" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588038306469" />
     <state x="226" y="145" key="SettingsEditor" timestamp="1587086702197">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
