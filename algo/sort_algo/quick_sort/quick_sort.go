@@ -37,7 +37,8 @@ func partition2(sli []int, left, right int) []int {
 		//选择基准元素
 		baseNum := sli[(left+right)/2]
 		i, j := left, right
-		for {
+		//i j相遇就停止
+		for i < j {
 			//i从前往后走  找到比baseNum大的
 			for baseNum > sli[i] {
 				i++
@@ -45,10 +46,6 @@ func partition2(sli []int, left, right int) []int {
 			//j从后往前走 ，找到比baseNum小的
 			for baseNum < sli[j] {
 				j--
-			}
-			// i j相遇就停止
-			if i >= j {
-				break
 			}
 			//找到符合条件的两个数，进行交换
 			sli[i], sli[j] = sli[j], sli[i]
