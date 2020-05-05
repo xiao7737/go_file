@@ -28,6 +28,7 @@ func QuickSort1(sli []int) []int {
 }
 
 //方法2：高效版
+//时间复杂度：nlogn  存在递归调用，所以空间复杂度logn
 func QuickSort2(sli []int) []int {
 	return partition2(sli, 0, len(sli)-1)
 }

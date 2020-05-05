@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="避免内存溢出">
-      <change afterPath="$PROJECT_DIR$/algo/sort_algo/quick_sort/quick_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/sort_algo/quick_sort/quick_sort_test.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="quick sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sort_algo/quick_sort/quick_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sort_algo/quick_sort/quick_sort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="rewrite README.md" />
     <MESSAGE value="选择排序" />
     <MESSAGE value="内存分析和cpu分析" />
     <MESSAGE value="利用反射--调用函数，真的秀==！" />
@@ -195,7 +193,8 @@
     <MESSAGE value="slice的初始化占位，append问题" />
     <MESSAGE value="采用json.Decoder实现int到float64" />
     <MESSAGE value="避免内存溢出" />
-    <option name="LAST_COMMIT_MESSAGE" value="避免内存溢出" />
+    <MESSAGE value="quick sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick sort" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -234,10 +233,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1588607927696">
+    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1588671049457">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587983215939" />
+    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588671049457" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588607927696" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1588670353600">
       <screen x="0" y="0" width="1440" height="900" />
