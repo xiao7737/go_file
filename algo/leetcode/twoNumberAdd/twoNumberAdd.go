@@ -21,17 +21,21 @@ func TwoSum1(nums []int, target int) []int {
 //只适合nums有序的情况下，只需要枚举一个数
 //寻找nums[i]+nums[j]=target，从两头分别向中间找
 func TwoSum2(nums []int, target int) []int {
+	if nums == nil || len(nums) < 2 {
+		return nil
+	}
 	i, j := 0, len(nums)-1
-	sum := nums[i] + nums[j]
-	for sum != target {
+	for i < j {
+		sum := nums[i] + nums[j]
 		if sum < target {
 			i++
-		} else {
+		} else if sum > target {
 			j--
+		} else {
+			return []int{nums[i], nums[j]}
 		}
-		sum = nums[i] + nums[j]
 	}
-	return []int{i, j}
+	return nil
 }
 
 //二分查找 O(NlogN)
@@ -55,9 +59,23 @@ func TwoNum3(nums []int, target int) []int {
 	return []int{}
 }
 
-//利用map，也可以实现O(N)，枚举一个数即可
-//nums可以无序
-/*
-思路：
-将x装入map
-判断 target-x的结果在不在map中*/
+//利用map，nums可以无序，实现O(N)
+//思路：将元素全部装入map，如果 nums[i] 跟 target-nums[i] 均存在该 map 中，则返回这两个数
+func TwoNum4(nums []int, target int) []int {
+	var map1 = make(map[int]int)
+	for _, v := range nums {
+		if _, ok := map1[v]; !ok {
+			map1[v] = 1
+		} else {
+			map1[v] += 1
+		}
+	}
+	var res = make([]int, 2)
+	for i := 0; i < len(nums) && nums[i] <= target; i++ {
+		if _, ok := map1[target-nums[i]]; ok {
+			res[0] = nums[i]
+			res[1] = nums[target-nums[i]]
+		}
+	}
+	return res
+}

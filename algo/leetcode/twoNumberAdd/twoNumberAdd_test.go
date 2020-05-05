@@ -21,7 +21,7 @@ func BenchmarkTwoSum1(b *testing.B) {
 func BenchmarkTwoSum2(b *testing.B) {
 	s := []int{1, 2, 3, 4, 5}
 	for i := 0; i < b.N; i++ {
-		TwoSum2(s, 7)
+		TwoSum2(s, 10)
 	}
 }
 
@@ -31,6 +31,13 @@ func BenchmarkTwoSum3(b *testing.B) {
 		TwoNum3(s, 7)
 	}
 }
+
+/*func BenchmarkTwoSum4(b *testing.B) {
+	s := []int{1, 2, 3, 4, 5}
+	for i := 0; i < b.N; i++ {
+		TwoNum4(s, 7)
+	}
+}*/
 
 /*
 BenchmarkTwoSum1-8   	20697021	        59.4 ns/op
