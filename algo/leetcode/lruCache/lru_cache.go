@@ -39,7 +39,32 @@ func (lc *LruCache) Get(key int) int {
 	//存在，将该节点从当前位置删除，移动到链表头部，然后返回该值
 	lc.MoveToHead(lc.md[key])
 	return lc.md[key].value
+}
 
+func (lc *LruCache) Put(key int, value int) {
+	//判断key是否存在，存在则重新赋值，移动到最前面
+	if _, exist := lc.md[key]; exist {
+		lc.md[key].value = value
+		lc.MoveToHead(lc.md[key])
+	} else {
+		//不存在
+		//插入前检查容量
+		if lc.len > lc.capacity {
+			panic("err")
+		}
+		if lc.len == lc.capacity {
+			lc.CutTail()
+			lc.len--
+		}
+		//插入到头部
+		node := &LruCacheNode{
+			key:   key,
+			value: value,
+		}
+		lc.AddToHead(node)
+		lc.md[key] = node
+		lc.len++
+	}
 }
 
 func (lc *LruCache) MoveToHead(node *LruCacheNode) {
@@ -55,7 +80,7 @@ func (lc *LruCache) AddToHead(node *LruCacheNode) {
 	lc.head.next = node
 }
 
-//减掉尾巴最后一个元素
+//淘汰末尾节点
 func (lc *LruCache) CutTail() {
 	if lc.len > 0 {
 		//删除map中元素

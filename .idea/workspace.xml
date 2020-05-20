@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="lru_cache">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="双向链表+map实现lruCache">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/leetcode/lruCache/lru_cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/lruCache/lru_cache.go" afterDir="false" />
     </list>
@@ -168,7 +168,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="利用channel实现生产消费" />
     <MESSAGE value="多协程读" />
     <MESSAGE value="查看gc" />
     <MESSAGE value="stringBuilder,高效的string操作" />
@@ -193,7 +192,8 @@
     <MESSAGE value="两数之和  优化判断条件" />
     <MESSAGE value="快排的判断条件" />
     <MESSAGE value="lru_cache" />
-    <option name="LAST_COMMIT_MESSAGE" value="lru_cache" />
+    <MESSAGE value="双向链表+map实现lruCache" />
+    <option name="LAST_COMMIT_MESSAGE" value="双向链表+map实现lruCache" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -232,10 +232,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1588866943014">
+    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1589976992611">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588680392401" />
+    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1589976992611" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588866943014" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1588681800342">
       <screen x="0" y="0" width="1440" height="900" />
