@@ -35,6 +35,7 @@ func QuickSort2(sli []int) []int {
 func partition2(sli []int, left, right int) []int {
 	if left < right {
 		//选择基准元素
+		//选择基准元素，可以采用三数取中法
 		baseNum := sli[(left+right)/2]
 		i, j := left, right
 		//i j相遇就停止
