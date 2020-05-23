@@ -1,5 +1,7 @@
 package twoNumberAdd
 
+import "sort"
+
 //要求：输入数组，目标值，返回符合数组中：两个数相加等于目标值的元素的index
 //两数之和，返回符合要求的两个数的index，且两个index不重复，只返回符合要求的一组数
 
@@ -24,13 +26,16 @@ func TwoSum2(nums []int, target int) []int {
 	if nums == nil || len(nums) < 2 {
 		return nil
 	}
+	sort.Ints(nums)
 	i, j := 0, len(nums)-1
 	for i < j {
 		sum := nums[i] + nums[j]
 		if sum < target {
 			i++
+			continue
 		} else if sum > target {
 			j--
+			continue
 		} else {
 			return []int{nums[i], nums[j]}
 		}

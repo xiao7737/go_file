@@ -72,18 +72,7 @@
       <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd">
-    <configuration name="BenchmarkTwoSum2 in go_file/algo/leetcode/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/leetcode/twoNumberAdd" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/leetcode/twoNumberAdd" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkTwoSum2$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15">
     <configuration name="TestInsertSort2 in go_file/algo/sort_algo/quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/algo/sort_algo/quick_sort" />
@@ -104,6 +93,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestThreeAdd$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/leetcode/threeNumberAdd_15" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/leetcode/threeNumberAdd_15" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestThreeAdd3$" />
       <method v="2" />
     </configuration>
     <configuration name="TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -140,18 +140,18 @@
     <list>
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Test.TestInsertSort2 in go_file/algo/sort_algo/quick_sort" />
-      <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/algo/leetcode/twoNumberAdd" />
       <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
       <item itemvalue="Go Test.TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" />
       <item itemvalue="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" />
+      <item itemvalue="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" />
         <item itemvalue="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" />
         <item itemvalue="Go Test.TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" />
         <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
         <item itemvalue="Go Test.TestInsertSort2 in go_file/algo/sort_algo/quick_sort" />
-        <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/algo/leetcode/twoNumberAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="stringBuilder,高效的string操作" />
     <MESSAGE value="defer理解，defer_2.go  getFun()()" />
     <MESSAGE value="strings.Join()  底层也是strings.Builder()" />
     <MESSAGE value="使用json格式化int变成float的坑" />
@@ -197,7 +196,8 @@
     <MESSAGE value="双向链表+map实现lruCache" />
     <MESSAGE value="完善lru的put" />
     <MESSAGE value="快排优化--采用三数取中，获取基数" />
-    <option name="LAST_COMMIT_MESSAGE" value="快排优化--采用三数取中，获取基数" />
+    <MESSAGE value="两数之和的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="两数之和的测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -236,30 +236,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1590061507262">
+    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1590221604065">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590054522957" />
+    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221604065" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1590221574401">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1590234426081">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221574401" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234426081" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1590221574399">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1590234426080">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221574399" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234426080" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1590221574398">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1590234426079">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221574398" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234426079" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1590221574400">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1590234426080">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221574400" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234426080" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">
       <screen x="0" y="0" width="1440" height="900" />

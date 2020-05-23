@@ -23,7 +23,7 @@ func TestTwoSum1(t *testing.T) {
 		},
 	}
 	for _, test := range tests {
-		if got := TwoSum1(test.input, test.target); reflect.DeepEqual(test.want, got) == false {
+		if got := TwoSum2(test.input, test.target); reflect.DeepEqual(test.want, got) == false {
 			t.Errorf("ThreeAdd(%v) = %v", test.input, got)
 		}
 	}
