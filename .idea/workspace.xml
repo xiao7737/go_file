@@ -5,8 +5,6 @@
       <change afterPath="$PROJECT_DIR$/algo/leetcode/threeNumberAdd_15/threeNumberAdd.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/algo/leetcode/threeNumberAdd_15/threeNumberAdd_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +170,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="defer理解，defer_2.go  getFun()()" />
     <MESSAGE value="strings.Join()  底层也是strings.Builder()" />
     <MESSAGE value="使用json格式化int变成float的坑" />
     <MESSAGE value="reflect_learn.go" />
@@ -197,7 +194,8 @@
     <MESSAGE value="完善lru的put" />
     <MESSAGE value="快排优化--采用三数取中，获取基数" />
     <MESSAGE value="两数之和的测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="两数之和的测试" />
+    <MESSAGE value="fix两数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix两数之和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -236,30 +234,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1590221604065">
+    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1590234545455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221604065" />
+    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234545455" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1590234426081">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1590237046719">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234426081" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237046719" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1590234426080">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1590237046718">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234426080" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237046718" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1590234426079">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1590237046717">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234426079" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237046717" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1590234426080">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1590237046719">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234426080" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237046719" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">
       <screen x="0" y="0" width="1440" height="900" />
