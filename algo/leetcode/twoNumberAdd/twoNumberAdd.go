@@ -10,7 +10,7 @@ func TwoSum1(nums []int, target int) []int {
 	for i := 0; i < length; i++ {
 		for j := i + 1; j < length; j++ {
 			if i != j && nums[i]+nums[j] == target {
-				return []int{i, j}
+				return []int{nums[i], nums[j]}
 			}
 		}
 	}
@@ -40,7 +40,7 @@ func TwoSum2(nums []int, target int) []int {
 
 //二分查找 O(NlogN)
 //适合数组有序
-func TwoNum3(nums []int, target int) []int {
+func TwoSum3(nums []int, target int) []int {
 	length := len(nums)
 	l2 := length
 	for i := 0; i < length; i++ {
@@ -61,7 +61,7 @@ func TwoNum3(nums []int, target int) []int {
 
 //利用map，nums可以无序，实现O(N)
 //思路：将元素全部装入map，如果 nums[i] 跟 target-nums[i] 均存在该 map 中，则返回这两个数
-func TwoNum4(nums []int, target int) []int {
+func TwoSum4(nums []int, target int) []int {
 	var map1 = make(map[int]int)
 	for _, v := range nums {
 		if _, ok := map1[v]; !ok {

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="完善lru的put">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="快排优化--采用三数取中，获取基数">
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/threeNumberAdd_15/threeNumberAdd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/threeNumberAdd_15/threeNumberAdd_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/sort_algo/quick_sort/quick_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sort_algo/quick_sort/quick_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/twoNumberAdd/twoNumberAdd_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,18 +72,7 @@
       <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.gobench go_file/algo/sort_algo/quick_sort">
-    <configuration name="BenchmarkQuickSort2 in go_file/algo/sort_algo/quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sort_algo/quick_sort" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/sort_algo/quick_sort" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkQuickSort2$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd">
     <configuration name="BenchmarkTwoSum2 in go_file/algo/leetcode/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/algo/leetcode/twoNumberAdd" />
@@ -103,14 +95,26 @@
       <pattern value="^TestInsertSort2$" />
       <method v="2" />
     </configuration>
-    <configuration name="gobench go_file/algo/leetcode/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/leetcode/threeNumberAdd_15" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/leetcode/threeNumberAdd_15" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestThreeAdd$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/algo/leetcode/twoNumberAdd" />
-      <framework value="gobench" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="go_file/algo/leetcode/twoNumberAdd" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestTwoSum1$" />
       <method v="2" />
     </configuration>
     <configuration name="gobench go_file/algo/sort_algo/quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -136,18 +140,18 @@
     <list>
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
       <item itemvalue="Go Test.TestInsertSort2 in go_file/algo/sort_algo/quick_sort" />
-      <item itemvalue="Go Test.BenchmarkQuickSort2 in go_file/algo/sort_algo/quick_sort" />
-      <item itemvalue="Go Test.gobench go_file/algo/leetcode/twoNumberAdd" />
       <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/algo/leetcode/twoNumberAdd" />
       <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
+      <item itemvalue="Go Test.TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" />
+      <item itemvalue="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" />
+        <item itemvalue="Go Test.TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" />
         <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
         <item itemvalue="Go Test.TestInsertSort2 in go_file/algo/sort_algo/quick_sort" />
         <item itemvalue="Go Test.BenchmarkTwoSum2 in go_file/algo/leetcode/twoNumberAdd" />
-        <item itemvalue="Go Test.gobench go_file/algo/leetcode/twoNumberAdd" />
-        <item itemvalue="Go Test.BenchmarkQuickSort2 in go_file/algo/sort_algo/quick_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +172,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="查看gc" />
     <MESSAGE value="stringBuilder,高效的string操作" />
     <MESSAGE value="defer理解，defer_2.go  getFun()()" />
     <MESSAGE value="strings.Join()  底层也是strings.Builder()" />
@@ -193,7 +196,8 @@
     <MESSAGE value="lru_cache" />
     <MESSAGE value="双向链表+map实现lruCache" />
     <MESSAGE value="完善lru的put" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善lru的put" />
+    <MESSAGE value="快排优化--采用三数取中，获取基数" />
+    <option name="LAST_COMMIT_MESSAGE" value="快排优化--采用三数取中，获取基数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -232,30 +236,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1589978265824">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1590061507262">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1589978265824" />
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588866943014" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1588681800342">
+    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590054522957" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1590221574401">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588681800342" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221574401" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1588681800340">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1590221574399">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588681800340" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221574399" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1588681800340">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1590221574398">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588681800340" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221574398" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1588681800341">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1590221574400">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588681800341" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590221574400" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">
       <screen x="0" y="0" width="1440" height="900" />
