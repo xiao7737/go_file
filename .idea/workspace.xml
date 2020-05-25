@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="快排优化--采用三数取中，获取基数">
-      <change afterPath="$PROJECT_DIR$/algo/leetcode/threeNumberAdd_15/threeNumberAdd.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/leetcode/threeNumberAdd_15/threeNumberAdd_test.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="三数相加，N*N,利用指针对撞">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_learn/Interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/Interface.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +69,14 @@
       <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15">
-    <configuration name="TestInsertSort2 in go_file/algo/sort_algo/quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build go_file/common_learn">
+    <configuration name="go build go_file/common_learn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sort_algo/quick_sort" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/sort_algo/quick_sort" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/common_learn/Interface.go" />
+      <package value="go_file/common_learn" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInsertSort2$" />
       <method v="2" />
     </configuration>
     <configuration name="TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -137,19 +134,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.TestInsertSort2 in go_file/algo/sort_algo/quick_sort" />
       <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
       <item itemvalue="Go Test.TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" />
       <item itemvalue="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" />
       <item itemvalue="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" />
+      <item itemvalue="Go Build.go build go_file/common_learn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file/common_learn" />
         <item itemvalue="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" />
         <item itemvalue="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" />
         <item itemvalue="Go Test.TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" />
         <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
-        <item itemvalue="Go Test.TestInsertSort2 in go_file/algo/sort_algo/quick_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +167,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="strings.Join()  底层也是strings.Builder()" />
     <MESSAGE value="使用json格式化int变成float的坑" />
     <MESSAGE value="reflect_learn.go" />
     <MESSAGE value="set value by reflect" />
@@ -195,7 +191,8 @@
     <MESSAGE value="快排优化--采用三数取中，获取基数" />
     <MESSAGE value="两数之和的测试" />
     <MESSAGE value="fix两数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix两数之和" />
+    <MESSAGE value="三数相加，N*N,利用指针对撞" />
+    <option name="LAST_COMMIT_MESSAGE" value="三数相加，N*N,利用指针对撞" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -206,10 +203,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="434" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587269060786" />
-    <state x="420" y="93" key="#go_build_go_file/common_learn" timestamp="1587950730642">
+    <state x="420" y="93" key="#go_build_go_file/common_learn" timestamp="1590370005179">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="420" y="93" key="#go_build_go_file/common_learn/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587950730642" />
+    <state x="420" y="93" key="#go_build_go_file/common_learn/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590370005179" />
     <state x="420" y="93" key="#go_build_go_file/common_learn_(1)" timestamp="1587966151721">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -234,31 +231,35 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1590234545455">
+    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1590237220099">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590234545455" />
+    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237220099" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1590237046719">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1590367891820">
+      <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237046719" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237223391" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1590237046718">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1590367891819">
+      <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237046718" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237223389" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1590237046717">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1590367891817">
+      <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237046717" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237223388" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1590237046719">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1590367891819">
+      <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237046719" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590237223390" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -283,7 +284,6 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590054493394" />
-    <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1581581643045" />
     <state x="390" y="85" width="660" height="729" key="find.popup" timestamp="1587456990391">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
