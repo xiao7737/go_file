@@ -59,13 +59,14 @@ func main() {
 
 //用channel select实现斐波纳契数据
 func fibonacci(c, quit chan int) {
-	x, y := 0, 1
+	x, y := 1, 1
 	for {
 		select {
 		case c <- x:
 			x, y = y, x+y
 		case <-quit:
 			fmt.Println("quit")
+			return
 		case <-time.After(10 * time.Millisecond):
 			fmt.Println("time out")
 		}
@@ -75,7 +76,7 @@ func main() {
 	c := make(chan int)
 	quit := make(chan int)
 	go func() {
-		for i := 1; i <= 5; i++ {
+		for i := 0; i < 10; i++ {
 			fmt.Println(<-c)
 		}
 		quit <- 0

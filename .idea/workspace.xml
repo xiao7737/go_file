@@ -69,7 +69,16 @@
       <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/common_learn">
+  <component name="RunManager" selected="Go Build.go build go_file/common_learn (1)">
+    <configuration name="go build go_file/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/common_learn/channel.go" />
+      <package value="go_file/common_learn" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go_file/common_learn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -112,16 +121,6 @@
       <pattern value="^TestTwoSum1$" />
       <method v="2" />
     </configuration>
-    <configuration name="gobench go_file/algo/sort_algo/quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sort_algo/quick_sort" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/sort_algo/quick_sort" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/src/suanfa/huiwen" />
@@ -134,19 +133,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
       <item itemvalue="Go Test.TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" />
       <item itemvalue="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" />
       <item itemvalue="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" />
       <item itemvalue="Go Build.go build go_file/common_learn" />
+      <item itemvalue="Go Build.go build go_file/common_learn (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file/common_learn (1)" />
         <item itemvalue="Go Build.go build go_file/common_learn" />
         <item itemvalue="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" />
         <item itemvalue="Go Test.TestTwoSum1 in go_file/algo/leetcode/twoNumberAdd" />
         <item itemvalue="Go Test.TestThreeAdd in go_file/algo/leetcode/threeNumberAdd_15" />
-        <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -207,10 +206,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/common_learn/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590370005179" />
-    <state x="420" y="93" key="#go_build_go_file/common_learn_(1)" timestamp="1587966151721">
+    <state x="420" y="93" key="#go_build_go_file/common_learn_(1)" timestamp="1590374945094">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="420" y="93" key="#go_build_go_file/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587966151721" />
+    <state x="420" y="93" key="#go_build_go_file/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590374945094" />
     <state x="405" y="90" key="#go_build_go_file/common_learn_(2)" timestamp="1587891897825">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -231,33 +230,33 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1590370169690">
+    <state x="346" y="27" key="CommitChangelistDialog2" timestamp="1590373241449">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590370169690" />
+    <state x="346" y="27" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590373241449" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1590371108354">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1590374945501">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590371108354" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590374945501" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1590371108353">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1590374945500">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590371108353" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590374945500" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1590371108351">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1590374945500">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590371108351" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590374945500" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1590371108354">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1590374945501">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590371108354" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590374945501" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">

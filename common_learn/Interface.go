@@ -30,3 +30,23 @@ func main() {
 接口是非入侵式，不依赖接口的定义，采用 duck type  鸭子，像鸭子的样子就叫鸭子了 🦆
 接口设计优点：让接口和实现者真正解耦，降低项目的耦合度
 */
+
+//类型断言，断言失败会产生一个panic   value,ok:=a.(int)
+/*
+func main() {
+    var a int
+    a = 10
+    getType(a)
+}
+func getType(a interface{}) {
+    switch a.(type) {
+    case int:
+        fmt.Println("the type of a is int")
+    case string:
+        fmt.Println("the type of a is string")
+    case float64:
+        fmt.Println("the type of a is float")
+    default:
+        fmt.Println("unknown type")
+    }
+}*/
