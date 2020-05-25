@@ -2,25 +2,31 @@ package main
 
 import "fmt"
 
-type Phone interface {
-	call()
+type DataWriter interface {
+	WriteData(data interface{}) error
 }
-type IPhone struct {
+type file struct {
 }
 
-func (i *IPhone) call() {
-	fmt.Println("is iphone")
+func (f *file) WriteData(data interface{}) error {
+	fmt.Println("WriteData: ", data)
+	return nil
 }
+
 func main() {
-	var phone Phone
-	phone = new(IPhone)
-	phone.call()
+	var writer DataWriter
+	f := new(file)
+	writer = f
+	_ = writer.WriteData("input data source")
 }
 
-/*定义了一个接口Phone，接口里面有一个方法call()
-实现类似于继承的功能
-在main函数里面定义了一个Phone接口类型变量，并分别为之赋值为IPhone。然后调用call()方法
+// output:    WriteData:  input data source
 
+//line19:  将 *file 类型的 f 赋值给 DataWriter 接口的 writer，虽然两个变量类型不一致
+//但是 writer 是一个接口，且 f 已经完全实现了 DataWriter() 的所有方法
+
+/*
+实现类似于继承的功能
 接口是非入侵式，不依赖接口的定义，采用 duck type  鸭子，像鸭子的样子就叫鸭子了 🦆
 接口设计优点：让接口和实现者真正解耦，降低项目的耦合度
 */
