@@ -26,3 +26,8 @@ func Find2(nums []int) int {
 	}
 	return 0
 }
+
+// todo 可以采用分治
+func Find3(nums []int) int {
+	return 0
+}
