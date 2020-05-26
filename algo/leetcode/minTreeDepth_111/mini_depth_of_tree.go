@@ -7,12 +7,14 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func minDepth(root *TreeNode) int {
-	if root == nil {
+// 分治法，分别对左右子树递归，找到最小的层
+// 时间复杂度O(N)
+func minDepth(node *TreeNode) int {
+	if node == nil {
 		return 0
 	}
-	leftMini := minDepth(root.Left)
-	rightMini := minDepth(root.Right)
+	leftMini := minDepth(node.Left)
+	rightMini := minDepth(node.Right)
 	if leftMini == 0 || rightMini == 0 {
 		return leftMini + rightMini + 1
 	}
