@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="LeetCode111,返回树的最小深度，fix">
-      <change afterPath="$PROJECT_DIR$/algo/leetcode/maxTreeDepth_104/max_depth_of_tree.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="LeetCode104 返回树的最大深度，DFS+递归">
+      <change afterPath="$PROJECT_DIR$/algo/sort_algo/merge_sort/merge_sort.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +166,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="进入函数就会初始化参数和返回值" />
     <MESSAGE value="两个闭包使用相同的变量" />
     <MESSAGE value="slice的初始化占位，append问题" />
     <MESSAGE value="采用json.Decoder实现int到float64" />
@@ -191,7 +190,8 @@
     <MESSAGE value="层序遍历树 BFS" />
     <MESSAGE value="LeetCode111,返回树的最小深度" />
     <MESSAGE value="LeetCode111,返回树的最小深度，fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode111,返回树的最小深度，fix" />
+    <MESSAGE value="LeetCode104 返回树的最大深度，DFS+递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode104 返回树的最大深度，DFS+递归" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -230,33 +230,37 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590482426544">
+    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590483455603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590482426544" />
+    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590483455603" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
-    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590395016364">
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590557121040">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590395016364" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590557121040" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590497062902" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1590395016363">
+    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1590557121039">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590395016363" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590557121039" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590497062900" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1590395016362">
+    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1590557121038">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590395016362" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590557121038" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590497062899" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1590395016363">
+    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1590557121040">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590395016363" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590557121040" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590497062901" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">
@@ -287,10 +291,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="390" y="85" width="660" height="729" key="find.popup/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587456990391" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590478181729">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590581994214">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590478181729" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590581994214" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_huiwen.out" NAME="gobench go_file/src/suanfa/huiwen Coverage Results" MODIFIED="1573289613540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
