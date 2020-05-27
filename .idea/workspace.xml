@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="LeetCode104 返回树的最大深度，DFS+递归">
-      <change afterPath="$PROJECT_DIR$/algo/sort_algo/merge_sort/merge_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="归并排序 merge_sort.go">
+      <change afterPath="$PROJECT_DIR$/algo/sort_algo/merge_sort/merge_sort_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestMyPow1 in go_file/algo/leetcode/pow_50">
+  <component name="RunManager" selected="Go Test.TestMergeSort in go_file/algo/sort_algo/merge_sort">
     <configuration name="go build go_file/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -99,6 +98,17 @@
       <pattern value="^TestIsPalindrome$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestMergeSort in go_file/algo/sort_algo/merge_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/sort_algo/merge_sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/sort_algo/merge_sort" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMergeSort$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestMyPow1 in go_file/algo/leetcode/pow_50" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/algo/leetcode/pow_50" />
@@ -108,17 +118,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestMyPow1$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/leetcode/threeNumberAdd_15" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/leetcode/threeNumberAdd_15" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestThreeAdd3$" />
       <method v="2" />
     </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
@@ -135,17 +134,17 @@
       <item itemvalue="Go Build.go build go_file/common_learn" />
       <item itemvalue="Go Build.go build go_file/common_learn (1)" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" />
       <item itemvalue="Go Test.TestIsPalindrome in go_file/algo/leetcode/huiwen" />
       <item itemvalue="Go Test.TestMyPow1 in go_file/algo/leetcode/pow_50" />
+      <item itemvalue="Go Test.TestMergeSort in go_file/algo/sort_algo/merge_sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMergeSort in go_file/algo/sort_algo/merge_sort" />
         <item itemvalue="Go Test.TestMyPow1 in go_file/algo/leetcode/pow_50" />
         <item itemvalue="Go Test.TestIsPalindrome in go_file/algo/leetcode/huiwen" />
         <item itemvalue="Go Build.go build go_file/common_learn (1)" />
         <item itemvalue="Go Build.go build go_file/common_learn" />
-        <item itemvalue="Go Test.TestThreeAdd3 in go_file/algo/leetcode/threeNumberAdd_15" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +165,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="两个闭包使用相同的变量" />
     <MESSAGE value="slice的初始化占位，append问题" />
     <MESSAGE value="采用json.Decoder实现int到float64" />
     <MESSAGE value="避免内存溢出" />
@@ -191,7 +189,8 @@
     <MESSAGE value="LeetCode111,返回树的最小深度" />
     <MESSAGE value="LeetCode111,返回树的最小深度，fix" />
     <MESSAGE value="LeetCode104 返回树的最大深度，DFS+递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode104 返回树的最大深度，DFS+递归" />
+    <MESSAGE value="归并排序 merge_sort.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="归并排序 merge_sort.go" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -230,36 +229,36 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590483455603">
+    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590582686331">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590483455603" />
+    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590582686331" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
-    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590557121040">
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590583070405">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590557121040" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583070405" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590497062902" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1590557121039">
+    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1590583070403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590557121039" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583070403" />
     <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590497062900" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1590557121038">
+    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1590583070401">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590557121038" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583070401" />
     <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590497062899" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1590557121040">
+    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1590583070404">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590557121040" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583070404" />
     <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590497062901" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
