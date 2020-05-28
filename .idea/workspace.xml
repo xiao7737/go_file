@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="merge_sort_test.go">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="insert_sort.go eg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/sort_algo/insert_sort/insert_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sort_algo/insert_sort/insert_sort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="采用json.Decoder实现int到float64" />
     <MESSAGE value="避免内存溢出" />
     <MESSAGE value="quick sort" />
     <MESSAGE value="quick sort nlogn" />
@@ -191,7 +189,8 @@
     <MESSAGE value="LeetCode104 返回树的最大深度，DFS+递归" />
     <MESSAGE value="归并排序 merge_sort.go" />
     <MESSAGE value="merge_sort_test.go" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge_sort_test.go" />
+    <MESSAGE value="insert_sort.go eg" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert_sort.go eg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -230,36 +229,36 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590583177147">
+    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590626439884">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583177147" />
+    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590626439884" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
-    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590583070405">
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590665278035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583070405" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590665278035" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590497062902" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886008" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1590583070403">
+    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1590665278034">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583070403" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590665278034" />
     <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590497062900" />
     <state width="1398" height="189" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1590583070401">
+    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1590665278033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583070401" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590665278033" />
     <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590497062899" />
     <state width="1398" height="189" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886006" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1590583070404">
+    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1590665278035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583070404" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590665278035" />
     <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590497062901" />
     <state width="1398" height="189" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.1600.877@0.23.1440.852" timestamp="1583113886007" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />

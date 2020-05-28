@@ -16,6 +16,8 @@ func MergeSort(nums []int) []int {
 // 合并两个子集，使其有序
 func merge(a, b []int) (c []int) {
 	i, j := 0, 0
+	// 将a和b中的元素进行比较，将小的元素依次装入合并空间
+	// 直到某一个先遍历完，则将另一个剩下的元素直接复制到合并序列的尾部
 	for i < len(a) && j < len(b) {
 		if a[i] <= b[j] {
 			c = append(c, a[i])
