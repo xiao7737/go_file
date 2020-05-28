@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="归并排序 merge_sort.go">
-      <change afterPath="$PROJECT_DIR$/algo/sort_algo/merge_sort/merge_sort_test.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="merge_sort_test.go">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sort_algo/insert_sort/insert_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sort_algo/insert_sort/insert_sort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +166,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="slice的初始化占位，append问题" />
     <MESSAGE value="采用json.Decoder实现int到float64" />
     <MESSAGE value="避免内存溢出" />
     <MESSAGE value="quick sort" />
@@ -190,7 +190,8 @@
     <MESSAGE value="LeetCode111,返回树的最小深度，fix" />
     <MESSAGE value="LeetCode104 返回树的最大深度，DFS+递归" />
     <MESSAGE value="归并排序 merge_sort.go" />
-    <option name="LAST_COMMIT_MESSAGE" value="归并排序 merge_sort.go" />
+    <MESSAGE value="merge_sort_test.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge_sort_test.go" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -229,10 +230,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590582686331">
+    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590583177147">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590582686331" />
+    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590583177147" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590583070405">
       <screen x="0" y="0" width="1440" height="900" />
