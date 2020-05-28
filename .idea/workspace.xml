@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="insert_sort.go eg">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="merge_sort.go  的merge理解">
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/lowestCommonAncestor_235/lowest_commom_ancestor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/lowestCommonAncestor_236/lowest_commom_ancestor.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,12 +56,15 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algo/leetcode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algo/leetcode" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/algo/leetcode" />
       <recent name="$PROJECT_DIR$/common_learn/strings" />
@@ -165,7 +170,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="避免内存溢出" />
     <MESSAGE value="quick sort" />
     <MESSAGE value="quick sort nlogn" />
     <MESSAGE value="两数之和  优化判断条件" />
@@ -190,7 +194,8 @@
     <MESSAGE value="归并排序 merge_sort.go" />
     <MESSAGE value="merge_sort_test.go" />
     <MESSAGE value="insert_sort.go eg" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert_sort.go eg" />
+    <MESSAGE value="merge_sort.go  的merge理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge_sort.go  的merge理解" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -229,10 +234,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590626439884">
+    <state x="451" y="50" key="CommitChangelistDialog2" timestamp="1590665681009">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590626439884" />
+    <state x="451" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590665681009" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590665278035">
       <screen x="0" y="0" width="1440" height="900" />
