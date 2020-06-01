@@ -1,4 +1,4 @@
-package mergeTwoLists
+package mergeTwoLists_21
 
 //合并两个有序链表为一个有序链表，从小到大
 //结题思路：利用递归，寻找节点中比较小的节点，然后从这个这个节点开始向后走

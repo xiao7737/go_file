@@ -1,4 +1,4 @@
-package numJewelsInStones
+package numJewelsInStones_771
 
 //返回S中存在J的个数，宝石与石头问题
 //J：a   S ：aab   返回2

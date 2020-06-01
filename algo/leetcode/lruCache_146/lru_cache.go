@@ -1,4 +1,4 @@
-package lruCache
+package lruCache_146
 
 //双向链表+map   实现lru
 type LruCacheNode struct {
