@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="merge_two_array.go">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="是否为二叉搜索树的空间复杂度">
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/genParenthesis_22/gen_parenthesis.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/leetcode/isBST_98/isBst.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/isBST_98/isBst.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +58,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/algo/leetcode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Go" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/algo/leetcode" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/algo/leetcode" />
       <recent name="$PROJECT_DIR$/common_learn/strings" />
       <recent name="$PROJECT_DIR$/src/algo/sort/maopao_sort" />
       <recent name="$PROJECT_DIR$/src/common_learn" />
       <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algo/leetcode" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.TestMergeSort in go_file/algo/sort_algo/merge_sort">
@@ -169,7 +169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="完善lru的put" />
     <MESSAGE value="快排优化--采用三数取中，获取基数" />
     <MESSAGE value="两数之和的测试" />
     <MESSAGE value="fix两数之和" />
@@ -194,7 +193,8 @@
     <MESSAGE value="股票最大利润 LeetCode121" />
     <MESSAGE value="股票最大利润 LeetCode121 暴力、一次遍历" />
     <MESSAGE value="merge_two_array.go" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge_two_array.go" />
+    <MESSAGE value="是否为二叉搜索树的空间复杂度" />
+    <option name="LAST_COMMIT_MESSAGE" value="是否为二叉搜索树的空间复杂度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -229,14 +229,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)" timestamp="1582709133603">
+    <state x="329" y="8" key="CommitChangelistDialog2" timestamp="1591606462514">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="420" y="93" key="#go_build_go_file/src/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1582709133603" />
-    <state x="329" y="8" key="CommitChangelistDialog2" timestamp="1591003984933">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1591003984933" />
+    <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1591606462514" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590665278035">
       <screen x="0" y="0" width="1440" height="900" />
@@ -282,10 +278,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1588681800343" />
-    <state x="226" y="145" key="SettingsEditor" timestamp="1590023489206">
+    <state x="226" y="145" key="SettingsEditor" timestamp="1591606419829">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="226" y="145" key="SettingsEditor/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1590023489206" />
+    <state x="226" y="145" key="SettingsEditor/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1591606419829" />
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590054493394">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
