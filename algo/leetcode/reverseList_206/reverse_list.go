@@ -15,6 +15,7 @@ func reverseList(head *ListNode) *ListNode {
 	for cur != nil {
 		temp := cur.Next
 		cur.Next = pre
+		//节点往后迭代
 		pre = cur
 		cur = temp
 	}
