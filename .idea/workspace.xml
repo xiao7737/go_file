@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="是否为二叉搜索树的空间复杂度">
-      <change afterPath="$PROJECT_DIR$/algo/leetcode/genParenthesis_22/gen_parenthesis.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="生成合理的扩号组合">
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/reverseList_206/reverse_list.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="快排优化--采用三数取中，获取基数" />
     <MESSAGE value="两数之和的测试" />
     <MESSAGE value="fix两数之和" />
     <MESSAGE value="三数相加，N*N,利用指针对撞" />
@@ -194,7 +193,8 @@
     <MESSAGE value="股票最大利润 LeetCode121 暴力、一次遍历" />
     <MESSAGE value="merge_two_array.go" />
     <MESSAGE value="是否为二叉搜索树的空间复杂度" />
-    <option name="LAST_COMMIT_MESSAGE" value="是否为二叉搜索树的空间复杂度" />
+    <MESSAGE value="生成合理的扩号组合" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成合理的扩号组合" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -229,10 +229,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="329" y="8" key="CommitChangelistDialog2" timestamp="1591606462514">
+    <state x="329" y="8" key="CommitChangelistDialog2" timestamp="1591606996077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1591606462514" />
+    <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1591606996077" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590061507262" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1590665278035">
       <screen x="0" y="0" width="1440" height="900" />
