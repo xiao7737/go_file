@@ -44,20 +44,16 @@ func main() {
 	  	fmt.Println("a has a default value")
 	  }*/
 
-	a := [...]int{1, 3, 4, 5, 7, 9} //从大到小冒泡排序
-	fmt.Println(a)
-
-	length := len(a)
-	for i := 0; i < length; i++ {
-		for j := i + 1; j < length; j++ {
-			if a[i] < a[j] {
-				temp := a[i]
-				a[i] = a[j]
-				a[j] = temp
-			}
+loop:
+	for {
+		switch {
+		case true:
+			fmt.Println("breaking out...")
+			// break跳出当前循环，且不再进入该循环，如果换成goto则会再次进入该循环
+			break loop
 		}
 	}
-	fmt.Println(a)
+	fmt.Println("out...")
 }
 
 /*var slice1 = []int{1, 2, 3, 4}
