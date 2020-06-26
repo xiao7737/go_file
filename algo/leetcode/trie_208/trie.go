@@ -19,17 +19,51 @@ type Trie struct {
 }
 
 func Constructor() Trie {
-
+	return Trie{
+		value:    "",
+		children: make(map[string]*Trie),
+		isWord:   false}
 }
 
 func (t *Trie) Insert(word string) {
-
+	root := t
+	for _, v := range word {
+		n := root.match(string(v))
+		if n != nil {
+			root = n
+		} else {
+			newNode := &Trie{value: string(v), children: make(map[string]*Trie)}
+			root.children[string(v)] = newNode
+			root = root.children[string(v)]
+		}
+	}
+	root.isWord = true
 }
 
 func (t *Trie) Search(word string) bool {
-
+	if n := t.match(word); n != nil && n.isWord {
+		return true
+	} else {
+		return false
+	}
 }
 
 func (t *Trie) StartsWith(prefix string) bool {
+	if n := t.match(prefix); n != nil {
+		return true
+	} else {
+		return false
+	}
+}
 
+func (t *Trie) match(word string) *Trie {
+	root := t
+	for _, v := range word {
+		if _, ok := root.children[string(v)]; ok {
+			root = root.children[string(v)]
+		} else {
+			return nil
+		}
+	}
+	return root
 }
