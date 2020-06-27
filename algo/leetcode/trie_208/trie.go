@@ -22,7 +22,8 @@ func Constructor() Trie {
 	return Trie{
 		value:    "",
 		children: make(map[string]*Trie),
-		isWord:   false}
+		isWord:   false, //是否为一个完整的word，false表示：只是个前缀
+	}
 }
 
 func (t *Trie) Insert(word string) {
