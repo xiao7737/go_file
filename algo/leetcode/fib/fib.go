@@ -12,7 +12,7 @@ func main() {
 	var result = 0
 	start := time.Now()
 	for i := 1; i < LIM; i++ {
-		result = fib(i)
+		result = fib3(i)
 		fmt.Printf("数列第 %d 位: %d\n", i, result)
 	}
 	run := time.Since(start)
@@ -30,6 +30,7 @@ func fib(n int) int {
 }
 
 //使用递归:返回斐波那契数列中指定的第n个数  1s
+//时间复杂度：2的N次方
 func fib1(n int) (res int) {
 	if n <= 2 {
 		res = 1
@@ -53,4 +54,23 @@ func fib2(n int) (res int) {
 	}
 	fibs[n] = res
 	return
+}
+
+func fib3(n int) int {
+	var s []int
+	ch := make(chan int, 40)
+	helper(n, ch)
+	for i := range ch {
+		s = append(s, i)
+	}
+	return s[len(s)-1]
+}
+
+func helper(n int, ch chan int) {
+	x, y := 0, 1
+	for i := 0; i < n; i++ {
+		x, y = y, x+y
+		ch <- x
+	}
+	close(ch)
 }
