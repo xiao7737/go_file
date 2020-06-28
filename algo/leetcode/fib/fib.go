@@ -56,7 +56,22 @@ func fib2(n int) (res int) {
 	return
 }
 
+//动态规划
+//时间O(N)，空间O(1)
 func fib3(n int) int {
+	if n <= 2 {
+		return 1
+	}
+	mem := make([]int, n)
+	mem[0] = 1
+	mem[1] = 1
+	for i := 2; i < n; i++ {
+		mem[i] = mem[i-1] + mem[i-2]
+	}
+	return mem[n-1]
+}
+
+func fib4(n int) int {
 	var s []int
 	ch := make(chan int, 40)
 	helper(n, ch)
