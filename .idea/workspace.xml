@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="trie">
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="dp爬楼梯">
       <change afterPath="$PROJECT_DIR$/algo/leetcode/dp_climb_staris_70/climb_staris.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/leetcode/fib/fib.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/fib/fib.go" afterDir="false" />
@@ -165,8 +165,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="LeetCode111,返回树的最小深度" />
-    <MESSAGE value="LeetCode111,返回树的最小深度，fix" />
     <MESSAGE value="LeetCode104 返回树的最大深度，DFS+递归" />
     <MESSAGE value="归并排序 merge_sort.go" />
     <MESSAGE value="merge_sort_test.go" />
@@ -190,7 +188,9 @@
     <MESSAGE value="实现一颗字典树" />
     <MESSAGE value="trie" />
     <MESSAGE value="channel实现fib" />
-    <option name="LAST_COMMIT_MESSAGE" value="channel实现fib" />
+    <MESSAGE value="dp方式的fib" />
+    <MESSAGE value="dp爬楼梯" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp爬楼梯" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -229,37 +229,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="329" y="8" key="CommitChangelistDialog2" timestamp="1593310844476">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1806" y="8" key="CommitChangelistDialog2" timestamp="1593314786039">
+      <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310844476" />
+    <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593314786039" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593258285220" />
-    <state width="1558" height="137" key="GridCell.Tab.0.bottom" timestamp="1593314255583">
+    <state width="1558" height="137" key="GridCell.Tab.0.bottom" timestamp="1593315067546">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310779606" />
-    <state width="1558" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593314255583" />
+    <state width="1558" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593315067546" />
     <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592881638161" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1558" height="137" key="GridCell.Tab.0.center" timestamp="1593314255581">
+    <state width="1558" height="137" key="GridCell.Tab.0.center" timestamp="1593315067544">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state width="1398" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310779603" />
-    <state width="1558" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593314255581" />
+    <state width="1558" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593315067544" />
     <state width="1398" height="137" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592881638160" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1558" height="137" key="GridCell.Tab.0.left" timestamp="1593314255581">
+    <state width="1558" height="137" key="GridCell.Tab.0.left" timestamp="1593315067543">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state width="1398" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310779602" />
-    <state width="1558" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593314255581" />
+    <state width="1558" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593315067543" />
     <state width="1398" height="137" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592881638160" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1558" height="137" key="GridCell.Tab.0.right" timestamp="1593314255582">
+    <state width="1558" height="137" key="GridCell.Tab.0.right" timestamp="1593315067545">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state width="1398" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310779604" />
-    <state width="1558" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593314255582" />
+    <state width="1558" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593315067545" />
     <state width="1398" height="137" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592881638161" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">

@@ -20,6 +20,7 @@ func main() {
 }
 
 //返回斐波那契数列中指定的第n个数
+//时间O(N)，空间O(1)
 //性能和fib2()差别不大
 func fib(n int) int {
 	x, y := 0, 1
@@ -57,7 +58,8 @@ func fib2(n int) (res int) {
 }
 
 //动态规划
-//时间O(N)，空间O(1)
+//时间O(N)，空间O(n)
+//优化：可以采用fib第一种解法，将数组用两个变量替换，空间变成O(1)
 func fib3(n int) int {
 	if n <= 2 {
 		return 1
