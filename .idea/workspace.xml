@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="dp爬楼梯">
-      <change afterPath="$PROJECT_DIR$/algo/leetcode/dp_min_total_120/minTotal.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/leetcode/dp_min_total_120/minTotal.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/dp_min_total_120/minTotal.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +163,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="LeetCode104 返回树的最大深度，DFS+递归" />
     <MESSAGE value="归并排序 merge_sort.go" />
     <MESSAGE value="merge_sort_test.go" />
     <MESSAGE value="insert_sort.go eg" />
@@ -189,7 +187,8 @@
     <MESSAGE value="channel实现fib" />
     <MESSAGE value="dp方式的fib" />
     <MESSAGE value="dp爬楼梯" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp爬楼梯" />
+    <MESSAGE value="dp求三角形最短路径，状态压缩" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp求三角形最短路径，状态压缩" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">

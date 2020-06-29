@@ -1,6 +1,6 @@
 package dp_min_total_120
 
-//空间和时间都是O(I*J)
+//空间和时间都是O(M*N)  M和N表示层数和每层的个数
 //从底向上进行动态规划查询，寻找最小的
 func minimumTotal(triangle [][]int) int {
 	if len(triangle) == 0 {
@@ -17,7 +17,7 @@ func minimumTotal(triangle [][]int) int {
 }
 
 //一样的算法，采用状态压缩，用一位数组代替二维数组
-//复用一个变量
+//复用一个变量，空间O(N)
 func minimumTotal1(triangle [][]int) int {
 	if len(triangle) == 0 {
 		return 0
