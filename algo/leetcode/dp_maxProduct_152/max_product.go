@@ -5,9 +5,11 @@ func maxProduct(nums []int) int {
 	if len(nums) < 1 {
 		return 0
 	}
+	//设计min是为了计算负数的情况
 	res, curMax, curMin := nums[0], nums[0], nums[0]
 	for i := 1; i < len(nums); i++ {
 		curMax, curMin = curMax*nums[i], curMin*nums[i]
+		//和nums[i]对比原因：对于[0，0，2] 最大子数组乘积为2，即它本身也要参与对比
 		curMax, curMin = max(curMax, curMin, nums[i]), min(curMax, curMin, nums[i])
 		if curMax > res {
 			res = curMax
