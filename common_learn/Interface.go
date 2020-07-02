@@ -23,7 +23,7 @@ func main() {
 // output:    WriteData:  input data source
 
 //line19:  将 *file 类型的 f 赋值给 DataWriter 接口的 writer，虽然两个变量类型不一致
-//但是 writer 是一个接口，且 f 已经完全实现了 DataWriter() 的所有方法
+//writer 是一个接口，且 f 已经完全实现了 DataWriter() 的所有方法，因此 f 指针就会被隐式转换为 DataWriter 接口
 
 /*
 实现类似于继承的功能
