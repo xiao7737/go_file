@@ -94,6 +94,4 @@ func (lc *LruCache) CutTail() {
 func (lc *LruCache) RemoveNode(node *LruCacheNode) {
 	node.prev.next = node.next
 	node.next.prev = node.prev
-	node.prev = nil
-	node.next = nil
 }
