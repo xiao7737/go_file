@@ -5,13 +5,13 @@ package dp_length_of_lis_300
 //状态转移：dp[i] = max(dp[i], dp[j+1])
 //条件：j < i && nums[i] > nums[j]
 //时间O(N*N)，空间O(N)
-func lengthOfLIS(nums []int) int {
+func LengthOfLIS(nums []int) int {
 	if len(nums) < 1 {
 		return 0
 	}
 	dp := make([]int, len(nums))
 	res := 1
-	for i := 1; i < len(nums); i++ {
+	for i := 0; i < len(nums); i++ {
 		//第一个dp[i]=1
 		dp[i] = 1
 		for j := 0; j < i; j++ {

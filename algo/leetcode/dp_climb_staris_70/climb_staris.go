@@ -15,3 +15,16 @@ func climbStairs(n int) int {
 	}
 	return mem[n-1]
 }
+
+//动态规划优化，时间O(N)，空间O(1)
+//和fib处理一致
+func climbStairs1(n int) int {
+	if n <= 2 {
+		return n
+	}
+	one, two := 1, 2
+	for i := 3; i <= n; i++ {
+		one, two = two, one+two
+	}
+	return two
+}

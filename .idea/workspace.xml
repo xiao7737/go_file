@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="dp爬楼梯">
-      <change afterPath="$PROJECT_DIR$/algo/leetcode/dp_length_of_lis_300/length_of_lis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/dp_length_of_lis_300/length_of_lis_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_learn/Interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/Interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/leetcode/dp_climb_staris_70/climb_staris.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/dp_climb_staris_70/climb_staris.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/leetcode/dp_length_of_lis_300/length_of_lis.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/dp_length_of_lis_300/length_of_lis.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,13 +113,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_file/common_learn (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLengthOfLIS in go_file/algo/leetcode/dp_length_of_lis_300" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/common_learn/routine.go" />
-      <package value="go_file/common_learn" />
+      <working_directory value="$PROJECT_DIR$/algo/leetcode/dp_length_of_lis_300" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/leetcode/dp_length_of_lis_300" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLengthOfLIS$" />
       <method v="2" />
     </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
@@ -134,18 +137,18 @@
     <list>
       <item itemvalue="Go Build.go build go_file" />
       <item itemvalue="Go Build.go build go_file/common_learn (1)" />
-      <item itemvalue="Go Build.go build go_file/common_learn (3)" />
       <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
       <item itemvalue="Go Build.go build go_file/algo/leetcode/dp_climb_staris_70" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
+      <item itemvalue="Go Test.TestLengthOfLIS in go_file/algo/leetcode/dp_length_of_lis_300" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
+        <item itemvalue="Go Test.TestLengthOfLIS in go_file/algo/leetcode/dp_length_of_lis_300" />
         <item itemvalue="Go Build.go build go_file/algo/leetcode/dp_climb_staris_70" />
         <item itemvalue="Go Build.go build go_file" />
         <item itemvalue="Go Build.go build go_file/common_learn (1)" />
-        <item itemvalue="Go Build.go build go_file/common_learn (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -166,8 +169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="二叉搜索树的最近公共祖先，递归和迭代写法" />
-    <MESSAGE value="判断是否为二叉搜索树：递归、中序遍历" />
     <MESSAGE value="股票最大利润 LeetCode121" />
     <MESSAGE value="股票最大利润 LeetCode121 暴力、一次遍历" />
     <MESSAGE value="merge_two_array.go" />
@@ -191,7 +192,9 @@
     <MESSAGE value="notes" />
     <MESSAGE value="最大收益" />
     <MESSAGE value="no贪心" />
-    <option name="LAST_COMMIT_MESSAGE" value="no贪心" />
+    <MESSAGE value="dp最长的递增子序列的长度" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -230,39 +233,39 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1593607669045">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1593660302839">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593494908007" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593607669045" />
-    <state width="1558" height="137" key="GridCell.Tab.0.bottom" timestamp="1593333081545">
-      <screen x="1440" y="0" width="1600" height="900" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593660302839" />
+    <state width="1398" height="137" key="GridCell.Tab.0.bottom" timestamp="1593669907232">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310779606" />
+    <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593669907232" />
     <state width="1558" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081545" />
-    <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592881638161" />
+    <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593661803337" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1558" height="137" key="GridCell.Tab.0.center" timestamp="1593333081544">
-      <screen x="1440" y="0" width="1600" height="900" />
+    <state width="1398" height="137" key="GridCell.Tab.0.center" timestamp="1593669907230">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310779603" />
+    <state width="1398" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593669907230" />
     <state width="1558" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
-    <state width="1398" height="137" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592881638160" />
+    <state width="1398" height="137" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593661803335" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1558" height="137" key="GridCell.Tab.0.left" timestamp="1593333081543">
-      <screen x="1440" y="0" width="1600" height="900" />
+    <state width="1398" height="137" key="GridCell.Tab.0.left" timestamp="1593669907230">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310779602" />
+    <state width="1398" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593669907229" />
     <state width="1558" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081543" />
-    <state width="1398" height="137" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592881638160" />
+    <state width="1398" height="137" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593661803334" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1558" height="137" key="GridCell.Tab.0.right" timestamp="1593333081544">
-      <screen x="1440" y="0" width="1600" height="900" />
+    <state width="1398" height="137" key="GridCell.Tab.0.right" timestamp="1593669907231">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310779604" />
+    <state width="1398" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593669907231" />
     <state width="1558" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
-    <state width="1398" height="137" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592881638161" />
+    <state width="1398" height="137" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593661803336" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">
       <screen x="0" y="0" width="1440" height="900" />
