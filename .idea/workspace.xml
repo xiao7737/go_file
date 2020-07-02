@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="dp爬楼梯">
+      <change afterPath="$PROJECT_DIR$/algo/leetcode/dp_length_of_lis_300/length_of_lis.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_learn/Interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/Interface.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +166,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="任意二叉树的最近的公共祖先" />
     <MESSAGE value="二叉搜索树的最近公共祖先，递归和迭代写法" />
     <MESSAGE value="判断是否为二叉搜索树：递归、中序遍历" />
     <MESSAGE value="股票最大利润 LeetCode121" />
@@ -189,7 +190,8 @@
     <MESSAGE value="dp最大连续子数组乘积" />
     <MESSAGE value="notes" />
     <MESSAGE value="最大收益" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大收益" />
+    <MESSAGE value="no贪心" />
+    <option name="LAST_COMMIT_MESSAGE" value="no贪心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -228,12 +230,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="329" y="8" key="CommitChangelistDialog2" timestamp="1593494908007">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1593607669045">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593494908007" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593258285220" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593607669045" />
     <state width="1558" height="137" key="GridCell.Tab.0.bottom" timestamp="1593333081545">
       <screen x="1440" y="0" width="1600" height="900" />
     </state>
