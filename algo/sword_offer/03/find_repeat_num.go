@@ -22,7 +22,7 @@ func FindRepeatNum1(nums []int) int {
 }
 
 //利用排序，排序后相同的元素在一起，判断相邻元素是否相等
-//时间O(NlogN)，空间O(1)
+//时间O(NlogN)，空间O(logN)因为快排存在递归调用，类似二分
 func FindRepeatNum2(nums []int) int {
 	if len(nums) <= 1 {
 		return -1
