@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="dp爬楼梯">
+      <change afterPath="$PROJECT_DIR$/algo/sword_offer/03/03_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/sword_offer/03/find_repeat_num.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/leetcode/lruCache_146/lru_cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/leetcode/lruCache_146/lru_cache.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,52 +75,59 @@
       <recent name="$PROJECT_DIR$/algo/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/algo/leetcode/fib">
-    <configuration name="go build go_file" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03">
+    <configuration name="BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
+      <framework value="gobench" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="go_file" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_file/algo/leetcode/dp_climb_staris_70" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/algo/leetcode/dp_climb_staris_70/climb_staris.go" />
-      <package value="go_file/algo/leetcode/dp_climb_staris_70" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_file/algo/leetcode/fib" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/algo/leetcode/fib/fib.go" />
-      <package value="go_file/algo/leetcode/fib" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_file/common_learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/common_learn/channel.go" />
-      <package value="go_file/common_learn" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestLengthOfLIS in go_file/algo/leetcode/dp_length_of_lis_300" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/leetcode/dp_length_of_lis_300" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/leetcode/dp_length_of_lis_300" />
+      <package value="go_file/algo/sword_offer/03" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestLengthOfLIS$" />
+      <pattern value="^BenchmarkFindRepeatNum$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFindRepeatNum in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/sword_offer/03" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestFindRepeatNum$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFindRepeatNum1 in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/sword_offer/03" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestFindRepeatNum1$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFindRepeatNum/FindRepeatNum2 in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/sword_offer/03" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestFindRepeatNum$/^FindRepeatNum2$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/sword_offer/03" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
@@ -133,20 +141,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build go_file" />
-      <item itemvalue="Go Build.go build go_file/common_learn (1)" />
-      <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
-      <item itemvalue="Go Build.go build go_file/algo/leetcode/dp_climb_staris_70" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.TestLengthOfLIS in go_file/algo/leetcode/dp_length_of_lis_300" />
+      <item itemvalue="Go Test.TestFindRepeatNum1 in go_file/algo/sword_offer/03" />
+      <item itemvalue="Go Test.TestFindRepeatNum in go_file/algo/sword_offer/03" />
+      <item itemvalue="Go Test.TestFindRepeatNum/FindRepeatNum2 in go_file/algo/sword_offer/03" />
+      <item itemvalue="Go Test.go test go_file/algo/sword_offer/03" />
+      <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
-        <item itemvalue="Go Test.TestLengthOfLIS in go_file/algo/leetcode/dp_length_of_lis_300" />
-        <item itemvalue="Go Build.go build go_file/algo/leetcode/dp_climb_staris_70" />
-        <item itemvalue="Go Build.go build go_file" />
-        <item itemvalue="Go Build.go build go_file/common_learn (1)" />
+        <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" />
+        <item itemvalue="Go Test.go test go_file/algo/sword_offer/03" />
+        <item itemvalue="Go Test.TestFindRepeatNum in go_file/algo/sword_offer/03" />
+        <item itemvalue="Go Test.TestFindRepeatNum/FindRepeatNum2 in go_file/algo/sword_offer/03" />
+        <item itemvalue="Go Test.TestFindRepeatNum1 in go_file/algo/sword_offer/03" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +175,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="股票最大利润 LeetCode121 暴力、一次遍历" />
     <MESSAGE value="merge_two_array.go" />
     <MESSAGE value="是否为二叉搜索树的空间复杂度" />
     <MESSAGE value="生成合理的扩号组合" />
@@ -192,7 +199,8 @@
     <MESSAGE value="dp最长的递增子序列的长度" />
     <MESSAGE value="interface" />
     <MESSAGE value="dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp" />
+    <MESSAGE value="lru" />
+    <option name="LAST_COMMIT_MESSAGE" value="lru" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -231,37 +239,37 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="329" y="8" key="CommitChangelistDialog2" timestamp="1593669926227">
+    <state x="329" y="8" key="CommitChangelistDialog2" timestamp="1593680406884">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593669926227" />
+    <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593680406884" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593660302839" />
-    <state width="1398" height="137" key="GridCell.Tab.0.bottom" timestamp="1593669907232">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1593772940192">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593669907232" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940192" />
     <state width="1558" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081545" />
     <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593661803337" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1398" height="137" key="GridCell.Tab.0.center" timestamp="1593669907230">
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1593772940190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593669907230" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940190" />
     <state width="1558" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
     <state width="1398" height="137" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593661803335" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1398" height="137" key="GridCell.Tab.0.left" timestamp="1593669907230">
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1593772940189">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593669907229" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940189" />
     <state width="1558" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081543" />
     <state width="1398" height="137" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593661803334" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1398" height="137" key="GridCell.Tab.0.right" timestamp="1593669907231">
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1593772940191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593669907231" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940191" />
     <state width="1558" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
     <state width="1398" height="137" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593661803336" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
