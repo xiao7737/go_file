@@ -1,4 +1,4 @@
-package _4
+package _4_find_num_in_2D_arr
 
 import "testing"
 

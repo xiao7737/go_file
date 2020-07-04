@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="dp爬楼梯">
-      <change afterPath="$PROJECT_DIR$/algo/sword_offer/04/04_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/sword_offer/04/find_num_in_2d_arr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/sword_offer/05_replace_space/replace_space.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sword_offer/03/03_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sword_offer/03_find_repeat_num/03_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sword_offer/03/find_repeat_num.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sword_offer/03_find_repeat_num/find_repeat_num.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sword_offer/04/04_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sword_offer/04_find_num_in_2D_arr/04_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sword_offer/04/find_num_in_2d_arr.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sword_offer/04_find_num_in_2D_arr/find_num_in_2d_arr.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +78,16 @@
       <recent name="$PROJECT_DIR$/algo/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04">
+  <component name="RunManager" selected="Go Build.go build go_file">
+    <configuration name="go build go_file" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="go_file" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
@@ -109,17 +121,6 @@
       <pattern value="^TestFindNumberIn2DArray$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFindRepeatNum in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/sword_offer/03" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFindRepeatNum$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go test go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
@@ -142,19 +143,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.TestFindRepeatNum in go_file/algo/sword_offer/03" />
       <item itemvalue="Go Test.go test go_file/algo/sword_offer/03" />
       <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" />
       <item itemvalue="Go Test.TestFindNumberIn2DArray in go_file/algo/sword_offer/04" />
       <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" />
+      <item itemvalue="Go Build.go build go_file" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file" />
         <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" />
         <item itemvalue="Go Test.TestFindNumberIn2DArray in go_file/algo/sword_offer/04" />
         <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" />
         <item itemvalue="Go Test.go test go_file/algo/sword_offer/03" />
-        <item itemvalue="Go Test.TestFindRepeatNum in go_file/algo/sword_offer/03" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="生成合理的扩号组合" />
     <MESSAGE value="reverse_list.go" />
     <MESSAGE value="my_sqrt.go" />
     <MESSAGE value="alias.go" />
@@ -200,7 +200,8 @@
     <MESSAGE value="lru" />
     <MESSAGE value="findRepeatNum  &amp;&amp;  test" />
     <MESSAGE value="改正findRepeatNum2的空间复杂度" />
-    <option name="LAST_COMMIT_MESSAGE" value="改正findRepeatNum2的空间复杂度" />
+    <MESSAGE value="二维数组，查找元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="二维数组，查找元素" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -239,39 +240,43 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="587" y="180" key="CommitChangelistDialog2" timestamp="1593777991242">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1593858766861">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="587" y="180" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593777991242" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593660302839" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1593854379941">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593858766861" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1593858028541">
+      <screen x="0" y="23" width="1440" height="850" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940192" />
     <state width="1558" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081545" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593854379941" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593857781629" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.850@0.23.1440.850" timestamp="1593858028541" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1593854379941">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1593858028540">
+      <screen x="0" y="23" width="1440" height="850" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940190" />
     <state width="1558" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593854379941" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593857781628" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.850@0.23.1440.850" timestamp="1593858028540" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1593854379940">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1593858028540">
+      <screen x="0" y="23" width="1440" height="850" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940189" />
     <state width="1558" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081543" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593854379940" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593857781628" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.850@0.23.1440.850" timestamp="1593858028540" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1593854379941">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1593858028541">
+      <screen x="0" y="23" width="1440" height="850" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940191" />
     <state width="1558" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593854379941" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593857781629" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.850@0.23.1440.850" timestamp="1593858028541" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">
       <screen x="0" y="0" width="1440" height="900" />

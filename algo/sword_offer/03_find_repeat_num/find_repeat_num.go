@@ -1,4 +1,4 @@
-package _3
+package _3_find_repeat_num
 
 import "sort"
 

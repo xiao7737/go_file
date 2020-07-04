@@ -1,4 +1,4 @@
-package _4
+package _4_find_num_in_2D_arr
 
 //判断一个数是否在一个二维数组中
 //该二维数组每行递增，每列递增
