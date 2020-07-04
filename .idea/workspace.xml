@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="dp爬楼梯">
+      <change afterPath="$PROJECT_DIR$/algo/sword_offer/04/04_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/sword_offer/04/find_num_in_2d_arr.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -73,7 +75,7 @@
       <recent name="$PROJECT_DIR$/algo/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03">
+  <component name="RunManager" selected="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04">
     <configuration name="BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
@@ -85,6 +87,28 @@
       <pattern value="^BenchmarkFindRepeatNum$" />
       <method v="2" />
     </configuration>
+    <configuration name="BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/sword_offer/04" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/sword_offer/04" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkFindRepeatNum$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFindNumberIn2DArray in go_file/algo/sword_offer/04" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/sword_offer/04" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/sword_offer/04" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestFindNumberIn2DArray$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestFindRepeatNum in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
@@ -94,28 +118,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestFindRepeatNum$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFindRepeatNum1 in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/sword_offer/03" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFindRepeatNum1$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFindRepeatNum/FindRepeatNum2 in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/sword_offer/03" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFindRepeatNum$/^FindRepeatNum2$" />
       <method v="2" />
     </configuration>
     <configuration name="go test go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -140,19 +142,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.TestFindRepeatNum1 in go_file/algo/sword_offer/03" />
       <item itemvalue="Go Test.TestFindRepeatNum in go_file/algo/sword_offer/03" />
-      <item itemvalue="Go Test.TestFindRepeatNum/FindRepeatNum2 in go_file/algo/sword_offer/03" />
       <item itemvalue="Go Test.go test go_file/algo/sword_offer/03" />
       <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" />
+      <item itemvalue="Go Test.TestFindNumberIn2DArray in go_file/algo/sword_offer/04" />
+      <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" />
+        <item itemvalue="Go Test.TestFindNumberIn2DArray in go_file/algo/sword_offer/04" />
         <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" />
         <item itemvalue="Go Test.go test go_file/algo/sword_offer/03" />
         <item itemvalue="Go Test.TestFindRepeatNum in go_file/algo/sword_offer/03" />
-        <item itemvalue="Go Test.TestFindRepeatNum/FindRepeatNum2 in go_file/algo/sword_offer/03" />
-        <item itemvalue="Go Test.TestFindRepeatNum1 in go_file/algo/sword_offer/03" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="是否为二叉搜索树的空间复杂度" />
     <MESSAGE value="生成合理的扩号组合" />
     <MESSAGE value="reverse_list.go" />
     <MESSAGE value="my_sqrt.go" />
@@ -198,7 +199,8 @@
     <MESSAGE value="dp" />
     <MESSAGE value="lru" />
     <MESSAGE value="findRepeatNum  &amp;&amp;  test" />
-    <option name="LAST_COMMIT_MESSAGE" value="findRepeatNum  &amp;&amp;  test" />
+    <MESSAGE value="改正findRepeatNum2的空间复杂度" />
+    <option name="LAST_COMMIT_MESSAGE" value="改正findRepeatNum2的空间复杂度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -237,39 +239,39 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="329" y="8" key="CommitChangelistDialog2" timestamp="1593773725155">
+    <state x="587" y="180" key="CommitChangelistDialog2" timestamp="1593777991242">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="329" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593773725154" />
+    <state x="587" y="180" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593777991242" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593660302839" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1593772940192">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1593854379941">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940192" />
     <state width="1558" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081545" />
-    <state width="1398" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593661803337" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593854379941" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1593772940190">
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1593854379941">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940190" />
     <state width="1558" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
-    <state width="1398" height="137" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593661803335" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593854379941" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1593772940189">
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1593854379940">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940189" />
     <state width="1558" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081543" />
-    <state width="1398" height="137" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593661803334" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593854379940" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1593772940191">
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1593854379941">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940191" />
     <state width="1558" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
-    <state width="1398" height="137" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593661803336" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593854379941" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">
       <screen x="0" y="0" width="1440" height="900" />
@@ -299,10 +301,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="390" y="85" width="660" height="729" key="find.popup/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1592810406576" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1593310059973">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1593852671820">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593310059973" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1593852671820" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_huiwen.out" NAME="gobench go_file/src/suanfa/huiwen Coverage Results" MODIFIED="1573289613540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
