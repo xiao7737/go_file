@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="根据前序和中序遍历，构建二叉树">
-      <change afterPath="$PROJECT_DIR$/algo/sword_offer/10_fib/fib.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="重温fib">
+      <change afterPath="$PROJECT_DIR$/algo/sword_offer/11_min_arr/min_arr.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -63,24 +63,33 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Go" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algo/leetcode" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algo/sword_offer" />
       <recent name="$PROJECT_DIR$/algo/leetcode" />
       <recent name="$PROJECT_DIR$/common_learn/strings" />
       <recent name="$PROJECT_DIR$/src/algo/sort/maopao_sort" />
       <recent name="$PROJECT_DIR$/src/common_learn" />
-      <recent name="$PROJECT_DIR$/src/suanfa/twoNumberAdd" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/algo/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file/algo/sword_offer/10_fib">
+  <component name="RunManager" selected="Go Build.go build go_file/algo/leetcode/fib">
     <configuration name="go build go_file" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="go_file" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_file/algo/leetcode/fib" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/algo/leetcode/fib/fib.go" />
+      <package value="go_file/algo/leetcode/fib" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -91,17 +100,6 @@
       <filePath value="$PROJECT_DIR$/algo/sword_offer/10_fib/fib.go" />
       <package value="go_file/algo/sword_offer/10_fib" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sword_offer/03" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/sword_offer/03" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkFindRepeatNum$" />
       <method v="2" />
     </configuration>
     <configuration name="BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -138,19 +136,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" />
       <item itemvalue="Go Test.TestFindNumberIn2DArray in go_file/algo/sword_offer/04" />
       <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" />
       <item itemvalue="Go Build.go build go_file" />
       <item itemvalue="Go Build.go build go_file/algo/sword_offer/10_fib" />
+      <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
         <item itemvalue="Go Build.go build go_file/algo/sword_offer/10_fib" />
         <item itemvalue="Go Build.go build go_file" />
         <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" />
         <item itemvalue="Go Test.TestFindNumberIn2DArray in go_file/algo/sword_offer/04" />
-        <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/03" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="对指针类型的range改变值" />
     <MESSAGE value="字典树" />
     <MESSAGE value="实现一颗字典树" />
     <MESSAGE value="trie" />
@@ -196,7 +193,8 @@
     <MESSAGE value="从尾到头打印链表，递归&amp;&amp;stack" />
     <MESSAGE value="根据前序和中序遍历，构建二叉树" />
     <MESSAGE value="利用两个栈实现队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用两个栈实现队列" />
+    <MESSAGE value="重温fib" />
+    <option name="LAST_COMMIT_MESSAGE" value="重温fib" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -235,42 +233,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1593923607117">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1593925843750">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="587" y="180" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593777991242" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593923607117" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1593925345674">
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593925843750" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1593925888274">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940192" />
     <state width="1558" height="137" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081545" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593925345674" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593925888274" />
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.850@0.23.1440.850" timestamp="1593858028541" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891820" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1593925345673">
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1593925888273">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940190" />
     <state width="1558" height="137" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593925345673" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593925888273" />
     <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.850@0.23.1440.850" timestamp="1593858028540" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1593925345673">
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1593925888272">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940189" />
     <state width="1558" height="137" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081543" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593925345673" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593925888272" />
     <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.850@0.23.1440.850" timestamp="1593858028540" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891817" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1593925345674">
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1593925888273">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593772940191" />
     <state width="1558" height="137" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593333081544" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593925345674" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593925888273" />
     <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.850@0.23.1440.850" timestamp="1593858028541" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.852/1440.23.800.577@0.23.1440.852" timestamp="1590367891819" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588681800344">
