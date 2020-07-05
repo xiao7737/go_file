@@ -1,4 +1,4 @@
-package _1_min_arr
+package _1_min_arr_binary
 
 //二分
 //时间O(logN)
