@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="15，16">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="LeetCode68 二叉搜索树的最近公共祖先">
+      <change afterPath="$PROJECT_DIR$/algo/sword_offer/68_2_lowestCommonAncestor/lowestCommonAncestor.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/algo/leetcode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algo/sword_offer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -167,7 +167,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dp方式的fib" />
     <MESSAGE value="dp爬楼梯" />
     <MESSAGE value="dp求三角形最短路径，状态压缩" />
     <MESSAGE value="状态压缩" />
@@ -192,7 +191,8 @@
     <MESSAGE value="dfs，判断矩阵路径" />
     <MESSAGE value="fixme" />
     <MESSAGE value="15，16" />
-    <option name="LAST_COMMIT_MESSAGE" value="15，16" />
+    <MESSAGE value="LeetCode68 二叉搜索树的最近公共祖先" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode68 二叉搜索树的最近公共祖先" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
