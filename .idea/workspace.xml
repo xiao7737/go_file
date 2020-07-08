@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="LeetCode68 二叉搜索树的最近公共祖先">
-      <change afterPath="$PROJECT_DIR$/algo/sword_offer/68_2_lowestCommonAncestor/lowestCommonAncestor.go" afterDir="false" />
-    </list>
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="LeetCode68 任意二叉树的最近公共祖先" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,15 +59,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Go" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/algo/leetcode" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/algo/sword_offer" />
       <recent name="$PROJECT_DIR$/algo/leetcode" />
       <recent name="$PROJECT_DIR$/common_learn/strings" />
       <recent name="$PROJECT_DIR$/src/algo/sort/maopao_sort" />
       <recent name="$PROJECT_DIR$/src/common_learn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algo/sword_offer" />
+      <recent name="$PROJECT_DIR$/algo/leetcode" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build go_file/algo/leetcode/fib">
@@ -167,7 +166,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dp爬楼梯" />
     <MESSAGE value="dp求三角形最短路径，状态压缩" />
     <MESSAGE value="状态压缩" />
     <MESSAGE value="dp最大连续子数组乘积" />
@@ -192,7 +190,8 @@
     <MESSAGE value="fixme" />
     <MESSAGE value="15，16" />
     <MESSAGE value="LeetCode68 二叉搜索树的最近公共祖先" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode68 二叉搜索树的最近公共祖先" />
+    <MESSAGE value="LeetCode68 任意二叉树的最近公共祖先" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode68 任意二叉树的最近公共祖先" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -231,12 +230,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1593950148694">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1594136024209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="587" y="180" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1593777991242" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593950148694" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1594136024209" />
     <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1594017198856">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
