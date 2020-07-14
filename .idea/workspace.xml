@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="21 奇数在前的另一种写法">
-      <change afterPath="$PROJECT_DIR$/algo/sword_offer/22_get_kth_from_end/get_kth_from_end.go" afterDir="false" />
+    <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="22双指针，返回链表倒数第K个数">
+      <change afterPath="$PROJECT_DIR$/algo/sword_offer/27_mirror_tree/mirror_tree.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +169,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dp最长的递增子序列的长度" />
     <MESSAGE value="interface" />
     <MESSAGE value="dp" />
     <MESSAGE value="lru" />
@@ -194,7 +193,8 @@
     <MESSAGE value="17，18" />
     <MESSAGE value="21 奇数在前" />
     <MESSAGE value="21 奇数在前的另一种写法" />
-    <option name="LAST_COMMIT_MESSAGE" value="21 奇数在前的另一种写法" />
+    <MESSAGE value="22双指针，返回链表倒数第K个数" />
+    <option name="LAST_COMMIT_MESSAGE" value="22双指针，返回链表倒数第K个数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -233,12 +233,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1594566974135">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1594651605722">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="587" y="180" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1594281382125" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1594566974135" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1594651605722" />
     <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1594017198856">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
