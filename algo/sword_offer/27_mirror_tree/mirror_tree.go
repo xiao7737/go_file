@@ -17,5 +17,5 @@ func mirrorTree(root *TreeNode) *TreeNode {
 	return root
 }
 
-//利用栈
+//利用栈，入栈是先左后右，出栈就先填充左再后，就实现了左右交换
 //时间，空间都是O(N)
