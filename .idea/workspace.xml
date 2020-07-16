@@ -74,16 +74,7 @@
       <recent name="$PROJECT_DIR$/algo/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestInsertSort2 in go_file/algo/sort_algo/quick_sort">
-    <configuration name="go build go_file" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="go_file" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.gobench go_file/algo/sort_algo/quick_sort">
     <configuration name="go build go_file/algo/leetcode/fib" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -102,17 +93,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/algo/sword_offer/04" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="go_file/algo/sword_offer/04" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkFindRepeatNum$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestInsertSort2 in go_file/algo/sort_algo/quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/algo/sort_algo/quick_sort" />
@@ -122,6 +102,26 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestInsertSort2$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test go_file/algo/sort_algo/quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/sort_algo/quick_sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/sort_algo/quick_sort" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gobench go_file/algo/sort_algo/quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$/algo/sort_algo/quick_sort" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="go_file/algo/sort_algo/quick_sort" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
@@ -135,20 +135,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build go_file" />
       <item itemvalue="Go Build.go build go_file/algo/sword_offer/10_fib" />
       <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
-      <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" />
       <item itemvalue="Go Test.TestInsertSort2 in go_file/algo/sort_algo/quick_sort" />
+      <item itemvalue="Go Test.go test go_file/algo/sort_algo/quick_sort" />
+      <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.gobench go_file/algo/sort_algo/quick_sort" />
+        <item itemvalue="Go Test.go test go_file/algo/sort_algo/quick_sort" />
         <item itemvalue="Go Test.TestInsertSort2 in go_file/algo/sort_algo/quick_sort" />
         <item itemvalue="Go Build.go build go_file/algo/leetcode/fib" />
         <item itemvalue="Go Build.go build go_file/algo/sword_offer/10_fib" />
-        <item itemvalue="Go Build.go build go_file" />
-        <item itemvalue="Go Test.BenchmarkFindRepeatNum in go_file/algo/sword_offer/04" />
       </list>
     </recent_temporary>
   </component>

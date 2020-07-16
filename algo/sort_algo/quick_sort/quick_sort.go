@@ -57,6 +57,7 @@ func partition2(sli []int, left, right int) []int {
 	return sli
 }
 
+//方法4，同方法2，最简化版本
 func QuickSort4(sli []int) []int {
 	left, right := 0, len(sli)-1
 	if left < right {
