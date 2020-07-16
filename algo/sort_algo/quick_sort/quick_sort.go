@@ -57,6 +57,32 @@ func partition2(sli []int, left, right int) []int {
 	return sli
 }
 
+func QuickSort4(sli []int) []int {
+	left, right := 0, len(sli)-1
+	if left < right {
+		//选择基准元素
+		//选择基准元素，可以采用三数取中法
+		baseNum := sli[(left+right)/2]
+		i, j := left, right
+		//i j相遇就停止
+		for i < j {
+			//i从前往后走  找到比baseNum大的
+			for baseNum > sli[i] {
+				i++
+			}
+			//j从后往前走 ，找到比baseNum小的
+			for baseNum < sli[j] {
+				j--
+			}
+			//找到符合条件的两个数，进行交换
+			sli[i], sli[j] = sli[j], sli[i]
+		}
+		QuickSort4(sli[left:i])
+		QuickSort4(sli[j+1 : right+1])
+	}
+	return sli
+}
+
 //方法3   和方法2类似，但是比方法2性能差
 func QuickSort3(sli []int) []int {
 	return partition3(sli, 0, len(sli)-1)
