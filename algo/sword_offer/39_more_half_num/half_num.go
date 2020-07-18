@@ -5,8 +5,8 @@ import "sort"
 //数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字
 
 //方案1：排序后，中间的那个数即是答案
-//时间O(N*logN)
-//空间O(logN)
+//时间O(N*logN)		快排 最坏的时间复杂度是O(N*N)，平均O(N*logN)
+//空间O(logN)   快排 最坏的空间复杂度是O(N)，平均O(logN)
 func majorityElement(nums []int) int {
 	sort.Ints(nums)
 	return nums[len(nums)>>1]
