@@ -5,7 +5,6 @@
       <change afterPath="$PROJECT_DIR$/algo/sword_offer/50_first_uniq_char/first_uniq_char.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/sword_offer/40_min_kth_num/kth_min_num.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sword_offer/40_min_kth_num/kth_min_num.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="从尾到头打印链表，递归&amp;&amp;stack" />
     <MESSAGE value="根据前序和中序遍历，构建二叉树" />
     <MESSAGE value="利用两个栈实现队列" />
     <MESSAGE value="重温fib" />
@@ -196,7 +194,8 @@
     <MESSAGE value="复杂度解释" />
     <MESSAGE value="40最小的k个数" />
     <MESSAGE value="55树的最大深度" />
-    <option name="LAST_COMMIT_MESSAGE" value="55树的最大深度" />
+    <MESSAGE value="复杂度分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="复杂度分析" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -235,12 +234,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1595074628745">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1595076618111">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="587" y="180" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1594281382125" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595074628745" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595076618111" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1595061016511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
