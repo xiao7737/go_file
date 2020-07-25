@@ -1,9 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	a := 1
-	b := 2
-	fmt.Println(a + b)
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(err)
+		} else {
+			fmt.Println("fatal")
+		}
+	}()
+	defer func() {
+		panic("defer panic")
+	}()
+	panic("panic")
 }
