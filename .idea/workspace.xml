@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="dp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/sword_offer/14_dp_cut_rope/dp_cut_rope.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sword_offer/14_dp_cut_rope/dp_cut_rope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/sword_offer/22_get_kth_from_end/get_kth_from_end.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sword_offer/22_get_kth_from_end/get_kth_from_end.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/sword_offer/40_min_kth_num/kth_min_num.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sword_offer/40_min_kth_num/kth_min_num.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/sword_offer/50_first_uniq_char/first_uniq_char.go" beforeDir="false" afterPath="$PROJECT_DIR$/algo/sword_offer/50_first_uniq_char/first_uniq_char.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="重温fib" />
     <MESSAGE value="剑指offer10" />
     <MESSAGE value="dfs，判断矩阵路径" />
     <MESSAGE value="fixme" />
@@ -197,7 +195,8 @@
     <MESSAGE value="复杂度分析" />
     <MESSAGE value="50 第一个只出现一次" />
     <MESSAGE value="dp 剪绳子" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp 剪绳子" />
+    <MESSAGE value="dp 剪绳子的两种做法" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp 剪绳子的两种做法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="234" y="140" width="886" height="537" key="#Notifications" timestamp="1587102616699">
@@ -236,12 +235,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="405" y="90" key="#go_build_go_file/common_learn_(5)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1587272304079" />
-    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1595519399131">
+    <state x="348" y="50" key="CommitChangelistDialog2" timestamp="1595663325501">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="587" y="180" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1595423539898" />
     <state x="1806" y="8" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@1440.0.1600.900" timestamp="1593321238540" />
-    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595519399131" />
+    <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595663325501" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1595379514860">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
