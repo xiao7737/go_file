@@ -24,7 +24,7 @@ func cuttingRope(n int) int {
 	for i := 4; i <= n; i++ {
 		j, k := 1, i-1
 		res := 0
-		for j := 1; j <= n/2; i++ {
+		for j = 1; j <= n/2; i++ {
 			//理解为剪成两段相乘，但是两段分别要为最大，每一段又由更小的两段相乘得出，形成重复子问题
 			res = max(res, max(j, dp[j])*max(k, dp[k]))
 			j++
