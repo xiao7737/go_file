@@ -2,8 +2,6 @@ package dp_lcs_1143
 
 //给定两个字符串 a 和 b，返回这两个字符串的最长公共子串的长度，子串需要连续
 // abcd 和 ab 的lcs为2
-// 思路：先求出maxLen，如果table[i][j] == maxLen，则把这个字符放入LCS中，
-// 继续table[i-1][j-1]中继续进行判断，直到table[i][j] < 1
 
 // dp[i][j] 表示a前i个和b前j个字符最长公共子串的长度
 // 构建dp table，如果两个元素相等，dp[i][j] = dp[i-1][j-1] + 1

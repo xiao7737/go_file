@@ -9,7 +9,8 @@ func TestLongestCommonSubsequence3(t *testing.T) {
 		want     string
 	}{
 		{"abcde", "abc", "abc"},
-		{"abc", "ab", "ab"},
+		{"abbc", "bb", "bb"},
+		{"abca", "abeca", "ab"}, //应该返回ab，ca
 		{"abc", "d", ""},
 		{"", "", ""},
 	}
