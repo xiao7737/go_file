@@ -28,3 +28,31 @@ func main() {
 		fmt.Println(errors.New("error"))
 	}
 }
+
+/*package main
+
+import (
+"errors"
+"fmt"
+)
+
+func DoTheThing(reallyDoIt bool) (err error) {
+	//var result string
+	if reallyDoIt {
+		result, err := tryTheThing()
+		//result, err = tryTheThing()
+		if err != nil || result != "it worked" {
+			err = errors.New("did not work")
+		}
+	}
+	return err
+}
+
+func tryTheThing() (string, error) {
+	return "", errors.New("did not work")
+}
+
+func main() {
+	fmt.Println(DoTheThing(true))    nil   因为50行返回的err和44行的err不是同一个err，if的作用域影响
+	fmt.Println(DoTheThing(false))   nil
+}*/
