@@ -53,4 +53,6 @@ func LongestCommonSubsequence3(a string, b string) (res string) {
 		res += string(sli[s])
 	}
 	return
+
+	//todo 存在问题：有两个结果的情况
 }
