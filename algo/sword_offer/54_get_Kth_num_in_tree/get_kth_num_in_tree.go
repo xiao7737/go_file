@@ -10,7 +10,7 @@ type TreeNode struct {
 //根据中序遍历的原理，右中左遍历得到从大到小的倒序结果
 //时间空间都是O(N)
 func kthLargest(root *TreeNode, k int) int {
-	//用来装倒序节点的map
+	//用来装倒序节点的slice
 	res := make([]int, 0)
 	helper(root, &res)
 	return res[k-1]
