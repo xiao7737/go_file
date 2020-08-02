@@ -7,13 +7,15 @@ package dp_lcs_1143
 
 // dp[i][j] 表示a前i个和b前j个字符最长公共子串的长度
 // 构建dp table，如果两个元素相等，dp[i][j] = dp[i-1][j-1] + 1
-//   ' a b c d
-// ' 0 0 0 0 0
-// a 0 1 0 0 0
-// b 0 0 2 0 0
-func LongestCommonSubsequence3(a string, b string) (res string) {
+//   a b c a
+// a 1 0 0 1
+// b 0 2 0 0
+// e 0 0 0 0
+// c 0 0 1 0
+// a 1 2 0 2
+func LongestCommonSubsequence3(a string, b string) (res []string) {
 	if a == "" || b == "" {
-		return ""
+		return []string{}
 	}
 	dp := make([][]int, len(a)+1)
 	sli := make([]byte, 0)
@@ -34,25 +36,35 @@ func LongestCommonSubsequence3(a string, b string) (res string) {
 			}
 		}
 	}
-	for i := 1; i <= len(a); i++ {
-		for j := 1; j <= len(b); j++ {
-			if dp[i][j] == maxLen {
-				ii, jj := i, j
-				for dp[ii][jj] >= 1 {
-					//将该元素转入容器
-					sli = append(sli, a[ii-1])
-					ii--
-					jj--
+	//有重复的子串
+	if maxLen >= 1 {
+		for i := 1; i <= len(a); i++ {
+			for j := 1; j <= len(b); j++ {
+				if dp[i][j] == maxLen {
+					ii, jj := i, j
+					for dp[ii][jj] >= 1 {
+						//将该元素转入容器
+						sli = append(sli, a[ii-1])
+						ii--
+						jj--
+						if len(sli) == maxLen {
+							//倒序输入sli的元素
+							tmp := ""
+							for s := len(sli) - 1; s >= 0; s-- {
+								tmp += string(sli[s])
+							}
+							if len(tmp) > 0 {
+								res = append(res, tmp)
+								//重置当前的slice
+								sli = []byte{}
+							}
+						}
+					}
 				}
 			}
 		}
-	}
-
-	//倒序输入sli的元素
-	for s := len(sli) - 1; s >= 0; s-- {
-		res += string(sli[s])
+	} else {
+		res = []string{}
 	}
 	return
-
-	//todo 存在问题：有两个结果的情况
 }
