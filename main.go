@@ -1,27 +1,21 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 )
 
-func DoTheThing(reallyDoIt bool) (err error) {
-	//var result string
-	if reallyDoIt {
-		result, err := tryTheThing()
-		//result, err = tryTheThing()
-		if err != nil || result != "it worked" {
-			err = errors.New("did not work")
+func main() {
+	str1 := "ee"
+	strArr := []string{"aa", "bb", "cc", "dd"}
+	exists := inArray(str1, strArr)
+	fmt.Println(exists)
+}
+
+func inArray(need string, needArr []string) bool {
+	for _, v := range needArr {
+		if need == v {
+			return true
 		}
 	}
-	return err
-}
-
-func tryTheThing() (string, error) {
-	return "", errors.New("did not work")
-}
-
-func main() {
-	fmt.Println(DoTheThing(true))
-	fmt.Println(DoTheThing(false))
+	return false
 }

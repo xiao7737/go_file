@@ -68,3 +68,5 @@ func LongestCommonSubsequence3(a string, b string) (res []string) {
 	}
 	return
 }
+
+//待做  去重
