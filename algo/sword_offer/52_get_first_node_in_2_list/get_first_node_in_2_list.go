@@ -35,3 +35,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 }
 
 //todo 可以参考答案写法
+//双指针写法
