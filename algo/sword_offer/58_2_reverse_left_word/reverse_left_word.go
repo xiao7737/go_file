@@ -1,4 +1,4 @@
-package _8_2_reverseLeftWord
+package _8_2_reverse_left_word
 
 //输入字符串s 和 n，将字符串前k个元素移动到字符串尾部
 // 输入abcdef，2，  输出为cdefab
