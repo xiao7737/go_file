@@ -104,3 +104,22 @@ start goroutine
 exit goroutine
 all done
 */
+
+//会输出543210后报panic，报死锁
+//main和go里面 都在对ch操作，会死锁，因为同时在写和读
+//通道写完后，必须关闭通道，否则range遍历会出现死锁   118行的处理
+func main1() {
+	ch := make(chan int)
+	go func() {
+		for i := 5; i >= 0; i-- {
+			ch <- i
+		}
+		//close(ch)
+	}()
+	for data := range ch {
+		fmt.Println(data)
+		/*if data == 0 {
+			break
+		}*/
+	}
+}
