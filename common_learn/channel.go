@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
+import "fmt"
 
 //生产者
 /*func dataProducer(ch chan int, wg *sync.WaitGroup) {
@@ -58,7 +55,7 @@ func main() {
 }*/
 
 //用channel select实现斐波纳契数据
-func fibonacci(c, quit chan int) {
+/*func fibonacci(c, quit chan int) {
 	x, y := 1, 1
 	for {
 		select {
@@ -82,7 +79,28 @@ func main() {
 		quit <- 0
 	}()
 	fibonacci(c, quit)
-}
+}*/
 
 //channel源码解析
 //channel底层数据是hchan struct
+
+//同步阻塞
+func main() {
+	ch := make(chan int)
+	go func() {
+		fmt.Println("start goroutine")
+		ch <- 0
+		fmt.Println("exit goroutine")
+	}()
+	fmt.Println("wait goroutine")
+	<-ch
+	fmt.Println("all done")
+}
+
+/*
+96行读取前，会阻塞90行里面的goroutine内容
+wait goroutine
+start goroutine
+exit goroutine
+all done
+*/
