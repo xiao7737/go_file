@@ -1,6 +1,6 @@
 package main
 
-import (
+/*import (
 	"errors"
 	"fmt"
 	"time"
@@ -27,19 +27,19 @@ func main() {
 		fmt.Println(err)
 		fmt.Println(errors.New("error"))
 	}
-}
-
-/*package main
+}*/
 
 import (
-"errors"
-"fmt"
+	"errors"
+	"fmt"
 )
 
 func DoTheThing(reallyDoIt bool) (err error) {
 	//var result string
 	if reallyDoIt {
 		result, err := tryTheThing()
+		//虽然函数返回的nil!=nil，但是此时err被:=重新赋值后为nil，
+		//if内的err会覆盖函数的申明时的err变量，被重新赋值为nil
 		//result, err = tryTheThing()
 		if err != nil || result != "it worked" {
 			err = errors.New("did not work")
@@ -53,6 +53,6 @@ func tryTheThing() (string, error) {
 }
 
 func main() {
-	fmt.Println(DoTheThing(true))    nil   因为50行返回的err和44行的err不是同一个err，if的作用域影响
-	fmt.Println(DoTheThing(false))   nil
-}*/
+	fmt.Println(DoTheThing(true))  //nil   if的作用域影响和:=重赋值
+	fmt.Println(DoTheThing(false)) //nil
+}
