@@ -38,11 +38,10 @@ func DoTheThing(reallyDoIt bool) (err error) {
 	//var result string
 	if reallyDoIt {
 		result, err := tryTheThing()
-		//虽然函数返回的nil!=nil，但是此时err被:=重新赋值后为nil，
-		//if内的err会覆盖函数的申明时的err变量，被重新赋值为nil
+		//if作用域影响，47行返回的err只是37行申明的err的零值nil，改成②处写法，会返回did not work
 		//result, err = tryTheThing()
 		if err != nil || result != "it worked" {
-			err = errors.New("did not work")
+			err = errors.New("did not work") //② return err
 		}
 	}
 	return err
@@ -53,6 +52,20 @@ func tryTheThing() (string, error) {
 }
 
 func main() {
-	fmt.Println(DoTheThing(true))  //nil   if的作用域影响和:=重赋值
+	fmt.Println(DoTheThing(true))  //nil   if的作用域
 	fmt.Println(DoTheThing(false)) //nil
 }
+
+//简易版的作用域理解
+//返回结果是a的零值0，而不是3
+/*func main() {
+	fmt.Println(test(true))
+}
+
+func test(b bool) (a int) {
+	if b {
+		a := 2
+		a += 1
+	}
+	return a
+}*/
