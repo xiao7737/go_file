@@ -13,6 +13,5 @@ func test(b bool) (a int) {
 		a := 2
 		a += 1
 	}
-
 	return a
 }
