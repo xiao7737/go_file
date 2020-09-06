@@ -11,7 +11,7 @@ func findContinuousSeq(target int) [][]int {
 	right := 2
 	var res [][]int
 	for left < right {
-		//等差求和公式,(首项+末项)*项数/2
+		//等差求和公式: (首项+末项) * 项数 / 2
 		sum := (left + right) * (right - left + 1) / 2
 		if sum == target {
 			var list []int
