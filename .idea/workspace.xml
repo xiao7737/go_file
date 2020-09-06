@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="commitizen使用">
+      <change afterPath="$PROJECT_DIR$/algo/sword_offer/57_2_find_continuous_seq/find_continuous_seq.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Go template" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -290,11 +290,11 @@
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597382353117" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1599011830714" />
-    <state x="229" y="90" key="SettingsEditor" timestamp="1598950348202">
+    <state x="229" y="90" key="SettingsEditor" timestamp="1599032034754">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="172" y="92" key="SettingsEditor/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597288903598" />
-    <state x="229" y="90" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1598950348202" />
+    <state x="229" y="90" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599032034754" />
     <state x="1631" y="113" key="SettingsEditor/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1597975249513" />
     <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597219943945">
       <screen x="0" y="0" width="1440" height="900" />
