@@ -41,12 +41,9 @@ func test1() {
 }
 
 //切片相加
-func main() {
+/*func main() {
 	s1 := []int{1, 2, 3}
 	s2 := []int{4, 5}
-	/*for _, v := range s2 {
-		s1 = append(s1, v)
-	}*/
 	s1 = append(s1, s2...) //语法糖，循环，效果同上面的循环
 
 	fmt.Println(s1)
@@ -57,7 +54,7 @@ func main() {
 	w := make([]int, 0)
 	w = append(w, 1, 2, 3)
 	fmt.Println(w) //123
-}
+}*/
 
 /*
 slice也为值传递，虽然是引用类型，go语言只有值传递
@@ -71,3 +68,40 @@ type slice struct {
 函数传递的是这个结构体，只是结构体里面有指针，实际还是传值
 是否是引用传递：形参和实参的地址是否一致
 */
+
+//切片扩容，不一定是双倍，因为有内存对齐的过程
+//按照理解，cap应该为8，但是结果为6
+/*func main() {
+	s := []int{1, 2}
+	s = append(s, 4, 5, 6)
+	fmt.Printf("len=%d, cap=%d", len(s), cap(s))
+}*/
+
+func myAppend(s []int) []int {
+	// 这里 s 虽然改变了，但并不会影响外层函数的 s
+	s = append(s, 100)
+	return s
+}
+
+func myAppendPtr(s *[]int) {
+	// 会改变外层 s 本身
+	*s = append(*s, 100)
+	return
+}
+
+func main() {
+	s := []int{1, 1, 1}
+	newS := myAppend(s)
+
+	fmt.Println(s) //myAppend改变了自己函数内的slice，但是main函数中的s并未改变，还是111
+	fmt.Println(newS)
+
+	s = newS
+
+	myAppendPtr(&s) //myAppend改变了自己函数内的slice，也改变了main函数中的s
+	fmt.Println(s)
+}
+
+//当直接用切片作为函数参数时，可以改变切片的元素，不能改变切片本身
+
+//https://www.cnblogs.com/qcrao-2018/p/10631989.html

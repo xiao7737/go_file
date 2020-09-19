@@ -1,17 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Println(test(true))
-}
-
-func test(b bool) (a int) {
-	if b {
-		a := 2
-		a += 1
-	}
-	return a
+	s := []int{1, 2}
+	s = append(s, 4, 5, 6)
+	fmt.Printf("len=%d, cap=%d", len(s), cap(s))
 }
