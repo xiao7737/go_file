@@ -44,7 +44,7 @@ func TestDifference(t *testing.T) {
 		slice2 []string
 		want   []string
 	}{
-		{[]string{"1", "2", "3", "4"}, []string{"2", "3", "4", "5"}, []string{"1"}}, // 此处只会返回1
+		{[]string{"1", "2", "3", "4"}, []string{"2", "3", "4", "5"}, []string{"1"}}, // 此处只会返回1，返回属于slice1的差集
 	}
 	for _, test := range tests {
 		if got := Difference(test.slice1, test.slice2); reflect.DeepEqual(test.want, got) == false {
