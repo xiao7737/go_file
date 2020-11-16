@@ -1,0 +1,564 @@
+use qw
+db.menu_master4.updateOne({"_id":"pc_menu_c"}, {"$set":{"menu":[
+{
+"id": "m1_workbench",
+"name": "工作台",
+"type": "m1",
+"link": "/workbench",
+"icon": "icongongzuotai",
+"menu": [
+{
+"id": "m2_workbench",
+"name": "工作台",
+"type": "m2",
+"link": "/workbench",
+"icon": ""
+}
+]
+},
+{
+"id": "m1_customerMap",
+"name": "智能获客",
+"type": "m1",
+"link": "/customer-map",
+"icon": "iconzhinenghuoke1",
+"menu": [
+{
+"id": "m2_customerMap",
+"name": "智能获客",
+"type": "m2",
+"link": "/customer-map",
+"icon": "iconzhinenghuoke1"
+}
+]
+},
+{
+"id": "m1_customerManage",
+"name": "客户管理",
+"type": "m1",
+"link": "/customer",
+"icon": "iconkehuguanli",
+"menu": [
+{
+"id": "m2_myCustomerList",
+"name": "我的客户",
+"type": "m2",
+"link": "/customer/my-list",
+"icon": ""
+},
+{
+"id": "m2_customerList",
+"name": "客户",
+"type": "m2",
+"link": "/customer/list",
+"icon": ""
+},
+{
+"id": "m2_customerGroupList",
+"name": "客户群",
+"type": "m2",
+"link": "/customer/group-list",
+"icon": ""
+},
+{
+"id": "m2_enterpriseList",
+"name": "企业",
+"type": "m2",
+"link": "/customer/companyManagement",
+"icon": ""
+},
+{
+"id": "m2_all_lead",
+"name": "微信线索",
+"type": "m2",
+"link": "/customer/wx-lead",
+"icon": "wx-lead"
+},
+{
+"id": "m2_customerLeadSea",
+"name": "客户公海",
+"type": "m2",
+"link": "/customer/customer-seas",
+"icon": ""
+},
+{
+"id": "m2_customerEasyBin",
+"name": "客户回收站",
+"type": "m2",
+"link": "/customer/customerEasyBin",
+"icon": ""
+},
+{
+"id": "m2_salesChance",
+"name": "销售机会",
+"type": "m2",
+"link": "/customer/saleChance",
+"icon": ""
+},
+{
+"id": "m1_customerManage",
+"name": "人群分组",
+"type": "m2",
+"link": "/customer/customer-segmentation",
+"icon": "icon-shangxueyuan"
+}
+]
+},
+{
+"id": "m1_orderAndGoodsManage",
+"name": "订单商品管理",
+"type": "m1",
+"link": "/orderAndGoodsManage",
+"icon": "iconzuocelandingdanshangpinguanli",
+"menu": [
+{
+"id": "m2_orderManage",
+"name": "订单管理",
+"type": "m2",
+"link": "/orderAndGoodsManage/orderManage",
+"icon": ""
+},
+{
+"id": "m2_afterOrderManage",
+"name": "售后订单",
+"type": "m2",
+"link": "/orderAndGoodsManage/afterOrderManage",
+"icon": ""
+},
+{
+"id": "m2_goodsLibrary",
+"name": "商品库",
+"type": "m2",
+"link": "/orderAndGoodsManage/goods",
+"icon": ""
+}
+]
+},
+{
+"id": "m1_mallManage",
+"name": "商城管理",
+"type": "m1",
+"link": "/mall-manage",
+"icon": "iconleftSide_shop",
+"menu": [
+{
+"id": "m2_mall_manage_setting",
+"name": "商城设置",
+"type": "m2",
+"link": "/mall-manage/setting",
+"icon": "all-lead"
+},
+{
+"id": "m2_mall_manage_order_manage",
+"name": "订单管理",
+"type": "m2",
+"link": "/mall-manage/order-manage",
+"icon": "icon-shangxueyuan"
+},
+{
+"id": "m2_mall_manage_batch_send_order",
+"name": "批量打单",
+"type": "m2",
+"link": "/mall-manage/batch-send-order",
+"icon": ""
+},
+{
+"id": "m2_mall_manage_after_sales_manage",
+"name": "售后处理",
+"type": "m2",
+"link": "/mall-manage/after-sales-manage",
+"icon": ""
+},
+{
+"id": "m2_mall_manage_goods_manage",
+"name": "商品管理",
+"type": "m2",
+"link": "/mall-manage/goods-manage",
+"icon": ""
+}
+]
+},
+{
+"id": "m1_archiveSessionManagement",
+"name": "存档会话管理",
+"type": "m1",
+"link": "/wxwork-chat",
+"icon": "icon-ds-cundanghuihuaguanli",
+"menu": [
+{
+"id": "m2_archiveEmployeeList",
+"name": "存档员工列表",
+"type": "m2",
+"link": "/wxwork-chat/chat-list",
+"icon": "all-lead"
+},
+{
+"id": "m2_customer_archive_session",
+"name": "客户存档会话",
+"type": "m2",
+"link": "/wxwork-chat/customer-conversation",
+"icon": "icon-shangxueyuan"
+},
+{
+"id": "m2_sensitiveBehavior",
+"name": "企微敏感行为",
+"type": "m2",
+"link": "/wxwork-chat/sensitive-list",
+"icon": ""
+}
+]
+},
+{
+"id": "m1_workPhone",
+"name": "工作手机",
+"type": "m1",
+"link": "/wxwork-phone",
+"icon": "icongongzuoshouji",
+"menu": [
+{
+"id": "m2_device",
+"name": "设备管理",
+"type": "m2",
+"link": "/wxwork-phone/work-phone",
+"icon": ""
+},
+{
+"id": "m2_sounds",
+"name": "通话录音",
+"type": "m2",
+"link": "/wxwork-phone/sound",
+"icon": ""
+},
+{
+"id": "m2_sms",
+"name": "手机短信",
+"type": "m2",
+"link": "/wxwork-phone/sms",
+"icon": ""
+},
+{
+"id": "m2_smsGroupAssistant",
+"name": "短信群发助手",
+"type": "m2",
+"link": "/wxwork-phone/sms-mass",
+"icon": ""
+},
+{
+"id": "m2_wxwork_work-sign",
+"name": "员工外出轨迹",
+"type": "m2",
+"link": "/wxwork-phone/sign",
+"icon": "all-lead"
+},
+{
+"id": "m2_sensitiveSms",
+"name": "敏感短信",
+"type": "m2",
+"link": "/wxwork-phone/sensitive-sms",
+"icon": ""
+}
+]
+},
+{
+"id": "m1_sourceLibrary",
+"name": "营销中心",
+"type": "m1",
+"link": "/material-bank",
+"icon": "icon-mk-marketing-content",
+"menu": [
+{
+"id": "m2_normalSource",
+"name": "企业文件夹",
+"type": "m2",
+"link": "/material-bank/ordinary-material",
+"icon": ""
+},
+{
+"id": "m2_marketingSource",
+"name": "营销素材",
+"type": "m2",
+"link": "/material-bank/marketing-material",
+"icon": ""
+},
+{
+"id": "m2_small_program",
+"name": "小程序资料",
+"type": "m2",
+"link": "/marketing-bank/small-program",
+"icon": "all-lead"
+},
+{
+"id": "m2_enterprise_dynamic",
+"name": "企业动态",
+"type": "m2",
+"link": "/marketing-bank/bussiness-movement",
+"icon": ""
+},
+{
+"id": "m2_speechStorehouse",
+"name": "话术库",
+"type": "m2",
+"link": "/material-bank/speech-storehouse",
+"icon": ""
+},
+{
+"id": "m2_dynamicCode",
+"name": "活码",
+"type": "m2",
+"link": "/material-bank/activity-code",
+"icon": ""
+},
+{
+"id": "m2_name_card_manage",
+"name": "名片管理",
+"type": "m2",
+"link": "/smart-name-card/name-card-manage",
+"icon": "promotion"
+},
+{
+"id": "m2_name_card_decoration",
+"name": "小程序装修",
+"type": "m2",
+"link": "/smart-name-card/name-card-decoration",
+"icon": "promotion"
+},
+{
+"id": "m2_fans",
+"name": "公众号粉丝",
+"type": "m2",
+"link": "/official-account-management/fans",
+"icon": "all-lead"
+},
+{
+"id": "m2_auto-reply",
+"name": "公众号自动回复",
+"type": "m2",
+"link": "/official-account-management/auto-reply",
+"icon": "all-lead"
+},
+{
+"id": "m2_qr-code",
+"name": "公众号二维码",
+"type": "m2",
+"link": "/official-account-management/qr-code",
+"icon": "all-lead"
+},
+{
+"id": "m2_mass-message",
+"name": "公众号消息群发",
+"type": "m2",
+"link": "/official-account-management/mass-message",
+"icon": "all-lead"
+},
+{
+"id": "m2_mass-mission",
+"name": "销售任务",
+"type": "m2",
+"link": "/mass-mission/list",
+"icon": "all-lead"
+},
+{
+"id": "m2_live_broadcast",
+"name": "直播管理",
+"type": "m2",
+"link": "/material-bank/live-broadcast",
+"icon": ""
+},
+{
+"id": "m2_app_center",
+"name": "应用中心",
+"type": "m2",
+"link": "/material-bank/app-center",
+"icon": "all-lead"
+},
+{
+"id": "m2_living_broadcast",
+"name": "直播管理",
+"type": "m2",
+"link": "/material-bank/live-broadcast",
+"icon": ""
+},
+{
+"id": "m2_red_envelopes",
+"name": "营销红包",
+"type": "m2",
+"link": "/material-bank/red-envelopes",
+"icon": ""
+}
+]
+},
+{
+"id": "m1_businessSchool",
+"name": "商学院",
+"type": "m1",
+"link": "/business-school",
+"icon": "icon-shangxueyuan",
+"menu": [
+{
+"id": "m2_learningTask",
+"name": "学习任务",
+"type": "m2",
+"link": "/business-school/learning-task",
+"icon": ""
+},
+{
+"id": "m2_courseManage",
+"name": "课程列表",
+"type": "m2",
+"link": "/business-school/course-manage",
+"icon": ""
+},
+{
+"id": "m2_courseware_manage",
+"name": "课件管理",
+"type": "m2",
+"link": "/business-school/courseware-manage",
+"icon": "icon-shangxueyuan"
+},
+{
+"id": "m2_examinationManage",
+"name": "考试列表",
+"type": "m2",
+"link": "/business-school/examination-manage",
+"icon": ""
+},
+{
+"id": "m2_employeeAnalysis",
+"name": "员工分析",
+"type": "m2",
+"link": "/business-school/employee-analysi",
+"icon": ""
+}
+]
+},
+{
+"id": "m1_pcStatisticalAnalysis",
+"name": "统计分析",
+"type": "m1",
+"link": "/wxwork-report",
+"icon": "iconzhucaidanshujufenxi",
+"menu": [
+{
+"id": "m2_customerAnalysis",
+"name": "客户分析",
+"type": "m2",
+"link": "/wxwork-report/customer-analysis",
+"icon": "all-lead"
+},
+{
+"id": "m2_staffAnalysis",
+"name": "员工分析",
+"type": "m2",
+"link": "/wxwork-report/staff-analysis",
+"icon": ""
+},
+{
+"id": "m2_saleAnalysis",
+"name": "销售分析",
+"type": "m2",
+"link": "/wxwork-report/sale-analysis",
+"icon": "all-lead"
+},
+{
+"id": "m2_detectAmountAnalysis",
+"name": "销售预测",
+"type": "m2",
+"link": "/wxwork-report/detect-amount-analysis",
+"icon": "all-lead"
+},
+{
+"id": "m2_callAndSmsAnalysis",
+"name": "通话短信分析",
+"type": "m2",
+"link": "/wxwork-report/call-sms-analysis",
+"icon": ""
+},
+{
+"id": "m2_conversation_analysis",
+"name": "存档会话分析",
+"type": "m2",
+"link": "/conversation-analysis/list",
+"icon": "all-lead"
+},
+{
+"id": "m2_sidebar_analysis",
+"name": "侧边栏使用分析",
+"type": "m2",
+"link": "/sidebar-analysis/list",
+"icon": "all-lead"
+},
+{
+"id": "m2_orderTeachingAnalysis",
+"name": "订单教务分析",
+"type": "m2",
+"link": "/wxwork-report/order-teach-analysis",
+"icon": ""
+}
+]
+},
+{
+"id": "m1_setting",
+"name": "设置",
+"type": "m1",
+"link": "/wxwork-settings",
+"icon": "icon-ds-shezhi",
+"menu": [
+{
+"id": "m2_customerManagement",
+"name": "客户设置",
+"type": "m2",
+"link": "/wxwork-settings/customer-management",
+"icon": ""
+},
+{
+"id": "m2_aiAssistant",
+"name": "智能助手",
+"type": "m2",
+"link": "/wxwork-settings/smart-assistant",
+"icon": ""
+},
+{
+"id": "m2_workPhoneManagement",
+"name": "工作手机设置",
+"type": "m2",
+"link": "/wxwork-settings/workphone-setting",
+"icon": ""
+},
+{
+"id": "m2_riskManagement",
+"name": "风控设置",
+"type": "m2",
+"link": "/wxwork-settings/risk-management",
+"icon": ""
+},
+{
+"id": "m2_userManagement",
+"name": "员工管理",
+"type": "m2",
+"link": "/wxwork-settings/agent-index",
+"icon": ""
+},
+{
+"id": "m2_roleLimit",
+"name": "高级设置",
+"type": "m2",
+"link": "/wxwork-settings/advanced-setting",
+"icon": ""
+},
+{
+"id": "m2_authorizationManagement",
+"name": "授权管理",
+"type": "m2",
+"link": "/wxwork-settings/auth-management",
+"icon": ""
+},
+{
+"id": "m2_wxwork_tags_setting",
+"name": "标签管理",
+"type": "m2",
+"link": "/wxwork-settings/tags-setting",
+"icon": "all-lead"
+}
+]
+}
+]}})
