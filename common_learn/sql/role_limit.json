@@ -1,0 +1,163 @@
+功能权限
+
+use qw
+db.role_limit_dev2.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}}, {"$push":{"menu":{"$each":
+[
+    {
+      "id": "m1_mallManage",
+      "name": "商城管理",
+      "menu": [
+        {
+          "id": "m2_mall_manage_setting",
+          "pid": "m1_mallManage",
+          "name": "商城设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_mall_manage_order_manage",
+          "pid": "m1_mallManage",
+          "name": "订单管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_mall_manage_batch_send_order",
+          "pid": "m1_mallManage",
+          "name": "批量打单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_mall_manage_after_sales_manage",
+          "pid": "m1_mallManage",
+          "name": "售后处理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_mall_manage_goods_manage",
+          "pid": "m1_mallManage",
+          "name": "商品管理",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [
+        {
+          "id": "func_mall_setting_logistics",
+          "pid": "m1_mallManage",
+          "name": "物流设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_setting_common",
+          "pid": "m1_mallManage",
+          "name": "通用设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_change_price",
+          "pid": "m1_mallManage",
+          "name": "订单改价",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_send_goods",
+          "pid": "m1_mallManage",
+          "name": "订单发货",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_apply_refund",
+          "pid": "m1_mallManage",
+          "name": "订单申请退款",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_log",
+          "pid": "m1_mallManage",
+          "name": "订单日志",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_delete",
+          "pid": "m1_mallManage",
+          "name": "删除订单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_export",
+          "pid": "m1_mallManage",
+          "name": "导出订单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_after_sale_check",
+          "pid": "m1_mallManage",
+          "name": "退款退货审核",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_size_manage",
+          "pid": "m1_mallManage",
+          "name": "商品规格管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_insert_update",
+          "pid": "m1_mallManage",
+          "name": "新增编辑商品",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_send_goods_print_order",
+          "pid": "m1_mallManage-order",
+          "name": "发货打单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_shelf_manage",
+          "pid": "m1_mallManage",
+          "name": "商品上下架",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_category_manage",
+          "pid": "m1_mallManage",
+          "name": "商品类别管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_notice_manage",
+          "pid": "m1_mallManage",
+          "name": "商品通知管理",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "data": [],
+      "editable": true,
+      "hide": false,
+      "tips": ""
+    }
+  ],
+"$position": 5
+}
+}
+}
+)

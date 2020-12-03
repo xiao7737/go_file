@@ -1,0 +1,1159 @@
+use qw
+db.role_limit_master4.updateOne({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}}, {"$set":{"menu":
+[
+    {
+      "id": "all_roles",
+      "name": "全局权限",
+      "func": [
+        {
+          "id": "func_playRecord",
+          "pid": "all_roles",
+          "name": "播放录音",
+          "editable": true,
+          "hide": false,
+          "tips": "播放录音权限同时影响工作手机，以及pc端管理后台播放录音功能"
+        },
+        {
+          "id": "func_allowModifyVisibleCustomerData",
+          "pid": "all_roles",
+          "name": "允许修改可见客户/企业",
+          "editable": true,
+          "hide": false,
+          "tips": "员工所有可见客户/企业数据与跟进人保持编辑等相同权限（客户公海和回收站除外）"
+        },
+        {
+          "id": "func_qwSearchAllMsg",
+          "pid": "all_roles",
+          "name": "企微搜索全部消息",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        },
+        {
+          "id": "func_assistant_push_call_log",
+          "pid": "all_roles",
+          "name": "SCRM助手获取手机通话及录音",
+          "editable": true,
+          "hide": true,
+          "tips": "需使用SCRM助手APP才能获取，通话将自动关联到客户联系记录"
+        },
+        {
+          "id": "func_hideNotPoolMobiles",
+          "pid": "all_roles",
+          "name": "隐藏（非公海）客户号码",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        },
+        {
+          "id": "func_hidePoolMobiles",
+          "pid": "all_roles",
+          "name": "隐藏（公海）客户号码",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        }
+      ],
+      "data": [ ],
+      "editable": true,
+      "hide": false,
+      "tips": ""
+    },
+    {
+      "id": "m1_workbench",
+      "name": "工作台",
+      "menu": [
+        {
+          "id": "m2_workbench",
+          "pid": "m1_workbench",
+          "name": "工作台",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [
+        {
+          "id": "func_unContactCustomerClue",
+          "pid": "m1_workbench",
+          "name": "未联系客户",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_focusCustomer",
+          "pid": "m1_workbench",
+          "name": "重点关注客户",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_followOrder",
+          "pid": "m1_workbench",
+          "name": "跟进中订单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_beOverdueSaleChance",
+          "pid": "m1_workbench",
+          "name": "逾期销售机会",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_focusSaleChance",
+          "pid": "m1_workbench",
+          "name": "关注销售机会",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_toBeAuditOrder",
+          "pid": "m1_workbench",
+          "name": "订单待审核",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_toBeRefundAfterOrder",
+          "pid": "m1_workbench",
+          "name": "售后待退款",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_toBeAuditAfterOrder",
+          "pid": "m1_workbench",
+          "name": "售后待审核",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_toBeShippedOrder",
+          "pid": "m1_workbench",
+          "name": "待发货",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_toBeReceivedOrder",
+          "pid": "m1_workbench",
+          "name": "待收货",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_alreadyShippedOrder",
+          "pid": "m1_workbench",
+          "name": "已发货",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_beatenList",
+          "pid": "m1_workbench",
+          "name": "已打单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_unsalableGoods",
+          "pid": "m1_workbench",
+          "name": "滞销商品",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_stockEarlyWarningGoods",
+          "pid": "m1_workbench",
+          "name": "库存预警商品",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_unPassAuditOrder",
+          "pid": "m1_workbench",
+          "name": "订单未通过",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_refusedAfterOrder",
+          "pid": "m1_workbench",
+          "name": "售后已拒绝",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_customerRecommend",
+          "pid": "m1_workbench",
+          "name": "客户推荐",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_todayRadar",
+          "pid": "m1_workbench",
+          "name": "今日雷达",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_achievementsStatistical",
+          "pid": "m1_workbench",
+          "name": "业绩统计",
+          "editable": true,
+          "hide": true
+        }
+      ],
+      "editable": true,
+      "hide": false,
+      "data": [ ],
+      "tips": ""
+    },
+    {
+      "id": "m1_customerMap",
+      "name": "智能获客",
+      "editable": false,
+      "hide": true,
+      "tips": "智能获客",
+      "funcTips": "智能获客",
+      "menu": [
+        {
+          "id": "m2_customerMap",
+          "pid": "m1_customerMap",
+          "name": "智能获客",
+          "editable": false,
+          "hide": true,
+          "tips": "智能获客"
+        }
+      ],
+      "func": [ ],
+      "data": [ ]
+    },
+    {
+      "id": "m1_customerManage",
+      "name": "客户管理",
+      "menu": [
+        {
+          "id": "m2_myCustomerList",
+          "pid": "m1_customerManage",
+          "name": "我的客户",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_customerList",
+          "pid": "m1_customerManage",
+          "name": "客户",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_customerGroupList",
+          "pid": "m1_customerManage",
+          "name": "客户群",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_all_lead",
+          "pid": "m1_customerManage",
+          "name": "微信线索",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_customerLeadSea",
+          "pid": "m1_customerManage",
+          "name": "客户公海",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_customerEasyBin",
+          "pid": "m1_customerManage",
+          "name": "客户回收站",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_salesChance",
+          "pid": "m1_customerManage",
+          "name": "销售机会",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_customer_group",
+          "pid": "m1_customerManage",
+          "name": "人群分组",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_enterpriseList",
+          "pid": "m1_customerManage",
+          "name": "企业列表",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [
+        {
+          "id": "func_batchEditCustomerTag",
+          "pid": "m1_customerManage",
+          "editable": true,
+          "hide": false,
+          "name": "批量修改客户标签",
+          "tips": ""
+        },
+        {
+          "id": "func_delCustomerLead",
+          "pid": "m1_customerManage",
+          "name": "删除客户",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_exportCustomerClue",
+          "pid": "m1_customerManage",
+          "editable": true,
+          "hide": false,
+          "name": "导出客户"
+        },
+        {
+          "id": "func_allowLookVisibleCustomerWxChat",
+          "pid": "m1_customerManage",
+          "name": "查看跟进客户与其他员工会话记录",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        },
+        {
+          "id": "func_deleteSalesChance",
+          "pid": "m1_customerManage",
+          "name": "删除销售机会",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_exportSaleChance",
+          "pid": "m1_customerManage",
+          "name": "导出销售机会",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_saleMessageStatistics",
+          "pid": "m1_customerManage",
+          "name": "员工消息统计",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_prohibitViewingOtherPeopleData",
+          "pid": "m1_customerManage",
+          "name": "禁止查看其他跟进人数据",
+          "editable": true,
+          "hide": false,
+          "tips": "开启后员工将不可以查看客户其他跟进人的数据，包括联系记录、操作人等"
+        },
+        {
+          "id": "func_intentionRoleSetting",
+          "pid": "m1_customerManage",
+          "name": "意向度规则设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_customGroup",
+          "pid": "m1_customerManage",
+          "name": "新建自定义人群",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_batch_update_customer_category",
+          "pid": "m1_customerManage",
+          "name": "批量修改客户类型",
+          "editable": true,
+          "hide": true,
+          "tips": ""
+        },
+        {
+          "id": "func_add_company",
+          "pid": "m1_customerManage",
+          "name": "新增企业",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        },
+        {
+          "id": "func_del_company",
+          "pid": "m1_customerManage",
+          "name": "删除企业",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        }
+      ],
+      "data": [
+        {
+          "id": "d2_customerManage_all",
+          "pid": "m1_customerManage",
+          "name": "查看所有人的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_customerManage_owner",
+          "pid": "m1_customerManage",
+          "name": "只能查看自己的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_customerManage_dept",
+          "pid": "m1_customerManage",
+          "name": "查看所归属部门（含子部门）的数据",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "editable": true,
+      "hide": false,
+      "tips": "注意，数据权限会影响的菜单包括：客户列表、客户群列表"
+    },
+    {
+      "id": "m1_orderAndGoodsManage",
+      "name": "订单商品管理",
+      "menu": [
+        {
+          "id": "m2_orderManage",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "订单管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_afterOrderManage",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "售后订单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_goodsLibrary",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "商品库",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [
+        {
+          "id": "func_deleteOrder",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "删除订单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_exportOrder",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "导出订单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_goodsSpecsManage",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "商品规格管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_goodsAddSet",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "新增编辑商品",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_goodsUpDown",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "商品上下架",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_goodsWarehousing",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "商品出入库",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_goodsCategoryManage",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "商品类别管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_goodsNoticeManage",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "商品通知管理",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "data": [
+        {
+          "id": "d2_orderAndGoodsManage_all",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "查看所有人的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_orderAndGoodsManage_owner",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "只能查看自己的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_orderAndGoodsManage_dept",
+          "pid": "m1_orderAndGoodsManage",
+          "name": "查看所归属部门（含子部门）的数据",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "editable": true,
+      "hide": false,
+      "tips": "注意：数据权限会影响订单管理、售后订单",
+      "funcTips": "删除订单同时影响工作手机的删除权限"
+    },
+    {
+      "id": "m1_mallManage",
+      "name": "商城管理",
+      "menu": [
+        {
+          "id": "m2_mall_manage_setting",
+          "pid": "m1_mallManage",
+          "name": "商城设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_mall_manage_order_manage",
+          "pid": "m1_mallManage",
+          "name": "订单管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_mall_manage_batch_send_order",
+          "pid": "m1_mallManage",
+          "name": "批量打单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_mall_manage_after_sales_manage",
+          "pid": "m1_mallManage",
+          "name": "售后处理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_mall_manage_goods_manage",
+          "pid": "m1_mallManage",
+          "name": "商品管理",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [
+        {
+          "id": "func_mall_setting_logistics",
+          "pid": "m1_mallManage",
+          "name": "物流设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_setting_common",
+          "pid": "m1_mallManage",
+          "name": "通用设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_change_price",
+          "pid": "m1_mallManage",
+          "name": "订单改价",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_send_goods",
+          "pid": "m1_mallManage",
+          "name": "订单发货",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_apply_refund",
+          "pid": "m1_mallManage",
+          "name": "订单申请退款",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_log",
+          "pid": "m1_mallManage",
+          "name": "订单日志",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_delete",
+          "pid": "m1_mallManage",
+          "name": "删除订单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_order_export",
+          "pid": "m1_mallManage",
+          "name": "导出订单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_after_sale_check",
+          "pid": "m1_mallManage",
+          "name": "退款退货审核",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_size_manage",
+          "pid": "m1_mallManage",
+          "name": "商品规格管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_insert_update",
+          "pid": "m1_mallManage",
+          "name": "新增编辑商品",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_send_goods_print_order",
+          "pid": "m1_mallManage-order",
+          "name": "发货打单",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_shelf_manage",
+          "pid": "m1_mallManage",
+          "name": "商品上下架",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_category_manage",
+          "pid": "m1_mallManage",
+          "name": "商品类别管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_mall_goods_notice_manage",
+          "pid": "m1_mallManage",
+          "name": "商品通知管理",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "data": [],
+      "editable": true,
+      "hide": false,
+      "tips": ""
+    },
+    {
+      "id": "m1_archiveSessionManagement",
+      "name": "存档会话管理",
+      "menu": [
+        {
+          "id": "m2_archiveEmployeeList",
+          "pid": "m1_archiveSessionManagement",
+          "name": "存档员工列表",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_customer_archive_session",
+          "pid": "m1_archiveSessionManagement",
+          "name": "客户存档会话",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_sensitiveBehavior",
+          "pid": "m1_archiveSessionManagement",
+          "name": "企微敏感行为",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [
+        {
+          "id": "func_processSensitiveBehavior",
+          "pid": "m1_archiveSessionManagement",
+          "name": "敏感行为处理",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "data": [
+        {
+          "id": "d2_archiveSessionManagement_all",
+          "pid": "m1_archiveSessionManagement",
+          "name": "查看所有人的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_archiveSessionManagement_owner",
+          "pid": "m1_archiveSessionManagement",
+          "name": "只能查看自己的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_archiveSessionManagement_dept",
+          "pid": "m1_archiveSessionManagement",
+          "name": "查看所归属部门（含子部门）的数据",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "editable": true,
+      "hide": false,
+      "tips": ""
+    },
+    {
+      "id": "m1_workPhone",
+      "name": "工作手机",
+      "menu": [
+        {
+          "id": "m2_device",
+          "pid": "m1_workPhone",
+          "name": "设备管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_sounds",
+          "pid": "m1_workPhone",
+          "name": "通话录音",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_sms",
+          "pid": "m1_workPhone",
+          "name": "手机短信",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_smsGroupAssistant",
+          "pid": "m1_workPhone",
+          "name": "短信群发助手",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_wxwork_work-sign",
+          "pid": "m1_workPhone",
+          "name": "员工外出轨迹",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_sensitiveSms",
+          "pid": "m1_workPhone",
+          "name": "敏感短信",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [
+        {
+          "id": "func_forceLogout",
+          "pid": "m1_workPhone",
+          "name": "强制登出",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_callLimitNumber",
+          "pid": "m1_workPhone",
+          "name": "外呼限制",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_exportCallRecord",
+          "pid": "m1_workPhone",
+          "name": "下载/导出通话录音",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_smsTemplateManage",
+          "pid": "m1_workPhone",
+          "name": "短信模板管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_processSensitiveSms",
+          "pid": "m1_workPhone",
+          "name": "处理-敏感短信",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "data": [
+        {
+          "id": "d2_workPhone_all",
+          "pid": "m1_workPhone",
+          "name": "查看所有人的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_workPhone_owner",
+          "pid": "m1_workPhone",
+          "name": "只能查看自己的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_workPhone_dept",
+          "pid": "m1_workPhone",
+          "name": "查看所归属部门（含子部门）的数据",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "editable": true,
+      "hide": false,
+      "tips": "注意，数据权限会影响的菜单包括：设备管理、通话录音、手机短信"
+    },
+    {
+      "id": "m1_sourceLibrary",
+      "name": "营销中心",
+      "menu": [
+        {
+          "id": "m2_app_center",
+          "pid": "m1_sourceLibrary",
+          "name": "应用中心",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        },
+        {
+          "id": "m2_mass_school",
+          "pid": "m1_sourceLibrary",
+          "name": "营销方案",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        },
+        {
+          "id": "m2_mass_plan",
+          "pid": "m1_sourceLibrary",
+          "name": "营销计划",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        }
+      ],
+      "func": [
+        {
+          "id": "func_labelSetting",
+          "pid": "m1_sourceLibrary",
+          "name": "内容标签设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_contentSpeechManage",
+          "pid": "m1_sourceLibrary",
+          "name": "话术库管理（可配置权限和批量操作）",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_material_editor",
+          "pid": "m1_sourceLibrary",
+          "name": "素材全局编辑权限",
+          "editable": true,
+          "hide": false,
+          "tips": ""
+        }
+      ],
+      "data": [
+        {
+          "id": "d2_sourceLibrary_all",
+          "pid": "m1_sourceLibrary",
+          "name": "查看所有人的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_sourceLibrary_owner",
+          "pid": "m1_sourceLibrary",
+          "name": "只能查看自己的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_sourceLibrary_dept",
+          "pid": "m1_sourceLibrary",
+          "name": "查看所归属部门（含子部门）的数据",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "editable": true,
+      "hide": false,
+      "tips": ""
+    },
+    {
+      "id": "m1_businessSchool",
+      "name": "商学院",
+      "menu": [
+        {
+          "id": "m2_learningTask",
+          "pid": "m1_businessSchool",
+          "name": "学习任务",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_courseManage",
+          "pid": "m1_businessSchool",
+          "name": "课程列表",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_courseware_manage",
+          "pid": "m1_businessSchool",
+          "name": "课件管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_examinationManage",
+          "pid": "m1_businessSchool",
+          "name": "考试列表",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [ ],
+      "data": [ ],
+      "editable": true,
+      "hide": false,
+      "tips": ""
+    },
+    {
+      "id": "m1_pcStatisticalAnalysis",
+      "name": "统计分析",
+      "menu": [
+        {
+          "id": "m2_customerAnalysis",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "客户分析",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_saleAnalysis",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "销售分析",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_detectAmountAnalysis",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "销售预测",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_callAndSmsAnalysis",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "通话短信分析",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_conversation_analysis",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "存档会话分析",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_sidebar_analysis",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "侧边栏使用分析",
+          "editable": true,
+          "hide": true
+        },
+        {
+          "id": "m2_orderTeachingAnalysis",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "订单教务分析",
+          "editable": true,
+          "hide": true
+        },
+        {
+          "id": "m2_staffAnalysis",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "员工分析",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [
+        {
+          "id": "func_chatReply",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "聊天回复分析",
+          "editable": true,
+          "hide": true
+        }
+      ],
+      "data": [
+        {
+          "id": "d2_pcStatisticalAnalysis_all",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "查看所有人的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_pcStatisticalAnalysis_owner",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "只能查看自己的数据",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "d2_pcStatisticalAnalysis_dept",
+          "pid": "m1_pcStatisticalAnalysis",
+          "name": "查看所归属部门（含子部门）的数据",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "editable": true,
+      "hide": false,
+      "tips": ""
+    },
+    {
+      "id": "m1_setting",
+      "name": "设置",
+      "menu": [
+        {
+          "id": "m2_customerManagement",
+          "pid": "m1_setting",
+          "name": "客户设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_workPhoneManagement",
+          "pid": "m1_setting",
+          "name": "工作手机设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_riskManagement",
+          "pid": "m1_setting",
+          "name": "风控设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_userManagement",
+          "pid": "m1_setting",
+          "name": "员工管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_roleLimit",
+          "pid": "m1_setting",
+          "name": "高级设置",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_authorizationManagement",
+          "pid": "m1_setting",
+          "name": "授权管理",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "m2_wxwork_tags_setting",
+          "pid": "m1_setting",
+          "name": "标签管理",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "func": [
+        {
+          "id": "func_addGoods",
+          "pid": "m1_setting",
+          "name": "新增商品",
+          "editable": true,
+          "hide": false
+        },
+        {
+          "id": "func_dockingSystem",
+          "pid": "m1_setting",
+          "name": "系统对接",
+          "editable": true,
+          "hide": false
+        }
+      ],
+      "data": [ ],
+      "editable": true,
+      "hide": false,
+      "tips": ""
+    }
+  ]
+}
+}
+)

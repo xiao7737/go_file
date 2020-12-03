@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f2589c5d-3b2d-477d-b721-7fede3593657" name="Default" comment="commitizen使用">
-      <change afterPath="$PROJECT_DIR$/common_learn/menu_master4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_learn/role_limit_master4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_learn/sql111.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_learn/sql/menu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_learn/sql/role_limit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_learn/sql/role_limit_master44.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common_learn/sql/sql.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/slice/slice_func_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/slice/slice_func_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_learn/Map.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/Map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_learn/menu_master4.json" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/sql/menu_master4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_learn/role_limit_master4.json" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/sql/role_limit_master4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_learn/slice_no_safe.go" beforeDir="false" afterPath="$PROJECT_DIR$/common_learn/slice_no_safe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_learn/sql111.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +101,14 @@
       <recent name="$PROJECT_DIR$/algo/leetcode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common_learn/sql" />
       <recent name="$PROJECT_DIR$/common_learn" />
       <recent name="$PROJECT_DIR$/algo/sword_offer" />
       <recent name="$PROJECT_DIR$/algo/leetcode" />
       <recent name="$PROJECT_DIR$/common_learn/strings" />
-      <recent name="$PROJECT_DIR$/src/algo/sort/maopao_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_file">
+  <component name="RunManager" selected="Go Build.go build go_file/common_learn (3)">
     <configuration name="go build go_file" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -104,13 +127,22 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go_file/common_learn (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_file" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/common_learn/Map.go" />
+      <package value="go_file/common_learn" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go_file/common_learn (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/common_learn/error.go" />
+      <filePath value="$PROJECT_DIR$/common_learn/slice_no_safe.go" />
       <package value="go_file/common_learn" />
-      <directory value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build go_file/common_learn (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -120,15 +152,6 @@
       <filePath value="$PROJECT_DIR$/common_learn/growsSlice.go" />
       <package value="go_file/common_learn" />
       <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_file/common_learn" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_file" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/common_learn/Lock.go" />
-      <package value="go_file/common_learn" />
-      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="gobench go_file/src/suanfa/huiwen" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
@@ -143,19 +166,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build go_file" />
-      <item itemvalue="Go Build.go build go_file/common_learn (3)" />
-      <item itemvalue="Go Build.go build go_file/common_learn" />
       <item itemvalue="Go Build.go build go_file/common_learn (1)" />
       <item itemvalue="Go Build.go build go_file/common_learn (4)" />
       <item itemvalue="Go Test.gobench go_file/src/suanfa/huiwen" />
+      <item itemvalue="Go Build.go build go_file/common_learn (2)" />
+      <item itemvalue="Go Build.go build go_file/common_learn (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_file/common_learn (3)" />
+        <item itemvalue="Go Build.go build go_file/common_learn (2)" />
         <item itemvalue="Go Build.go build go_file" />
         <item itemvalue="Go Build.go build go_file/common_learn (4)" />
         <item itemvalue="Go Build.go build go_file/common_learn (1)" />
-        <item itemvalue="Go Build.go build go_file/common_learn" />
-        <item itemvalue="Go Build.go build go_file/common_learn (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -209,129 +232,85 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2000" y="240" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604496446998" />
-    <state x="1907" y="114" key="#go_build_go_file/common_learn" timestamp="1598236359328">
-      <screen x="1440" y="23" width="1600" height="877" />
-    </state>
-    <state x="420" y="93" key="#go_build_go_file/common_learn/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597218365321" />
-    <state x="1907" y="114" key="#go_build_go_file/common_learn/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1598236359328" />
-    <state x="420" y="93" key="#go_build_go_file/common_learn_(1)" timestamp="1597285697053">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="420" y="93" key="#go_build_go_file/common_learn_(1)/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597285697053" />
-    <state x="1890" y="111" key="#go_build_go_file/common_learn_(2)" timestamp="1598172387427">
-      <screen x="1440" y="23" width="1600" height="877" />
-    </state>
-    <state x="1890" y="111" key="#go_build_go_file/common_learn_(2)/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1598172387427" />
-    <state x="1890" y="111" key="#go_build_go_file/common_learn_(3)" timestamp="1598179649764">
-      <screen x="1440" y="23" width="1600" height="877" />
-    </state>
-    <state x="1890" y="111" key="#go_build_go_file/common_learn_(3)/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1598179649764" />
     <state x="2094" y="175" key="CommitChangelistDialog2" timestamp="1605510173343">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="405" y="156" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597928792615" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1602569794112" />
     <state x="2094" y="175" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605510173343" />
     <state x="348" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599015880268" />
-    <state x="1890" y="175" key="CommitChangelistDialog2/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1598272876527" />
-    <state x="405" y="170" key="CommitChangelistDialog2/0.23.1440.850@0.23.1440.850" timestamp="1598231976302" />
     <state x="322" y="228" key="EditFileWatcherDialog" timestamp="1598950343978">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="322" y="228" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1598950343978" />
     <state x="322" y="238" key="EditFileWatcherDialog/0.23.1440.848@0.23.1440.848" timestamp="1598950163149" />
-    <state width="1398" height="255" key="GridCell.Tab.0.bottom" timestamp="1602570771962">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="306" key="GridCell.Tab.0.bottom" timestamp="1606966651089">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597928834498" />
     <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1602570771962" />
+    <state width="1878" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1606966651089" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1600493992893" />
     <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600589958702" />
     <state width="1878" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600512555229" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.848@0.23.1440.848" timestamp="1598950163171" />
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.850/1440.23.1600.877@0.23.1440.850" timestamp="1597289165117" />
-    <state width="1398" height="185" key="GridCell.Tab.0.bottom/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1598236440108" />
-    <state width="1398" height="185" key="GridCell.Tab.0.bottom/0.23.1440.850@0.23.1440.850" timestamp="1598231980188" />
-    <state width="1398" height="255" key="GridCell.Tab.0.center" timestamp="1602570771960">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="306" key="GridCell.Tab.0.center" timestamp="1606966651087">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597928834497" />
     <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1602570771960" />
+    <state width="1878" height="306" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1606966651087" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1600493992892" />
     <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600589958700" />
     <state width="1878" height="255" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600512555228" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.848@0.23.1440.848" timestamp="1598950163169" />
-    <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.850/1440.23.1600.877@0.23.1440.850" timestamp="1597289165116" />
-    <state width="1398" height="185" key="GridCell.Tab.0.center/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1598236440106" />
-    <state width="1398" height="185" key="GridCell.Tab.0.center/0.23.1440.850@0.23.1440.850" timestamp="1598231980186" />
-    <state width="1398" height="255" key="GridCell.Tab.0.left" timestamp="1602570771959">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="306" key="GridCell.Tab.0.left" timestamp="1606966651086">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597928834496" />
     <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1602570771959" />
+    <state width="1878" height="306" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1606966651086" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1600493992891" />
     <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600589958698" />
     <state width="1878" height="255" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600512555227" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.848@0.23.1440.848" timestamp="1598950163168" />
-    <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.850/1440.23.1600.877@0.23.1440.850" timestamp="1597289165115" />
-    <state width="1398" height="185" key="GridCell.Tab.0.left/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1598236440106" />
-    <state width="1398" height="185" key="GridCell.Tab.0.left/0.23.1440.850@0.23.1440.850" timestamp="1598231980186" />
-    <state width="1398" height="255" key="GridCell.Tab.0.right" timestamp="1602570771961">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="306" key="GridCell.Tab.0.right" timestamp="1606966651088">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597928834498" />
     <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1602570771961" />
+    <state width="1878" height="306" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1606966651088" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1600493992893" />
     <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600589958701" />
     <state width="1878" height="255" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600512555229" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.848@0.23.1440.848" timestamp="1598950163169" />
-    <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.850/1440.23.1600.877@0.23.1440.850" timestamp="1597289165116" />
-    <state width="1398" height="185" key="GridCell.Tab.0.right/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1598236440107" />
-    <state width="1398" height="185" key="GridCell.Tab.0.right/0.23.1440.850@0.23.1440.850" timestamp="1598231980187" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1599011830714">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597382353117" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599011830714" />
     <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1599011830713">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597382353116" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1599011830713" />
     <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1599011830713">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597382353116" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1599011830713" />
     <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1599011830714">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597382353117" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1599011830714" />
     <state x="229" y="90" key="SettingsEditor" timestamp="1599032034754">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="172" y="92" key="SettingsEditor/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597288903598" />
     <state x="229" y="90" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599032034754" />
-    <state x="1631" y="113" key="SettingsEditor/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1597975249513" />
     <state x="2000" y="291" key="Vcs.Push.Dialog.v2" timestamp="1605509398052">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2000" y="291" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605509398052" />
-    <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597219943945">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="508" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1600.900@0.0.1440.900" timestamp="1597219943945" />
-    <state x="2101" y="309" width="598" height="490" key="find.popup" timestamp="1605508380252">
+    <state x="2101" y="309" width="598" height="490" key="find.popup" timestamp="1606479994672">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2101" y="309" width="598" height="490" key="find.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605508380252" />
+    <state x="2101" y="309" width="598" height="490" key="find.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1606479994672" />
     <state x="1954" y="235" width="894" height="812" key="search.everywhere.popup" timestamp="1604457905983">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1954" y="235" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1604457905983" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597036402422" />
-    <state x="1868" y="214" width="745" height="659" key="search.everywhere.popup/0.23.1440.850/1440.23.1600.877@1440.23.1600.877" timestamp="1598172359323" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go_file$gobench_go_file_src_suanfa_huiwen.out" NAME="gobench go_file/src/suanfa/huiwen Coverage Results" MODIFIED="1573289613540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -1,5 +1,5 @@
 use qw
-db.menu_master4.updateOne({"_id":"pc_menu_c"}, {"$set":{"menu":[
+db.menu_master4.updateOne({"_id":{"$in": ["pc_menu_b", "pc_menu_c", "pc_menu"]}}, {"$set":{"menu":[
 {
 "id": "m1_workbench",
 "name": "工作台",

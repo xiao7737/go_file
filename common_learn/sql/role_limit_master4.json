@@ -683,29 +683,7 @@ db.role_limit_master4.updateOne({"_id":"pc_limit_c"}, {"$set":{"menu":[
 "hide": false
 }
 ],
-"data": [
-{
-"id": "d2_mallManage_all",
-"pid": "m1_mallManage",
-"name": "查看所有人的数据",
-"editable": true,
-"hide": false
-},
-{
-"id": "d2_mallManage_owner",
-"pid": "m1_mallManage",
-"name": "只能查看自己的数据",
-"editable": true,
-"hide": false
-},
-{
-"id": "d2_mallManage_dept",
-"pid": "m1_mallManage",
-"name": "查看所归属部门（含子部门）的数据",
-"editable": true,
-"hide": false
-}
-],
+"data": [],
 "editable": true,
 "hide": false,
 "tips": ""

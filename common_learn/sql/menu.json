@@ -1,0 +1,54 @@
+菜单权限
+
+use qw
+db.menu_dev2.updateMany({"_id":{"$in": ["pc_menu_b", "pc_menu_c", "pc_menu"]}}, {"$push":{"menu": {"$each":[
+{
+"id": "m1_mallManage",
+"name": "商城管理",
+"type": "m1",
+"link": "/mall-manage",
+"icon": "iconleftSide_shop",
+"menu": [
+{
+"id": "m2_mall_manage_setting",
+"name": "商城设置",
+"type": "m2",
+"link": "/mall-manage/setting",
+"icon": "all-lead"
+},
+{
+"id": "m2_mall_manage_order_manage",
+"name": "订单管理",
+"type": "m2",
+"link": "/mall-manage/order-manage",
+"icon": "icon-shangxueyuan"
+},
+{
+"id": "m2_mall_manage_batch_send_order",
+"name": "批量打单",
+"type": "m2",
+"link": "/mall-manage/batch-send-order",
+"icon": ""
+},
+{
+"id": "m2_mall_manage_after_sales_manage",
+"name": "售后处理",
+"type": "m2",
+"link": "/mall-manage/after-sales-manage",
+"icon": ""
+},
+{
+"id": "m2_mall_manage_goods_manage",
+"name": "商品管理",
+"type": "m2",
+"link": "/mall-manage/goods-manage",
+"icon": ""
+}
+]
+}
+],
+"$position":4
+}
+}
+}
+)
