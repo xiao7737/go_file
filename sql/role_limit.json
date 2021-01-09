@@ -1,7 +1,7 @@
-功能权限
+# 功能权限
 
 use qw
-db.role_limit_dev2.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}}, {"$push":{"menu":{"$each":
+db.role_limit_master3.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}}, {"$push":{"menu":{"$each":
 [
     {
       "id": "m1_mallManage",

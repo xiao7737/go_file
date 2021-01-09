@@ -1,0 +1,8 @@
+
+// 侧边栏商城版本--配合前端微应用修改menu权限值
+// 修复39和167    2020年12月19日21:15:46
+use qw
+db.role.updateMany({"type":{"$in":["admin", "manage"]},"account":{"$in":["W00000000039", "W00000000167"]}}, {"$pull":{"pc_menu_limits":{"$in":["m1_mallManage","m2_mall_manage_setting","m2_mall_manage_order_manage","m2_mall_manage_batch_send_order","m2_mall_manage_after_sales_manage","m2_mall_manage_goods_manage"]}}})
+
+给role表设置新的商城菜单
+db.role.updateMany({"type":{"$in":["admin", "manage"]},"account":{"$in":["W00000000039", "W00000000167"]}}, {"$addToSet":{"pc_menu_limits":{"$each":["m1_mallManage","m2_mall_setting","m2_mall_order_manage","m2_mall_batch_send_order","m2_mall_after_sales_manage","m2_mall_goods_manage"]}}})

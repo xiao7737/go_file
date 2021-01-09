@@ -23,19 +23,6 @@ db.default_role_2c.updateMany({"type":{"$in":["admin", "manage"]}},
 {"$addToSet":{"pc_func_limits":{"$each":["func_mall_setting_logistics","func_mall_setting_common","func_mall_order_change_price","func_mall_order_send_goods","func_mall_order_apply_refund","func_mall_order_log","func_mall_order_delete","func_mall_order_export","func_mall_after_sale_check","func_mall_goods_size_manage","func_mall_goods_insert_update","func_mall_send_goods_print_order","func_mall_goods_shelf_manage","func_mall_goods_category_manage","func_mall_goods_notice_manage"]}}})
 
 
-
-修复线上  五虎  2020年11月24日15:15:25
-use qw
-db.role.updateMany({"account":"W00000001843","type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_mall_setting_logistics","func_mall_setting_common","func_mall_order_change_price","func_mall_order_send_goods","func_mall_order_apply_refund","func_mall_order_log","func_mall_order_delete","func_mall_order_export","func_mall_after_sale_check","func_mall_goods_size_manage","func_mall_goods_insert_update","func_mall_send_goods_print_order","func_mall_goods_shelf_manage","func_mall_goods_category_manage","func_mall_goods_notice_manage"]}}})
-
-修复线上   长春中西医院结合医院  2020年11月24日21:20:35
-use qw
-db.role.updateMany({"account":"W00000001854","type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_mall_setting_logistics","func_mall_setting_common","func_mall_order_change_price","func_mall_order_send_goods","func_mall_order_apply_refund","func_mall_order_log","func_mall_order_delete","func_mall_order_export","func_mall_after_sale_check","func_mall_goods_size_manage","func_mall_goods_insert_update","func_mall_send_goods_print_order","func_mall_goods_shelf_manage","func_mall_goods_category_manage","func_mall_goods_notice_manage"]}}})
-
-修复线上  所有的商城权限  2020年11月24日22:22:25
-
-
-
 设置数据权限
 use qw
 db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_data_limits":{$each:["d2_mallManage_all"]}}})
@@ -47,3 +34,29 @@ db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$pull":{"pc_data_limi
 
 use qw
 db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$pull":{"pc_data_limits":{"$in":["d2_mallManage_all"]}}})
+
+
+
+2020年12月07日14:44:26
+核销券功能权限
+
+use qw
+db.role_limit_master4.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}, "menu.id":"m1_sourceLibrary"}, {"$addToSet":{"menu.$.func":
+{
+  "id": "func_write_off",
+  "pid": "m1_sourceLibrary",
+  "name": "线下核销权限",
+  "editable": true,
+  "hide": false
+  }
+}})
+
+
+use qw
+db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_write_off"]}}})
+
+默认2b和2c数据
+use qw
+db.default_role_2b.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_write_off"]}}})
+db.default_role_2c.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_write_off"]}}})
+

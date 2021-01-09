@@ -1,7 +1,7 @@
 菜单权限
 
 use qw
-db.menu_dev2.updateMany({"_id":{"$in": ["pc_menu_b", "pc_menu_c", "pc_menu"]}}, {"$push":{"menu": {"$each":[
+db.menu_master3.updateMany({"_id":{"$in": ["pc_menu_b", "pc_menu_c", "pc_menu"]}}, {"$push":{"menu": {"$each":[
 {
 "id": "m1_mallManage",
 "name": "商城管理",
