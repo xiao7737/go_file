@@ -1,7 +1,69 @@
 菜单权限
 
+
+2020年12月14日13:45:22
+新版的商城menu, 菜单权限
+
 use qw
-db.menu_master3.updateMany({"_id":{"$in": ["pc_menu_b", "pc_menu_c", "pc_menu"]}}, {"$push":{"menu": {"$each":[
+db.menu_dev2.updateMany({"_id":{"$in": ["pc_menu_b", "pc_menu_c", "pc_menu"]}}, {"$push":{"menu": {"$each":[
+{
+"id": "m1_mallManage",
+"name": "商城管理",
+"type": "m1",
+"link": "/mall",
+"icon": "iconleftSide_shop",
+"menu": [
+{
+"id": "m2_mall_setting",
+"name": "商城设置",
+"type": "m2",
+"link": "/mall/setting",
+"icon": "all-lead"
+},
+{
+"id": "m2_mall_order_manage",
+"name": "订单管理",
+"type": "m2",
+"link": "/mall/order-manage",
+"icon": "icon-shangxueyuan"
+},
+{
+"id": "m2_mall_batch_send_order",
+"name": "批量打单",
+"type": "m2",
+"link": "/mall/batch-send-order",
+"icon": ""
+},
+{
+"id": "m2_mall_after_sales_manage",
+"name": "售后处理",
+"type": "m2",
+"link": "/mall/after-sales-manage",
+"icon": ""
+},
+{
+"id": "m2_mall_goods_manage",
+"name": "商品管理",
+"type": "m2",
+"link": "/mall/goods-manage",
+"icon": ""
+}
+]
+}
+],
+"$position":4
+}
+}
+}
+)
+
+
+
+
+
+第一版的商城菜单
+use qw
+db.menu_master4.updateMany({"_id":{"$in": ["pc_menu_b", "pc_menu_c", "pc_menu"]}}, {"$push":{"menu": {"$each":[
 {
 "id": "m1_mallManage",
 "name": "商城管理",
@@ -52,3 +114,7 @@ db.menu_master3.updateMany({"_id":{"$in": ["pc_menu_b", "pc_menu_c", "pc_menu"]}
 }
 }
 )
+
+
+
+

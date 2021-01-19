@@ -1,4 +1,6 @@
+商城主体
 设置菜单权限：超管和管理员
+[
 use qw
 db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_menu_limits":{"$each":["m1_mallManage","m2_mall_manage_setting","m2_mall_manage_order_manage","m2_mall_manage_batch_send_order","m2_mall_manage_after_sales_manage","m2_mall_manage_goods_manage"]}}})
 
@@ -25,7 +27,7 @@ db.default_role_2c.updateMany({"type":{"$in":["admin", "manage"]}},
 
 设置数据权限
 use qw
-db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_data_limits":{$each:["d2_mallManage_all"]}}})
+db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_data_limits":{"$each":["d2_mallManage_all"]}}})
 
 
 去除多余的数据权限
@@ -34,14 +36,17 @@ db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$pull":{"pc_data_limi
 
 use qw
 db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$pull":{"pc_data_limits":{"$in":["d2_mallManage_all"]}}})
+db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$pull":{"tool_limits":{"$in":["tool_lottery"]}}})
+]
+
 
 
 
 2020年12月07日14:44:26
-核销券功能权限
-
+核销券功能权限----已经上线
+[
 use qw
-db.role_limit_master4.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}, "menu.id":"m1_sourceLibrary"}, {"$addToSet":{"menu.$.func":
+db.role_limit.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}, "menu.id":"m1_sourceLibrary"}, {"$addToSet":{"menu.$.func":
 {
   "id": "func_write_off",
   "pid": "m1_sourceLibrary",
@@ -59,4 +64,99 @@ db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_
 use qw
 db.default_role_2b.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_write_off"]}}})
 db.default_role_2c.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_write_off"]}}})
+]
+
+
+
+2020年12月14日10:54:49
+侧边栏商城--配合前端微应用调整商城主体的5个菜单权限值--阿里云已经上线
+去除之前的mall-manage开头的菜单权限-使用$pull $in  添加新的mall开头的菜单权限-使用$addToSet $each
+[
+给role表去除旧的商城菜单
+use qw
+db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$pull":{"pc_menu_limits":{"$in":["m1_mallManage","m2_mall_manage_setting","m2_mall_manage_order_manage","m2_mall_manage_batch_send_order","m2_mall_manage_after_sales_manage","m2_mall_manage_goods_manage"]}}})
+
+给role表设置新的商城菜单
+db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_menu_limits":{"$each":["m1_mallManage","m2_mall_setting","m2_mall_order_manage","m2_mall_batch_send_order","m2_mall_after_sales_manage","m2_mall_goods_manage"]}}})
+
+去除默认公司2b和2c的商城旧菜单
+use qw
+db.default_role_2b.updateMany({"type":{"$in":["admin", "manage"]}}, {"$pull":{"pc_menu_limits":{"$in":["m1_mallManage","m2_mall_manage_setting","m2_mall_manage_order_manage","m2_mall_manage_batch_send_order","m2_mall_manage_after_sales_manage","m2_mall_manage_goods_manage"]}}})
+
+db.default_role_2c.updateMany({"type":{"$in":["admin", "manage"]}}, {"$pull":{"pc_menu_limits":{"$in":["m1_mallManage","m2_mall_manage_setting","m2_mall_manage_order_manage","m2_mall_manage_batch_send_order","m2_mall_manage_after_sales_manage","m2_mall_manage_goods_manage"]}}})
+
+给default_role_2b表设置新的商城菜单
+db.default_role_2b.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_menu_limits":{"$each":["m1_mallManage","m2_mall_setting","m2_mall_order_manage","m2_mall_batch_send_order","m2_mall_after_sales_manage","m2_mall_goods_manage"]}}})
+
+给default_role_2c表设置新的商城菜单
+db.default_role_2c.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_menu_limits":{"$each":["m1_mallManage","m2_mall_setting","m2_mall_order_manage","m2_mall_batch_send_order","m2_mall_after_sales_manage","m2_mall_goods_manage"]}}})
+
+删除之前的商城menu菜单
+db.menu_dev2.updateMany({"_id":{"$in": ["pc_menu_b", "pc_menu_c", "pc_menu"]}},{"$pull":{"menu":{"id":"m1_mallManage"}}})
+
+添加新的menu菜单
+menu.json  新版的menu菜单
+
+
+删除之前的role_limit里面的旧菜单
+db.role_limit_dev2.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}},{"$pull":{"menu":{"id":"m1_mallManage"}}})
+
+添加新的role_limit里面的菜单   role_limit.json
+]
+
+
+
+周期购礼品卡优化版本
+2020年12月30日  礼品卡全局权限  已经上线2021年01月12日
+[
+use qw
+db.role_limit_dev2.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}, "menu.id":"m1_sourceLibrary"}, {"$addToSet":{"menu.$.func":
+{
+"id": "func_gift_card_global",
+"pid": "m1_sourceLibrary",
+"name": "礼品卡全局权限",
+"editable": true,
+"hide": false
+}
+}})
+
+
+db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_gift_card_global"]}}})
+
+默认2b和2c数据
+db.default_role_2b.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_gift_card_global"]}}})
+db.default_role_2c.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":{"$each":["func_gift_card_global"]}}})
+]
+
+
+商城主题优化版本
+2021年01月07日  修改订单地址  还未上线
+[
+use qw
+db.role_limit.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}, "menu.id":"m1_mallManage"}, {"$addToSet":{"menu.$.func":
+{
+"id": "func_mall_update_address",
+"pid": "m1_mallManage",
+"name": "修改订单地址",
+"editable": true,
+"hide": false
+}
+}})
+
+
+db.role.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":"func_mall_update_address"}})
+
+
+默认2b和2c数据
+db.default_role_2b.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":"func_mall_update_address"}})
+db.default_role_2c.updateMany({"type":{"$in":["admin", "manage"]}}, {"$addToSet":{"pc_func_limits":"func_mall_update_address"}})
+
+
+
+mall-order-svc 添加 mk-excel-new-srv 的配置
+"mk_excel_new_srv": "http://mk-excel-new-srv.!NAMESPACE:5000",
+
+mall-account-svc 服务添加goods内部地址,周期购查询优惠券需要查询sku的活动
+"mall_goods_svc" : "http://mall-goods-svc.!NAMESPACE:5000",
+]
 

@@ -1,42 +1,42 @@
 # 功能权限
 
 use qw
-db.role_limit_master3.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}}, {"$push":{"menu":{"$each":
+db.role_limit_dev2.updateMany({"_id":{"$in": ["pc_limit_b", "pc_limit_c", "pc_limit"]}}, {"$push":{"menu":{"$each":
 [
     {
       "id": "m1_mallManage",
       "name": "商城管理",
       "menu": [
         {
-          "id": "m2_mall_manage_setting",
+          "id": "m2_mall_setting",
           "pid": "m1_mallManage",
           "name": "商城设置",
           "editable": true,
           "hide": false
         },
         {
-          "id": "m2_mall_manage_order_manage",
+          "id": "m2_mall_order_manage",
           "pid": "m1_mallManage",
           "name": "订单管理",
           "editable": true,
           "hide": false
         },
         {
-          "id": "m2_mall_manage_batch_send_order",
+          "id": "m2_mall_batch_send_order",
           "pid": "m1_mallManage",
           "name": "批量打单",
           "editable": true,
           "hide": false
         },
         {
-          "id": "m2_mall_manage_after_sales_manage",
+          "id": "m2_mall_after_sales_manage",
           "pid": "m1_mallManage",
           "name": "售后处理",
           "editable": true,
           "hide": false
         },
         {
-          "id": "m2_mall_manage_goods_manage",
+          "id": "m2_mall_goods_manage",
           "pid": "m1_mallManage",
           "name": "商品管理",
           "editable": true,
